@@ -1,0 +1,48 @@
+##sequence-region WP_004526103.1 1 398
+WP_004526103.1	.	polypeptide	1	398	.	+	.	ID=WP_004526103.1;md5=bbdc36029d317c12004b88154cb384c6
+WP_004526103.1	Pfam	protein_match	217	363	4.6E-16	+	.	date=29-06-2023;Target=WP_004526103.1 217 363;ID=match$1_217_363;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region WP_004189279.1 1 269
+WP_004189279.1	.	polypeptide	1	269	.	+	.	ID=WP_004189279.1;md5=dd477d433e64380e7082ff1d114e864d
+WP_004189279.1	Pfam	protein_match	154	219	3.6E-15	+	.	date=29-06-2023;Target=WP_004189279.1 154 219;ID=match$2_154_219;signature_desc=Crp-like helix-turn-helix domain;Name=PF13545;status=T;Dbxref="InterPro:IPR012318"
+##sequence-region WP_004553780.1 1 422
+WP_004553780.1	.	polypeptide	1	422	.	+	.	ID=WP_004553780.1;md5=b3e907c7890861d375dd1ab61bf3b275
+WP_004553780.1	Pfam	protein_match	5	274	1.5E-30	+	.	date=29-06-2023;Target=WP_004553780.1 5 274;ID=match$3_5_274;signature_desc=Polysaccharide biosynthesis protein;Name=PF01943;status=T;Dbxref="InterPro:IPR002797"
+##sequence-region WP_004522821.1 1 407
+WP_004522821.1	.	polypeptide	1	407	.	+	.	ID=WP_004522821.1;md5=5fb657cf2ad390ad8aa89fda03cfdb07
+WP_004522821.1	Pfam	protein_match	24	129	4.2E-10	+	.	date=29-06-2023;Target=WP_004522821.1 24 129;ID=match$4_24_129;signature_desc=Acyl-CoA dehydrogenase, N-terminal domain;Name=PF02771;status=T;Dbxref="InterPro:IPR013786"
+WP_004522821.1	Pfam	protein_match	257	378	8.5E-7	+	.	date=29-06-2023;Target=WP_004522821.1 257 378;ID=match$5_257_378;signature_desc=Acyl-CoA dehydrogenase, C-terminal domain;Name=PF08028;status=T;Dbxref="InterPro:IPR013107"
+##sequence-region WP_004543707.1 1 429
+WP_004543707.1	.	polypeptide	1	429	.	+	.	ID=WP_004543707.1;md5=b5e52afa33eb7f2e48d94a57932d0546
+WP_004543707.1	Pfam	protein_match	206	258	1.5E-10	+	.	date=29-06-2023;Target=WP_004543707.1 206 258;ID=match$6_206_258;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+WP_004543707.1	Pfam	protein_match	78	199	4.5E-23	+	.	date=29-06-2023;Target=WP_004543707.1 78 199;ID=match$7_78_199;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region WP_004526108.1 1 462
+WP_004526108.1	.	polypeptide	1	462	.	+	.	ID=WP_004526108.1;md5=03de1793a17f969b5096277f96925f0b
+WP_004526108.1	Pfam	protein_match	410	449	1.2E-9	+	.	date=29-06-2023;Target=WP_004526108.1 410 449;ID=match$8_410_449;signature_desc=Bacterial regulatory protein, Fis family;Name=PF02954;status=T;Dbxref="InterPro:IPR002197"
+WP_004526108.1	Pfam	protein_match	151	317	4.9E-67	+	.	date=29-06-2023;Target=WP_004526108.1 151 317;ID=match$9_151_317;signature_desc=Sigma-54 interaction domain;Name=PF00158;status=T;Dbxref="InterPro:IPR002078"
+##sequence-region WP_004189296.1 1 413
+WP_004189296.1	.	polypeptide	1	413	.	+	.	ID=WP_004189296.1;md5=9462d7120d036c6a0c24fb338eb17e61
+WP_004189296.1	Pfam	protein_match	13	189	7.4E-11	+	.	date=29-06-2023;Target=WP_004189296.1 13 189;ID=match$10_13_189;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+WP_004189296.1	Pfam	protein_match	194	347	6.4E-26	+	.	date=29-06-2023;Target=WP_004189296.1 194 347;ID=match$11_194_347;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region WP_004553776.1 1 414
+WP_004553776.1	.	polypeptide	1	414	.	+	.	ID=WP_004553776.1;md5=f78b006dc543993a7dbe15ab5cc0a68e
+WP_004553776.1	Pfam	protein_match	241	393	1.4E-31	+	.	date=29-06-2023;Target=WP_004553776.1 241 393;ID=match$12_241_393;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region WP_004522820.1 1 83
+WP_004522820.1	.	polypeptide	1	83	.	+	.	ID=WP_004522820.1;md5=58d5d946a9b89fa745d7a7c3465c3e50
+WP_004522820.1	Pfam	protein_match	4	73	1.8E-14	+	.	date=29-06-2023;Target=WP_004522820.1 4 73;ID=match$13_4_73;signature_desc=Phosphopantetheine attachment site;Name=PF00550;status=T;Dbxref="InterPro:IPR009081"
+##sequence-region WP_004196302.1 1 362
+WP_004196302.1	.	polypeptide	1	362	.	+	.	ID=WP_004196302.1;md5=e6dcc1259c377ed22f1e13e8366654a3
+WP_004196302.1	Pfam	protein_match	26	334	1.4E-140	+	.	date=29-06-2023;Target=WP_004196302.1 26 334;ID=match$14_26_334;signature_desc=Domain of unknown function (DUF1839);Name=PF08893;status=T;Dbxref="InterPro:IPR014989"
+##sequence-region WP_004553779.1 1 530
+WP_004553779.1	.	polypeptide	1	530	.	+	.	ID=WP_004553779.1;md5=8efb4148cc00aa4b18f0ab6267bce446
+WP_004553779.1	Pfam	protein_match	346	496	9.1E-71	+	.	date=29-06-2023;Target=WP_004553779.1 346 496;ID=match$15_346_496;signature_desc=Mannose-6-phosphate isomerase;Name=PF01050;status=T;Dbxref="InterPro:IPR001538"
+WP_004553779.1	Pfam	protein_match	22	317	7.6E-53	+	.	date=29-06-2023;Target=WP_004553779.1 22 317;ID=match$16_22_317;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region WP_038735655.1 1 246
+WP_038735655.1	.	polypeptide	1	246	.	+	.	ID=WP_038735655.1;md5=c6475adc705973471be66f68f799eda6
+WP_038735655.1	Pfam	protein_match	71	146	1.3E-11	+	.	date=29-06-2023;Target=WP_038735655.1 71 146;ID=match$17_71_146;signature_desc=PAP2 superfamily;Name=PF01569;status=T;Dbxref="InterPro:IPR000326"
+##sequence-region WP_004189328.1 1 264
+WP_004189328.1	.	polypeptide	1	264	.	+	.	ID=WP_004189328.1;md5=8555f4389915521791b4e704404e2a35
+WP_004189328.1	Pfam	protein_match	168	231	1.7E-12	+	.	date=29-06-2023;Target=WP_004189328.1 168 231;ID=match$18_168_231;signature_desc=Crp-like helix-turn-helix domain;Name=PF13545;status=T;Dbxref="InterPro:IPR012318"
+##sequence-region WP_004522818.1 1 460
+WP_004522818.1	.	polypeptide	1	460	.	+	.	ID=WP_004522818.1;md5=3e98f05512baa3da9b719a80e96e25aa
+WP_004522818.1	Pfam	protein_match	53	233	2.0E-35	+	.	date=29-06-2023;Target=WP_004522818.1 53 233;ID=match$19_53_233;signature_desc=CoA-binding domain;Name=PF13727;status=T
+WP_004522818.1	Pfam	protein_match	269	452	6.7E-64	+	.	date=29-06-2023;Target=WP_004522818.1 269 452;ID=match$20_269_452;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"

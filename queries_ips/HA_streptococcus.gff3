@@ -1,0 +1,30 @@
+##sequence-region glmU 1 460
+glmU	.	polypeptide	1	460	.	+	.	ID=glmU;md5=4eefaee97d57aadc632b23c56fe81281
+glmU	Pfam	protein_match	5	192	6.6E-20	+	.	date=09-11-2022;Target=glmU 5 192;ID=match$1_5_192;signature_desc=MobA-like NTP transferase domain;Name=PF12804;status=T;Dbxref="InterPro:IPR025877"
+glmU	Pfam	protein_match	265	298	2.9E-4	+	.	date=09-11-2022;Target=glmU 265 298;ID=match$2_265_298;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+glmU	Pfam	protein_match	317	351	2.2E-4	+	.	date=09-11-2022;Target=glmU 317 351;ID=match$2_317_351;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+glmU	Pfam	protein_match	394	427	1.5E-6	+	.	date=09-11-2022;Target=glmU 394 427;ID=match$2_394_427;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+##sequence-region hasB 1 401
+hasB	.	polypeptide	1	401	.	+	.	ID=hasB;md5=ae4e04b0c17aab60f22cf9b566db7749
+hasB	Pfam	protein_match	199	288	1.1E-26	+	.	date=09-11-2022;Target=hasB 199 288;ID=match$3_199_288;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, central domain;Name=PF00984;status=T;Dbxref="InterPro:IPR014026"
+hasB	Pfam	protein_match	1	167	1.7E-32	+	.	date=09-11-2022;Target=hasB 1 167;ID=match$4_1_167;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain;Name=PF03721;status=T;Dbxref="InterPro:IPR001732"
+##sequence-region hasC 1 304
+hasC	.	polypeptide	1	304	.	+	.	ID=hasC;md5=31574e2059b49abca7a0422ede75934a
+hasC	Pfam	protein_match	6	267	2.3E-32	+	.	date=09-11-2022;Target=hasC 6 267;ID=match$5_6_267;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region hasA 1 419
+hasA	.	polypeptide	1	419	.	+	.	ID=hasA;md5=036f0d8a9faa0be7d0b73e85c950511b
+hasA	Pfam	protein_match	68	237	7.8E-33	+	.	date=09-11-2022;Target=hasA 68 237;ID=match$6_68_237;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region hasC 1 302
+hasC	.	polypeptide	1	302	.	+	.	ID=hasC;md5=8e89d30f09811335d77d0ce1ee866ee8
+hasC	Pfam	protein_match	6	270	4.6E-32	+	.	date=09-11-2022;Target=hasC 6 270;ID=match$7_6_270;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region hasB 1 402
+hasB	.	polypeptide	1	402	.	+	.	ID=hasB;md5=20b7705f9088b206e522122245ebfd5c
+hasB	Pfam	protein_match	1	167	1.8E-29	+	.	date=09-11-2022;Target=hasB 1 167;ID=match$8_1_167;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain;Name=PF03721;status=T;Dbxref="InterPro:IPR001732"
+hasB	Pfam	protein_match	199	288	6.7E-24	+	.	date=09-11-2022;Target=hasB 199 288;ID=match$9_199_288;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, central domain;Name=PF00984;status=T;Dbxref="InterPro:IPR014026"
+hasB	Pfam	protein_match	314	390	2.1E-10	+	.	date=09-11-2022;Target=hasB 314 390;ID=match$10_314_390;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain;Name=PF03720;status=T;Dbxref="InterPro:IPR014027"
+##sequence-region hasA 1 417
+hasA	.	polypeptide	1	417	.	+	.	ID=hasA;md5=26d523d0877976cc1d770d3df8404ad8
+hasA	Pfam	protein_match	69	238	5.2E-33	+	.	date=09-11-2022;Target=hasA 69 238;ID=match$11_69_238;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region pgi 1 449
+pgi	.	polypeptide	1	449	.	+	.	ID=pgi;md5=b3223df44449c90dd44eb0a76ff94e49
+pgi	Pfam	protein_match	77	426	3.4E-23	+	.	date=09-11-2022;Target=pgi 77 426;ID=match$12_77_426;signature_desc=Phosphoglucose isomerase;Name=PF00342;status=T;Dbxref="InterPro:IPR001672"

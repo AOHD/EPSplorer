@@ -1,0 +1,84 @@
+##sequence-region AXH03902.1 1 392
+AXH03902.1	.	polypeptide	1	392	.	+	.	ID=AXH03902.1;md5=b0687586303b8b0cd7cb0d981fdd1d11
+AXH03902.1	Pfam	protein_match	4	191	4.4E-82	+	.	date=31-03-2023;Target=AXH03902.1 4 191;ID=match$1_4_191;signature_desc=Domain of unknown function (DUF1972);Name=PF09314;status=T;Dbxref="InterPro:IPR015393"
+##sequence-region AXH03885.1 1 194
+AXH03885.1	.	polypeptide	1	194	.	+	.	ID=AXH03885.1;md5=76a60579f06adfebb54a085958c556e6
+AXH03885.1	Pfam	protein_match	38	143	1.2E-6	+	.	date=31-03-2023;Target=AXH03885.1 38 143;ID=match$2_38_143;signature_desc=AAA domain;Name=PF13614;status=T;Dbxref="InterPro:IPR025669"
+##sequence-region AXH03913.1 1 367
+AXH03913.1	.	polypeptide	1	367	.	+	.	ID=AXH03913.1;md5=c0b73d6d9b421fafcaf269fcf01809c6
+AXH03913.1	Pfam	protein_match	197	345	6.4E-22	+	.	date=31-03-2023;Target=AXH03913.1 197 345;ID=match$3_197_345;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region rfbB 1 342
+rfbB	.	polypeptide	1	342	.	+	.	ID=rfbB;md5=5f26cf597b33b4fbf88a0ab2db16ceb8
+rfbB	Pfam	protein_match	5	313	3.9E-71	+	.	date=31-03-2023;Target=rfbB 5 313;ID=match$4_5_313;signature_desc=GDP-mannose 4,6 dehydratase;Name=PF16363;status=T;Dbxref="InterPro:IPR016040"
+##sequence-region AXH03908.1 1 315
+AXH03908.1	.	polypeptide	1	315	.	+	.	ID=AXH03908.1;md5=e6be0bf6091a0163e9810435f151c42a
+AXH03908.1	Pfam	protein_match	42	301	6.0E-71	+	.	date=31-03-2023;Target=AXH03908.1 42 301;ID=match$5_42_301;signature_desc=Capsular polysaccharide synthesis protein;Name=PF05704;status=T;Dbxref="InterPro:IPR008441"
+##sequence-region AXH03897.1 1 192
+AXH03897.1	.	polypeptide	1	192	.	+	.	ID=AXH03897.1;md5=02417b395eba3600c46e570f4c4e3d5c
+AXH03897.1	Pfam	protein_match	16	170	1.6E-26	+	.	date=31-03-2023;Target=AXH03897.1 16 170;ID=match$6_16_170;signature_desc=Phage integrase family;Name=PF00589;status=T;Dbxref="InterPro:IPR002104"
+##sequence-region AXH03888.1 1 342
+AXH03888.1	.	polypeptide	1	342	.	+	.	ID=AXH03888.1;md5=5cd9d3548376f9c6ba2f4ea9afd0ad5d
+AXH03888.1	Pfam	protein_match	6	32	1.9E-11	+	.	date=31-03-2023;Target=AXH03888.1 6 32;ID=match$7_6_32;signature_desc=Stealth protein CR1, conserved region 1;Name=PF17101;status=T;Dbxref="InterPro:IPR031358"
+AXH03888.1	Pfam	protein_match	41	146	2.2E-44	+	.	date=31-03-2023;Target=AXH03888.1 41 146;ID=match$8_41_146;signature_desc=Stealth protein CR2, conserved region 2;Name=PF11380;status=T;Dbxref="InterPro:IPR021520"
+##sequence-region rfbD 1 288
+rfbD	.	polypeptide	1	288	.	+	.	ID=rfbD;md5=b97ea8ca1d659b28b887b57dded8ab0d
+rfbD	Pfam	protein_match	5	275	4.7E-102	+	.	date=31-03-2023;Target=rfbD 5 275;ID=match$9_5_275;signature_desc=RmlD substrate binding domain;Name=PF04321;status=T;Dbxref="InterPro:IPR029903"
+##sequence-region AXH03899.1 1 242
+AXH03899.1	.	polypeptide	1	242	.	+	.	ID=AXH03899.1;md5=009dde6464067b4af4e4806d58a40c30
+AXH03899.1	Pfam	protein_match	49	217	1.1E-11	+	.	date=31-03-2023;Target=AXH03899.1 49 217;ID=match$10_49_217;signature_desc=NUBPL iron-transfer P-loop NTPase;Name=PF10609;status=T;Dbxref="InterPro:IPR033756"
+##sequence-region rfbC 1 193
+rfbC	.	polypeptide	1	193	.	+	.	ID=rfbC;md5=7a0855f8462c7e13191576b48b50e8a2
+rfbC	Pfam	protein_match	9	181	3.3E-69	+	.	date=31-03-2023;Target=rfbC 9 181;ID=match$11_9_181;signature_desc=dTDP-4-dehydrorhamnose 3,5-epimerase;Name=PF00908;status=T;Dbxref="InterPro:IPR000888"
+##sequence-region AXH03901.1 1 222
+AXH03901.1	.	polypeptide	1	222	.	+	.	ID=AXH03901.1;md5=8b4d536df6af43b74e062353fba67b2d
+AXH03901.1	Pfam	protein_match	28	216	3.7E-69	+	.	date=31-03-2023;Target=AXH03901.1 28 216;ID=match$12_28_216;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+##sequence-region AXH03912.1 1 337
+AXH03912.1	.	polypeptide	1	337	.	+	.	ID=AXH03912.1;md5=6b41c6c1f176bd8c9edab5d142e36ee3
+AXH03912.1	Pfam	protein_match	10	107	6.4E-11	+	.	date=31-03-2023;Target=AXH03912.1 10 107;ID=match$13_10_107;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region AXH03907.1 1 71
+AXH03907.1	.	polypeptide	1	71	.	+	.	ID=AXH03907.1;md5=c4046feedd68fec7baa3ea1afa7a13b3
+AXH03907.1	Pfam	protein_match	10	56	1.1E-6	+	.	date=31-03-2023;Target=AXH03907.1 10 56;ID=match$14_10_56;signature_desc=RelB antitoxin;Name=PF04221;status=T;Dbxref="InterPro:IPR007337"
+##sequence-region AXH03887.1 1 266
+AXH03887.1	.	polypeptide	1	266	.	+	.	ID=AXH03887.1;md5=67cc6385d4b2a934eb65047ec479cc6d
+AXH03887.1	Pfam	protein_match	11	197	1.5E-7	+	.	date=31-03-2023;Target=AXH03887.1 11 197;ID=match$15_11_197;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region rfbA 1 289
+rfbA	.	polypeptide	1	289	.	+	.	ID=rfbA;md5=37cd7d577d36248f5ed9024529311d06
+rfbA	Pfam	protein_match	2	238	5.3E-71	+	.	date=31-03-2023;Target=rfbA 2 238;ID=match$16_2_238;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region rfbA 1 289
+rfbA	.	polypeptide	1	289	.	+	.	ID=rfbA;md5=1bca44abf3f57b2d26dec99bec4ec946
+rfbA	Pfam	protein_match	2	238	2.6E-71	+	.	date=31-03-2023;Target=rfbA 2 238;ID=match$17_2_238;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region AXH03909.1 1 231
+AXH03909.1	.	polypeptide	1	231	.	+	.	ID=AXH03909.1;md5=848181de02cdaee07cf743d6d8d748c9
+AXH03909.1	Pfam	protein_match	176	210	2.7E-8	+	.	date=31-03-2023;Target=AXH03909.1 176 210;ID=match$18_176_210;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+##sequence-region AXH03916.1 1 510
+AXH03916.1	.	polypeptide	1	510	.	+	.	ID=AXH03916.1;md5=9fe96023a6b5b4b499240ecbe998a4b9
+AXH03916.1	Pfam	protein_match	11	283	2.5E-6	+	.	date=31-03-2023;Target=AXH03916.1 11 283;ID=match$19_11_283;signature_desc=Polysaccharide biosynthesis protein;Name=PF01943;status=T;Dbxref="InterPro:IPR002797"
+##sequence-region AXH03892.1 1 473
+AXH03892.1	.	polypeptide	1	473	.	+	.	ID=AXH03892.1;md5=7381d2c79a719ebee6e221c17f95309e
+AXH03892.1	Pfam	protein_match	7	267	1.2E-17	+	.	date=31-03-2023;Target=AXH03892.1 7 267;ID=match$20_7_267;signature_desc=Polysaccharide biosynthesis protein;Name=PF01943;status=T;Dbxref="InterPro:IPR002797"
+AXH03892.1	Pfam	protein_match	322	458	3.1E-20	+	.	date=31-03-2023;Target=AXH03892.1 322 458;ID=match$21_322_458;signature_desc=Polysaccharide biosynthesis C-terminal domain;Name=PF14667;status=T;Dbxref="InterPro:IPR029303"
+##sequence-region AXH03910.1 1 267
+AXH03910.1	.	polypeptide	1	267	.	+	.	ID=AXH03910.1;md5=ec03d2869b686d9dc2759b6433ca7c5e
+AXH03910.1	Pfam	protein_match	20	246	1.7E-36	+	.	date=31-03-2023;Target=AXH03910.1 20 246;ID=match$22_20_246;signature_desc=LicD family;Name=PF04991;status=T;Dbxref="InterPro:IPR007074"
+##sequence-region AXH03890.1 1 330
+AXH03890.1	.	polypeptide	1	330	.	+	.	ID=AXH03890.1;md5=fbba62b19a3a9499d0cd4a11709b53aa
+AXH03890.1	Pfam	protein_match	44	317	1.6E-38	+	.	date=31-03-2023;Target=AXH03890.1 44 317;ID=match$23_44_317;signature_desc=Capsular polysaccharide synthesis protein;Name=PF05704;status=T;Dbxref="InterPro:IPR008441"
+##sequence-region AXH03898.1 1 256
+AXH03898.1	.	polypeptide	1	256	.	+	.	ID=AXH03898.1;md5=6ec8398d1636e8c3b77d5eeaf03dc5ea
+AXH03898.1	Pfam	protein_match	146	198	2.8E-10	+	.	date=31-03-2023;Target=AXH03898.1 146 198;ID=match$24_146_198;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+AXH03898.1	Pfam	protein_match	12	93	3.0E-10	+	.	date=31-03-2023;Target=AXH03898.1 12 93;ID=match$25_12_93;signature_desc=Chain length determinant protein;Name=PF02706;status=T;Dbxref="InterPro:IPR003856"
+##sequence-region AXH03911.1 1 293
+AXH03911.1	.	polypeptide	1	293	.	+	.	ID=AXH03911.1;md5=fae896e4b2e5df20c088e3bf5702d6b7
+AXH03911.1	Pfam	protein_match	5	154	2.9E-10	+	.	date=31-03-2023;Target=AXH03911.1 5 154;ID=match$26_5_154;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region rfbB 1 342
+rfbB	.	polypeptide	1	342	.	+	.	ID=rfbB;md5=77d7f30880db5c3ff2440e2d6445ea2c
+rfbB	Pfam	protein_match	5	313	2.5E-71	+	.	date=31-03-2023;Target=rfbB 5 313;ID=match$27_5_313;signature_desc=GDP-mannose 4,6 dehydratase;Name=PF16363;status=T;Dbxref="InterPro:IPR016040"
+##sequence-region AXH03891.1 1 281
+AXH03891.1	.	polypeptide	1	281	.	+	.	ID=AXH03891.1;md5=bbfe3976104fc7b60cb3944de4277b16
+AXH03891.1	Pfam	protein_match	7	161	1.2E-10	+	.	date=31-03-2023;Target=AXH03891.1 7 161;ID=match$28_7_161;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region AXH03915.1 1 304
+AXH03915.1	.	polypeptide	1	304	.	+	.	ID=AXH03915.1;md5=a9e19600462fbf6d4501829d061c0e01
+AXH03915.1	Pfam	protein_match	8	120	1.0E-31	+	.	date=31-03-2023;Target=AXH03915.1 8 120;ID=match$29_8_120;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region rfbD 1 280
+rfbD	.	polypeptide	1	280	.	+	.	ID=rfbD;md5=883832d8a5164665269e70653530356c
+rfbD	Pfam	protein_match	3	279	2.2E-104	+	.	date=31-03-2023;Target=rfbD 3 279;ID=match$30_3_279;signature_desc=RmlD substrate binding domain;Name=PF04321;status=T;Dbxref="InterPro:IPR029903"

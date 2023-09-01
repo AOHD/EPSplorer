@@ -1,0 +1,36 @@
+##sequence-region pelA 1 948
+pelA	.	polypeptide	1	948	.	+	.	ID=pelA;md5=e5055422a15c7282e67b586e11e0760a
+pelA	Pfam	protein_match	73	292	2.1E-16	+	.	date=09-11-2022;Target=pelA 73 292;ID=match$1_73_292;signature_desc=Glycoside-hydrolase family GH114;Name=PF03537;status=T;Dbxref="InterPro:IPR004352"
+##sequence-region pelF 1 507
+pelF	.	polypeptide	1	507	.	+	.	ID=pelF;md5=c5facc3e583948114e5fafe71e1cde79
+pelF	Pfam	protein_match	12	290	6.5E-92	+	.	date=09-11-2022;Target=pelF 12 290;ID=match$2_12_290;signature_desc=Domain of unknown function (DUF3492);Name=PF11997;status=T;Dbxref="InterPro:IPR022622"
+pelF	Pfam	protein_match	317	470	3.6E-22	+	.	date=09-11-2022;Target=pelF 317 470;ID=match$3_317_470;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region pelB 1 1193
+pelB	.	polypeptide	1	1193	.	+	.	ID=pelB;md5=4914011398f22f69c2dca7fcf8666427
+pelB	Pfam	protein_match	448	727	9.2E-92	+	.	date=09-11-2022;Target=pelB 448 727;ID=match$4_448_727;signature_desc=Tetratricopeptide repeat;Name=PF13429;status=T
+pelB	Pfam	protein_match	61	100	1.4E-5	+	.	date=09-11-2022;Target=pelB 61 100;ID=match$5_61_100;signature_desc=Tetratricopeptide repeat;Name=PF14559;status=T
+##sequence-region pelD 1 455
+pelD	.	polypeptide	1	455	.	+	.	ID=pelD;md5=0db577c4815e6b52f5378d31ee577127
+pelD	Pfam	protein_match	182	304	4.8E-7	+	.	date=09-11-2022;Target=pelD 182 304;ID=match$6_182_304;signature_desc=GAF domain;Name=PF13492;status=T;Dbxref="InterPro:IPR003018"
+pelD	Pfam	protein_match	321	444	3.9E-35	+	.	date=09-11-2022;Target=pelD 321 444;ID=match$7_321_444;signature_desc=PelD GGDEF domain;Name=PF16963;status=T;Dbxref="InterPro:IPR031583"
+##sequence-region pelG 1 456
+pelG	.	polypeptide	1	456	.	+	.	ID=pelG;md5=f100a1920af903a31885fb00c08644a2
+pelG	Pfam	protein_match	1	452	1.0E-157	+	.	date=09-11-2022;Target=pelG 1 452;ID=match$8_1_452;signature_desc=Putative exopolysaccharide Exporter (EPS-E);Name=PF16933;status=T;Dbxref="InterPro:IPR031617"
+##sequence-region pelG 1 456
+pelG	.	polypeptide	1	456	.	+	.	ID=pelG;md5=dee3d0a070d1a6388161a39ad95bba8a
+pelG	Pfam	protein_match	1	452	1.1E-157	+	.	date=09-11-2022;Target=pelG 1 452;ID=match$9_1_452;signature_desc=Putative exopolysaccharide Exporter (EPS-E);Name=PF16933;status=T;Dbxref="InterPro:IPR031617"
+##sequence-region pelD 1 455
+pelD	.	polypeptide	1	455	.	+	.	ID=pelD;md5=4ec210f83780df78c649c299001ea4cb
+pelD	Pfam	protein_match	181	304	4.8E-7	+	.	date=09-11-2022;Target=pelD 181 304;ID=match$10_181_304;signature_desc=GAF domain;Name=PF13492;status=T;Dbxref="InterPro:IPR003018"
+pelD	Pfam	protein_match	321	444	3.9E-35	+	.	date=09-11-2022;Target=pelD 321 444;ID=match$11_321_444;signature_desc=PelD GGDEF domain;Name=PF16963;status=T;Dbxref="InterPro:IPR031583"
+##sequence-region pelF 1 507
+pelF	.	polypeptide	1	507	.	+	.	ID=pelF;md5=8ae7dbac391155eb72e4240717747f1c
+pelF	Pfam	protein_match	12	290	6.5E-92	+	.	date=09-11-2022;Target=pelF 12 290;ID=match$12_12_290;signature_desc=Domain of unknown function (DUF3492);Name=PF11997;status=T;Dbxref="InterPro:IPR022622"
+pelF	Pfam	protein_match	317	470	3.6E-22	+	.	date=09-11-2022;Target=pelF 317 470;ID=match$13_317_470;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region pelA 1 948
+pelA	.	polypeptide	1	948	.	+	.	ID=pelA;md5=32373fa3e422147837b28591bee268ff
+pelA	Pfam	protein_match	73	292	2.1E-16	+	.	date=09-11-2022;Target=pelA 73 292;ID=match$14_73_292;signature_desc=Glycoside-hydrolase family GH114;Name=PF03537;status=T;Dbxref="InterPro:IPR004352"
+##sequence-region pelB 1 1193
+pelB	.	polypeptide	1	1193	.	+	.	ID=pelB;md5=3bb135b6c73d9d45755bc4908349d9af
+pelB	Pfam	protein_match	448	727	3.7E-92	+	.	date=09-11-2022;Target=pelB 448 727;ID=match$15_448_727;signature_desc=Tetratricopeptide repeat;Name=PF13429;status=T
+pelB	Pfam	protein_match	61	100	1.4E-5	+	.	date=09-11-2022;Target=pelB 61 100;ID=match$16_61_100;signature_desc=Tetratricopeptide repeat;Name=PF14559;status=T

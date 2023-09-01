@@ -1,0 +1,53 @@
+##sequence-region AceA 1 491
+AceA	.	polypeptide	1	491	.	+	.	ID=AceA;md5=fe4a5c0396c05d158a7dfe1ddf23ee2a
+AceA	Pfam	protein_match	312	483	1.8E-59	+	.	date=09-11-2022;Target=AceA 312 483;ID=match$1_312_483;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+AceA	Pfam	protein_match	148	270	7.2E-11	+	.	date=09-11-2022;Target=AceA 148 270;ID=match$2_148_270;signature_desc=CoA-binding domain;Name=PF13727;status=T
+##sequence-region AceD 1 736
+AceD	.	polypeptide	1	736	.	+	.	ID=AceD;md5=2ef921aa813ce882e7135d24aaed950b
+AceD	Pfam	protein_match	547	695	2.9E-11	+	.	date=09-11-2022;Target=AceD 547 695;ID=match$3_547_695;signature_desc=AAA domain;Name=PF13614;status=T;Dbxref="InterPro:IPR025669"
+AceD	Pfam	protein_match	28	114	1.0E-9	+	.	date=09-11-2022;Target=AceD 28 114;ID=match$4_28_114;signature_desc=Chain length determinant protein;Name=PF02706;status=T;Dbxref="InterPro:IPR003856"
+##sequence-region AceQ 1 399
+AceQ	.	polypeptide	1	399	.	+	.	ID=AceQ;md5=f7e8ee68a6ebb62e980e9e3d3c040183
+AceQ	Pfam	protein_match	213	371	3.4E-35	+	.	date=09-11-2022;Target=AceQ 213 371;ID=match$5_213_371;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+AceQ	Pfam	protein_match	31	202	4.6E-15	+	.	date=09-11-2022;Target=AceQ 31 202;ID=match$6_31_202;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+##sequence-region eg 1 341
+eg	.	polypeptide	1	341	.	+	.	ID=eg;md5=1c77280827288dda0fa0af0538ece612
+eg	Pfam	protein_match	52	307	4.5E-46	+	.	date=09-11-2022;Target=eg 52 307;ID=match$7_52_307;signature_desc=Cellulase (glycosyl hydrolase family 5);Name=PF00150;status=T;Dbxref="InterPro:IPR001547"
+##sequence-region AceP 1 321
+AceP	.	polypeptide	1	321	.	+	.	ID=AceP;md5=7c48a75b31db5cc8b9de2b9ad3f66533
+AceP	Pfam	protein_match	8	131	2.5E-32	+	.	date=09-11-2022;Target=AceP 8 131;ID=match$8_8_131;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region AceF 1 492
+AceF	.	polypeptide	1	492	.	+	.	ID=AceF;md5=a41e6613c3bcb9437340cb42094ce9ab
+AceF	Pfam	protein_match	23	308	1.0E-61	+	.	date=09-11-2022;Target=AceF 23 308;ID=match$9_23_308;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+AceF	Pfam	protein_match	338	487	5.1E-64	+	.	date=09-11-2022;Target=AceF 338 487;ID=match$10_338_487;signature_desc=Mannose-6-phosphate isomerase;Name=PF01050;status=T;Dbxref="InterPro:IPR001538"
+##sequence-region AceI 1 383
+AceI	.	polypeptide	1	383	.	+	.	ID=AceI;md5=649b7e72614f96635bf396674ccdeb66
+AceI	Pfam	protein_match	8	352	9.7E-24	+	.	date=09-11-2022;Target=AceI 8 352;ID=match$11_8_352;signature_desc=Acyltransferase family;Name=PF01757;status=T;Dbxref="InterPro:IPR002656"
+##sequence-region gumF 1 394
+gumF	.	polypeptide	1	394	.	+	.	ID=gumF;md5=bdaedb827a8f848faef060dd62fc1ff7
+gumF	Pfam	protein_match	16	350	6.3E-30	+	.	date=09-11-2022;Target=gumF 16 350;ID=match$12_16_350;signature_desc=Acyltransferase family;Name=PF01757;status=T;Dbxref="InterPro:IPR002656"
+##sequence-region AceE 1 492
+AceE	.	polypeptide	1	492	.	+	.	ID=AceE;md5=a1cb6e27e943285c6fdcc2108ccdd536
+AceE	Pfam	protein_match	34	291	1.7E-14	+	.	date=09-11-2022;Target=AceE 34 291;ID=match$13_34_291;signature_desc=Polysaccharide biosynthesis protein;Name=PF13440;status=T
+##sequence-region AceC 1 394
+AceC	.	polypeptide	1	394	.	+	.	ID=AceC;md5=275ba078f56a21fbb4a760866e556a74
+AceC	Pfam	protein_match	193	339	2.1E-23	+	.	date=09-11-2022;Target=AceC 193 339;ID=match$14_193_339;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+AceC	Pfam	protein_match	25	188	2.7E-12	+	.	date=09-11-2022;Target=AceC 25 188;ID=match$15_25_188;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+##sequence-region AceM 1 435
+AceM	.	polypeptide	1	435	.	+	.	ID=AceM;md5=000fa7c7c1f9cbd0b8dda899e6a2a501
+AceM	Pfam	protein_match	195	287	6.1E-36	+	.	date=09-11-2022;Target=AceM 195 287;ID=match$16_195_287;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, central domain;Name=PF00984;status=T;Dbxref="InterPro:IPR014026"
+AceM	Pfam	protein_match	312	413	9.8E-28	+	.	date=09-11-2022;Target=AceM 312 413;ID=match$17_312_413;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain;Name=PF03720;status=T;Dbxref="InterPro:IPR014027"
+AceM	Pfam	protein_match	2	166	9.3E-52	+	.	date=09-11-2022;Target=AceM 2 166;ID=match$18_2_166;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain;Name=PF03721;status=T;Dbxref="InterPro:IPR001732"
+##sequence-region AceH 1 196
+AceH	.	polypeptide	1	196	.	+	.	ID=AceH;md5=c916981e6419f8cbed2324499f0c5eef
+AceH	Pfam	protein_match	121	155	5.3E-9	+	.	date=09-11-2022;Target=AceH 121 155;ID=match$19_121_155;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+AceH	Pfam	protein_match	41	115	2.0E-18	+	.	date=09-11-2022;Target=AceH 41 115;ID=match$20_41_115;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region AceR 1 388
+AceR	.	polypeptide	1	388	.	+	.	ID=AceR;md5=ba6f64b89a0617b43cc68d53e17dbf30
+AceR	Pfam	protein_match	12	135	5.6E-26	+	.	date=09-11-2022;Target=AceR 12 135;ID=match$21_12_135;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region AceB 1 287
+AceB	.	polypeptide	1	287	.	+	.	ID=AceB;md5=ad0aacec7cd8a03f76892f6a86aa7c13
+AceB	Pfam	protein_match	85	254	1.6E-46	+	.	date=09-11-2022;Target=AceB 85 254;ID=match$22_85_254;signature_desc=Glycosyl transferase WecB/TagA/CpsF family;Name=PF03808;status=T;Dbxref="InterPro:IPR004629"
+##sequence-region AceG 1 458
+AceG	.	polypeptide	1	458	.	+	.	ID=AceG;md5=74214e5b64592d44ae3f047dfa849d39
+AceG	Pfam	protein_match	70	435	1.2E-39	+	.	date=09-11-2022;Target=AceG 70 435;ID=match$23_70_435;signature_desc=Putative beta-barrel porin 2;Name=PF10082;status=T;Dbxref="InterPro:IPR018759"

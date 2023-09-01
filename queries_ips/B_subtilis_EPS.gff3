@@ -1,0 +1,13 @@
+##sequence-region epsH 1 344
+epsH	.	polypeptide	1	344	.	+	.	ID=epsH;md5=a24cd57ece82c00fa31fbf8fc45157c5
+epsH	Pfam	protein_match	7	170	5.3E-38	+	.	date=09-11-2022;Target=epsH 7 170;ID=match$1_7_170;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region epsK 1 505
+epsK	.	polypeptide	1	505	.	+	.	ID=epsK;md5=104746460a105959471d6aca423bcc68
+epsK	Pfam	protein_match	342	486	9.3E-10	+	.	date=09-11-2022;Target=epsK 342 486;ID=match$2_342_486;signature_desc=Polysaccharide biosynthesis C-terminal domain;Name=PF14667;status=T;Dbxref="InterPro:IPR029303"
+epsK	Pfam	protein_match	6	286	7.0E-10	+	.	date=09-11-2022;Target=epsK 6 286;ID=match$3_6_286;signature_desc=Polysaccharide biosynthesis protein;Name=PF01943;status=T;Dbxref="InterPro:IPR002797"
+##sequence-region epsJ 1 344
+epsJ	.	polypeptide	1	344	.	+	.	ID=epsJ;md5=f5e9862d8729e84d98d2dc5ffbf8ec55
+epsJ	Pfam	protein_match	6	150	3.7E-38	+	.	date=09-11-2022;Target=epsJ 6 150;ID=match$4_6_150;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region epsI 1 358
+epsI	.	polypeptide	1	358	.	+	.	ID=epsI;md5=4999d0f937742d74cc88c3eabcf82f35
+epsI	Pfam	protein_match	52	293	4.5E-29	+	.	date=09-11-2022;Target=epsI 52 293;ID=match$5_52_293;signature_desc=Polysaccharide pyruvyl transferase;Name=PF04230;status=T;Dbxref="InterPro:IPR007345"

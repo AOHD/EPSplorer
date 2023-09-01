@@ -1,0 +1,10 @@
+##sequence-region gelG 1 553
+gelG	.	polypeptide	1	553	.	+	.	ID=gelG;md5=17c9134916ba38057496f043c71a56a7
+gelG	Pfam	protein_match	324	464	4.2E-6	+	.	date=13-11-2022;Target=gelG 324 464;ID=match$1_324_464;signature_desc=O-Antigen ligase;Name=PF04932;status=T;Dbxref="InterPro:IPR007016"
+##sequence-region gelR 1 659
+gelR	.	polypeptide	1	659	.	+	.	ID=gelR;md5=f2401dfc5898a20681a05c5bf68c2b6a
+gelR	Pfam	protein_match	417	556	2.0E-13	+	.	date=13-11-2022;Target=gelR 417 556;ID=match$2_417_556;signature_desc=Concanavalin A-like lectin/glucanases superfamily;Name=PF13385;status=T
+##sequence-region gelS 1 426
+gelS	.	polypeptide	1	426	.	+	.	ID=gelS;md5=f061eb8833f6812dff4bde22148e49ea
+gelS	Pfam	protein_match	15	288	4.2E-11	+	.	date=13-11-2022;Target=gelS 15 288;ID=match$3_15_288;signature_desc=Polysaccharide biosynthesis protein;Name=PF01943;status=T;Dbxref="InterPro:IPR002797"
+gelS	Pfam	protein_match	342	420	8.1E-7	+	.	date=13-11-2022;Target=gelS 342 420;ID=match$4_342_420;signature_desc=Polysaccharide biosynthesis C-terminal domain;Name=PF14667;status=T;Dbxref="InterPro:IPR029303"

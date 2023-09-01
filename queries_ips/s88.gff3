@@ -1,0 +1,76 @@
+##sequence-region atrD 1 464
+atrD	.	polypeptide	1	464	.	+	.	ID=atrD;md5=80caf7f2c4a21b4dd5104e391806fd99
+atrD	Pfam	protein_match	90	131	3.1E-9	+	.	date=09-11-2022;Target=atrD 90 131;ID=match$1_90_131;signature_desc=Biotin-lipoyl like;Name=PF13533;status=T;Dbxref="InterPro:IPR039562"
+atrD	Pfam	protein_match	315	431	2.6E-18	+	.	date=09-11-2022;Target=atrD 315 431;ID=match$2_315_431;signature_desc=HlyD family secretion protein;Name=PF13437;status=T
+##sequence-region Urf31 1 270
+Urf31	.	polypeptide	1	270	.	+	.	ID=Urf31;md5=d8c97d1192aa1db445f4ba2e9ebeef89
+Urf31	Pfam	protein_match	3	213	4.0E-44	+	.	date=09-11-2022;Target=Urf31 3 213;ID=match$3_3_213;signature_desc=Putative rhamnosyl transferase;Name=PF11316;status=T;Dbxref="InterPro:IPR021466"
+##sequence-region rhsD 1 288
+rhsD	.	polypeptide	1	288	.	+	.	ID=rhsD;md5=a3ab0ad541887ca4c45888d93ed6c4ee
+rhsD	Pfam	protein_match	1	286	7.4E-106	+	.	date=09-11-2022;Target=rhsD 1 286;ID=match$4_1_286;signature_desc=RmlD substrate binding domain;Name=PF04321;status=T;Dbxref="InterPro:IPR029903"
+##sequence-region spsG 1 539
+spsG	.	polypeptide	1	539	.	+	.	ID=spsG;md5=69bb2098bcaee3215bd6c30fe8cdf507
+spsG	Pfam	protein_match	325	467	2.0E-11	+	.	date=09-11-2022;Target=spsG 325 467;ID=match$5_325_467;signature_desc=O-Antigen ligase;Name=PF04932;status=T;Dbxref="InterPro:IPR007016"
+##sequence-region Urf26 1 232
+Urf26	.	polypeptide	1	232	.	+	.	ID=Urf26;md5=f4430edba1d03e291c3300ed7a69153a
+Urf26	Pfam	protein_match	8	212	9.6E-32	+	.	date=09-11-2022;Target=Urf26 8 212;ID=match$6_8_212;signature_desc=Protein of unknown function (DUF3485);Name=PF11984;status=T;Dbxref="InterPro:IPR014263"
+##sequence-region spsR 1 670
+spsR	.	polypeptide	1	670	.	+	.	ID=spsR;md5=c9e3fb973de2cd1be664beca9271debb
+spsR	Pfam	protein_match	95	271	1.6E-16	+	.	date=09-11-2022;Target=spsR 95 271;ID=match$7_95_271;signature_desc=Right handed beta helix region;Name=PF13229;status=T;Dbxref="InterPro:IPR039448"
+spsR	Pfam	protein_match	429	565	4.2E-14	+	.	date=09-11-2022;Target=spsR 429 565;ID=match$8_429_565;signature_desc=Concanavalin A-like lectin/glucanases superfamily;Name=PF13385;status=T
+##sequence-region atrB 1 728
+atrB	.	polypeptide	1	728	.	+	.	ID=atrB;md5=98e3799f46151fbe4e06d26cef7c29de
+atrB	Pfam	protein_match	23	144	1.1E-23	+	.	date=09-11-2022;Target=atrB 23 144;ID=match$9_23_144;signature_desc=Peptidase C39 family;Name=PF03412;status=T;Dbxref="InterPro:IPR005074"
+atrB	Pfam	protein_match	177	438	2.9E-46	+	.	date=09-11-2022;Target=atrB 177 438;ID=match$10_177_438;signature_desc=ABC transporter transmembrane region;Name=PF00664;status=T;Dbxref="InterPro:IPR011527"
+atrB	Pfam	protein_match	501	650	2.1E-30	+	.	date=09-11-2022;Target=atrB 501 650;ID=match$11_501_650;signature_desc=ABC transporter;Name=PF00005;status=T;Dbxref="InterPro:IPR003439"
+##sequence-region spsS 1 452
+spsS	.	polypeptide	1	452	.	+	.	ID=spsS;md5=dd2b5907d4f7df95ec4c1c2aebb85af3
+spsS	Pfam	protein_match	49	314	1.1E-11	+	.	date=09-11-2022;Target=spsS 49 314;ID=match$12_49_314;signature_desc=Polysaccharide biosynthesis protein;Name=PF01943;status=T;Dbxref="InterPro:IPR002797"
+spsS	Pfam	protein_match	368	445	2.2E-7	+	.	date=09-11-2022;Target=spsS 368 445;ID=match$13_368_445;signature_desc=Polysaccharide biosynthesis C-terminal domain;Name=PF14667;status=T;Dbxref="InterPro:IPR029303"
+##sequence-region rhsB 1 353
+rhsB	.	polypeptide	1	353	.	+	.	ID=rhsB;md5=f8c361159893f380423ed8d59d1888ce
+rhsB	Pfam	protein_match	6	324	1.4E-93	+	.	date=09-11-2022;Target=rhsB 6 324;ID=match$14_6_324;signature_desc=GDP-mannose 4,6 dehydratase;Name=PF16363;status=T;Dbxref="InterPro:IPR016040"
+##sequence-region spsK 1 352
+spsK	.	polypeptide	1	352	.	+	.	ID=spsK;md5=e5da07a0ff0757a4f990367d8e6dfbc6
+spsK	Pfam	protein_match	92	170	4.9E-7	+	.	date=09-11-2022;Target=spsK 92 170;ID=match$15_92_170;signature_desc=Oligosaccharide biosynthesis protein Alg14 like;Name=PF08660;status=T;Dbxref="InterPro:IPR013969"
+spsK	Pfam	protein_match	191	338	1.8E-16	+	.	date=09-11-2022;Target=spsK 191 338;ID=match$16_191_338;signature_desc=Glycosyltransferase family 28 C-terminal domain;Name=PF04101;status=T;Dbxref="InterPro:IPR007235"
+##sequence-region spsQ 1 315
+spsQ	.	polypeptide	1	315	.	+	.	ID=spsQ;md5=59a695c2ca8fef23b0989065f647cf83
+spsQ	Pfam	protein_match	7	218	6.6E-16	+	.	date=09-11-2022;Target=spsQ 7 218;ID=match$17_7_218;signature_desc=Glycosyltransferase like family 2;Name=PF13641;status=T
+##sequence-region spsI 1 300
+spsI	.	polypeptide	1	300	.	+	.	ID=spsI;md5=5a7e9caf716827ffa6aeb1fbb1fe86af
+spsI	Pfam	protein_match	6	88	2.1E-6	+	.	date=09-11-2022;Target=spsI 6 88;ID=match$18_6_88;signature_desc=SurA N-terminal domain;Name=PF13624;status=T
+spsI	Pfam	protein_match	120	219	7.7E-7	+	.	date=09-11-2022;Target=spsI 120 219;ID=match$19_120_219;signature_desc=PPIC-type PPIASE domain;Name=PF13145;status=T;Dbxref="InterPro:IPR000297"
+##sequence-region spsJ 1 462
+spsJ	.	polypeptide	1	462	.	+	.	ID=spsJ;md5=a033beca2ba532ea3583eabc0c6e3afd
+spsJ	Pfam	protein_match	91	240	2.2E-9	+	.	date=09-11-2022;Target=spsJ 91 240;ID=match$20_91_240;signature_desc=AAA ATPase domain;Name=PF13191;status=T;Dbxref="InterPro:IPR041664"
+##sequence-region spsC 1 447
+spsC	.	polypeptide	1	447	.	+	.	ID=spsC;md5=2e26ff9cd51b9f4071e5d00a169cc829
+spsC	Pfam	protein_match	2	88	2.7E-6	+	.	date=09-11-2022;Target=spsC 2 88;ID=match$21_2_88;signature_desc=Chain length determinant protein;Name=PF02706;status=T;Dbxref="InterPro:IPR003856"
+spsC	Pfam	protein_match	318	392	1.3E-7	+	.	date=09-11-2022;Target=spsC 318 392;ID=match$22_318_392;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+##sequence-region spsL 1 288
+spsL	.	polypeptide	1	288	.	+	.	ID=spsL;md5=1517d57321229d519f286d844a4feb86
+spsL	Pfam	protein_match	7	130	1.6E-19	+	.	date=09-11-2022;Target=spsL 7 130;ID=match$23_7_130;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region spsE 1 235
+spsE	.	polypeptide	1	235	.	+	.	ID=spsE;md5=46e6b3e600b2218f4965a32fc033770e
+spsE	Pfam	protein_match	63	170	8.2E-8	+	.	date=09-11-2022;Target=spsE 63 170;ID=match$24_63_170;signature_desc=NUBPL iron-transfer P-loop NTPase;Name=PF10609;status=T;Dbxref="InterPro:IPR033756"
+##sequence-region Urf34 1 318
+Urf34	.	polypeptide	1	318	.	+	.	ID=Urf34;md5=99802a02482a4af1519ac6edb9f345c5
+Urf34	Pfam	protein_match	170	300	4.3E-10	+	.	date=09-11-2022;Target=Urf34 170 300;ID=match$25_170_300;signature_desc=EamA-like transporter family;Name=PF00892;status=T;Dbxref="InterPro:IPR000620"
+##sequence-region rhsA 1 292
+rhsA	.	polypeptide	1	292	.	+	.	ID=rhsA;md5=3e21f2220c2c94d098b4f647d190d13c
+rhsA	Pfam	protein_match	2	240	1.4E-64	+	.	date=09-11-2022;Target=rhsA 2 240;ID=match$26_2_240;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region spsD 1 301
+spsD	.	polypeptide	1	301	.	+	.	ID=spsD;md5=a5aeb338d26b05c529cc2708323e4b65
+spsD	Pfam	protein_match	69	144	1.9E-14	+	.	date=09-11-2022;Target=spsD 69 144;ID=match$27_69_144;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+spsD	Pfam	protein_match	232	279	1.8E-10	+	.	date=09-11-2022;Target=spsD 232 279;ID=match$28_232_279;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+spsD	Pfam	protein_match	151	200	2.2E-7	+	.	date=09-11-2022;Target=spsD 151 200;ID=match$28_151_200;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+##sequence-region spsB 1 470
+spsB	.	polypeptide	1	470	.	+	.	ID=spsB;md5=6779b7bf6c0e971eebbfd1387a1eba16
+spsB	Pfam	protein_match	277	465	7.4E-63	+	.	date=09-11-2022;Target=spsB 277 465;ID=match$29_277_465;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+##sequence-region rhsC 1 188
+rhsC	.	polypeptide	1	188	.	+	.	ID=rhsC;md5=57fbe8ee1ec69d937e66b70a9be8282f
+rhsC	Pfam	protein_match	8	178	1.3E-65	+	.	date=09-11-2022;Target=rhsC 8 178;ID=match$30_8_178;signature_desc=dTDP-4-dehydrorhamnose 3,5-epimerase;Name=PF00908;status=T;Dbxref="InterPro:IPR000888"
+##sequence-region Urf32 1 293
+Urf32	.	polypeptide	1	293	.	+	.	ID=Urf32;md5=88b170cc9b14030a69ef7364114753f3
+Urf32	Pfam	protein_match	22	277	7.8E-53	+	.	date=09-11-2022;Target=Urf32 22 277;ID=match$31_22_277;signature_desc=Transmembrane exosortase (Exosortase_EpsH);Name=PF09721;status=T;Dbxref="InterPro:IPR019127"

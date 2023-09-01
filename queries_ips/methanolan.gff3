@@ -1,0 +1,63 @@
+##sequence-region EpsE 1 350
+EpsE	.	polypeptide	1	350	.	+	.	ID=EpsE;md5=6ecd1314a6d60a9c432d41f9bcb67902
+EpsE	Pfam	protein_match	275	325	2.3E-12	+	.	date=01-02-2023;Target=EpsE 275 325;ID=match$1_275_325;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+EpsE	Pfam	protein_match	190	231	6.3E-6	+	.	date=01-02-2023;Target=EpsE 190 231;ID=match$1_190_231;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+EpsE	Pfam	protein_match	104	149	0.0026	+	.	date=01-02-2023;Target=EpsE 104 149;ID=match$1_104_149;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+EpsE	Pfam	protein_match	22	97	4.0E-18	+	.	date=01-02-2023;Target=EpsE 22 97;ID=match$2_22_97;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region EpsK 1 127
+EpsK	.	polypeptide	1	127	.	+	.	ID=EpsK;md5=fd1067e693ac0e1230da6f06ac256269
+EpsK	Pfam	protein_match	11	89	3.5E-12	+	.	date=01-02-2023;Target=EpsK 11 89;ID=match$3_11_89;signature_desc=Cyclic nucleotide-binding domain;Name=PF00027;status=T;Dbxref="InterPro:IPR000595"
+##sequence-region EpsC 1 336
+EpsC	.	polypeptide	1	336	.	+	.	ID=EpsC;md5=9c6a5d5d1505d09661d17d6575f2d38f
+EpsC	Pfam	protein_match	52	334	2.9E-81	+	.	date=01-02-2023;Target=EpsC 52 334;ID=match$4_52_334;signature_desc=Capsular polysaccharide synthesis protein;Name=PF05704;status=T;Dbxref="InterPro:IPR008441"
+##sequence-region EpsN 1 404
+EpsN	.	polypeptide	1	404	.	+	.	ID=EpsN;md5=c47503d3c1eec7ef76c9ead801e15d1a
+EpsN	Pfam	protein_match	220	377	1.2E-37	+	.	date=01-02-2023;Target=EpsN 220 377;ID=match$5_220_377;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region EpsS 1 327
+EpsS	.	polypeptide	1	327	.	+	.	ID=EpsS;md5=9b4a29ea0dbde835b851c1884d00f3a6
+EpsS	Pfam	protein_match	3	251	9.3E-58	+	.	date=01-02-2023;Target=EpsS 3 251;ID=match$6_3_251;signature_desc=NAD dependent epimerase/dehydratase family;Name=PF01370;status=T;Dbxref="InterPro:IPR001509"
+##sequence-region EpsH 1 304
+EpsH	.	polypeptide	1	304	.	+	.	ID=EpsH;md5=a8c89042822f7745a4f264dd93f9e76f
+EpsH	Pfam	protein_match	26	280	3.5E-56	+	.	date=01-02-2023;Target=EpsH 26 280;ID=match$7_26_280;signature_desc=Transmembrane exosortase (Exosortase_EpsH);Name=PF09721;status=T;Dbxref="InterPro:IPR019127"
+##sequence-region EpsP 1 254
+EpsP	.	polypeptide	1	254	.	+	.	ID=EpsP;md5=d750dcf0e63fbad0c223f3dfe94b3731
+EpsP	Pfam	protein_match	61	235	1.9E-60	+	.	date=01-02-2023;Target=EpsP 61 235;ID=match$8_61_235;signature_desc=Glycosyl transferase WecB/TagA/CpsF family;Name=PF03808;status=T;Dbxref="InterPro:IPR004629"
+##sequence-region EpsI 1 232
+EpsI	.	polypeptide	1	232	.	+	.	ID=EpsI;md5=9af988af7bc4c1dda107307ee4121068
+EpsI	Pfam	protein_match	15	223	3.0E-44	+	.	date=01-02-2023;Target=EpsI 15 223;ID=match$9_15_223;signature_desc=Protein of unknown function (DUF3485);Name=PF11984;status=T;Dbxref="InterPro:IPR014263"
+##sequence-region EpsU 1 137
+EpsU	.	polypeptide	1	137	.	+	.	ID=EpsU;md5=464968373a0e0cd5f7e0d4019a0b51ec
+EpsU	Pfam	protein_match	2	79	1.1E-17	+	.	date=01-02-2023;Target=EpsU 2 79;ID=match$10_2_79;signature_desc=Transglycosylase SLT domain;Name=PF01464;status=T;Dbxref="InterPro:IPR008258"
+##sequence-region EpsQ 1 473
+EpsQ	.	polypeptide	1	473	.	+	.	ID=EpsQ;md5=8d8236eef5e01eda646070f83c22e82d
+EpsQ	Pfam	protein_match	318	468	1.6E-73	+	.	date=01-02-2023;Target=EpsQ 318 468;ID=match$11_318_468;signature_desc=Mannose-6-phosphate isomerase;Name=PF01050;status=T;Dbxref="InterPro:IPR001538"
+EpsQ	Pfam	protein_match	5	288	3.6E-65	+	.	date=01-02-2023;Target=EpsQ 5 288;ID=match$12_5_288;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region EpsA 1 265
+EpsA	.	polypeptide	1	265	.	+	.	ID=EpsA;md5=96ca54576bc2b0cc18d34b4cd71f2165
+EpsA	Pfam	protein_match	203	256	5.5E-19	+	.	date=01-02-2023;Target=EpsA 203 256;ID=match$13_203_256;signature_desc=Bacterial regulatory proteins, luxR family;Name=PF00196;status=T;Dbxref="InterPro:IPR000792"
+##sequence-region EpsT 1 299
+EpsT	.	polypeptide	1	299	.	+	.	ID=EpsT;md5=2aae3e8e398b72bf24877c8abcb37b25
+EpsT	Pfam	protein_match	13	269	2.6E-28	+	.	date=01-02-2023;Target=EpsT 13 269;ID=match$14_13_269;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region EpsF 1 467
+EpsF	.	polypeptide	1	467	.	+	.	ID=EpsF;md5=dcc44d7b9cde540e670f28408cdafd0d
+EpsF	Pfam	protein_match	341	419	1.2E-6	+	.	date=01-02-2023;Target=EpsF 341 419;ID=match$15_341_419;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+##sequence-region EpsB 1 457
+EpsB	.	polypeptide	1	457	.	+	.	ID=EpsB;md5=11e1f150c8611ee6525ec456f9cf28ec
+EpsB	Pfam	protein_match	61	230	2.4E-27	+	.	date=01-02-2023;Target=EpsB 61 230;ID=match$16_61_230;signature_desc=CoA-binding domain;Name=PF13727;status=T
+EpsB	Pfam	protein_match	266	450	3.9E-62	+	.	date=01-02-2023;Target=EpsB 266 450;ID=match$17_266_450;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+##sequence-region EpsD 1 234
+EpsD	.	polypeptide	1	234	.	+	.	ID=EpsD;md5=8df4a2739de0a16d181624989a169a42
+EpsD	Pfam	protein_match	119	227	3.9E-9	+	.	date=01-02-2023;Target=EpsD 119 227;ID=match$18_119_227;signature_desc=PPIC-type PPIASE domain;Name=PF13145;status=T;Dbxref="InterPro:IPR000297"
+EpsD	Pfam	protein_match	5	94	5.8E-9	+	.	date=01-02-2023;Target=EpsD 5 94;ID=match$19_5_94;signature_desc=SurA N-terminal domain;Name=PF13624;status=T
+##sequence-region EpsL 1 401
+EpsL	.	polypeptide	1	401	.	+	.	ID=EpsL;md5=054b12a4a20fa49887ffcadf58b0dfe8
+EpsL	Pfam	protein_match	251	399	2.9E-10	+	.	date=01-02-2023;Target=EpsL 251 399;ID=match$20_251_399;signature_desc=Putative beta-barrel porin 2;Name=PF10082;status=T;Dbxref="InterPro:IPR018759"
+##sequence-region EpsJ 1 283
+EpsJ	.	polypeptide	1	283	.	+	.	ID=EpsJ;md5=d87f7cfe1c03612fe0923d927a82662e
+EpsJ	Pfam	protein_match	4	107	6.7E-27	+	.	date=01-02-2023;Target=EpsJ 4 107;ID=match$21_4_107;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region EpsM 1 464
+EpsM	.	polypeptide	1	464	.	+	.	ID=EpsM;md5=968e14a974a168bb7072ce3f53e848ad
+EpsM	Pfam	protein_match	240	380	2.8E-16	+	.	date=01-02-2023;Target=EpsM 240 380;ID=match$22_240_380;signature_desc=O-Antigen ligase;Name=PF04932;status=T;Dbxref="InterPro:IPR007016"
+##sequence-region EpsO 1 393
+EpsO	.	polypeptide	1	393	.	+	.	ID=EpsO;md5=e0a4a18c08b0d5aaa264de0161272cb1
+EpsO	Pfam	protein_match	44	266	6.3E-22	+	.	date=01-02-2023;Target=EpsO 44 266;ID=match$23_44_266;signature_desc=Glycosyltransferase like family 2;Name=PF13641;status=T

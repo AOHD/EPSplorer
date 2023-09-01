@@ -1,0 +1,42 @@
+##sequence-region amsA 1 726
+amsA	.	polypeptide	1	726	.	+	.	ID=amsA;md5=0e923be198dfd66bc7a0a28ac8731164
+amsA	Pfam	protein_match	367	447	4.3E-32	+	.	date=09-11-2022;Target=amsA 367 447;ID=match$1_367_447;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+amsA	Pfam	protein_match	18	107	8.7E-23	+	.	date=09-11-2022;Target=amsA 18 107;ID=match$2_18_107;signature_desc=Chain length determinant protein;Name=PF02706;status=T;Dbxref="InterPro:IPR003856"
+amsA	Pfam	protein_match	540	653	5.2E-9	+	.	date=09-11-2022;Target=amsA 540 653;ID=match$3_540_653;signature_desc=AAA domain;Name=PF13614;status=T;Dbxref="InterPro:IPR025669"
+##sequence-region amsJ 1 415
+amsJ	.	polypeptide	1	415	.	+	.	ID=amsJ;md5=b065f09c1496e097c4500235c2574da3
+amsJ	Pfam	protein_match	13	348	3.6E-35	+	.	date=09-11-2022;Target=amsJ 13 348;ID=match$4_13_348;signature_desc=Polysaccharide pyruvyl transferase;Name=PF04230;status=T;Dbxref="InterPro:IPR007345"
+##sequence-region amsE 1 266
+amsE	.	polypeptide	1	266	.	+	.	ID=amsE;md5=f54fd4e8c1497673baca56530c360680
+amsE	Pfam	protein_match	3	145	6.0E-25	+	.	date=09-11-2022;Target=amsE 3 145;ID=match$5_3_145;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region amsF 1 743
+amsF	.	polypeptide	1	743	.	+	.	ID=amsF;md5=13cc782ad617117b78f331905dde2865
+amsF	Pfam	protein_match	50	148	6.2E-15	+	.	date=09-11-2022;Target=amsF 50 148;ID=match$6_50_148;signature_desc=Head binding;Name=PF09008;status=T;Dbxref="InterPro:IPR009093"
+##sequence-region amsL 1 388
+amsL	.	polypeptide	1	388	.	+	.	ID=amsL;md5=04a14e57b7f7f7c9202999f53c4b92e8
+amsL	Pfam	protein_match	2	259	2.7E-46	+	.	date=09-11-2022;Target=amsL 2 259;ID=match$7_2_259;signature_desc=Polysaccharide biosynthesis protein;Name=PF13440;status=T
+##sequence-region amsC 1 375
+amsC	.	polypeptide	1	375	.	+	.	ID=amsC;md5=b0c1bcbef66070873771af27c85db298
+amsC	Pfam	protein_match	35	361	1.2E-30	+	.	date=09-11-2022;Target=amsC 35 361;ID=match$8_35_361;signature_desc=EpsG family;Name=PF14897;status=T
+##sequence-region amsG 1 477
+amsG	.	polypeptide	1	477	.	+	.	ID=amsG;md5=fc94e51c771627018317098c5d5c4bd4
+amsG	Pfam	protein_match	82	207	3.1E-9	+	.	date=09-11-2022;Target=amsG 82 207;ID=match$9_82_207;signature_desc=CoA-binding domain;Name=PF13727;status=T
+amsG	Pfam	protein_match	281	471	1.0E-63	+	.	date=09-11-2022;Target=amsG 281 471;ID=match$10_281_471;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+##sequence-region amsH 1 377
+amsH	.	polypeptide	1	377	.	+	.	ID=amsH;md5=21033e693003fb3cae57d5411121e656
+amsH	Pfam	protein_match	173	222	1.7E-6	+	.	date=09-11-2022;Target=amsH 173 222;ID=match$11_173_222;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+amsH	Pfam	protein_match	256	306	3.5E-4	+	.	date=09-11-2022;Target=amsH 256 306;ID=match$11_256_306;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+amsH	Pfam	protein_match	345	374	1.8E-14	+	.	date=09-11-2022;Target=amsH 345 374;ID=match$12_345_374;signature_desc=Outer-membrane lipoprotein Wza C-terminal domain;Name=PF18412;status=T;Dbxref="InterPro:IPR040716"
+amsH	Pfam	protein_match	81	165	3.2E-28	+	.	date=09-11-2022;Target=amsH 81 165;ID=match$13_81_165;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region amsD 1 351
+amsD	.	polypeptide	1	351	.	+	.	ID=amsD;md5=c487ff6b0faa6bd349454b2f52b984ae
+amsD	Pfam	protein_match	172	330	1.8E-31	+	.	date=09-11-2022;Target=amsD 172 330;ID=match$14_172_330;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region amsI 1 144
+amsI	.	polypeptide	1	144	.	+	.	ID=amsI;md5=8e98ed5e93776ff4cc267bad0390dbbd
+amsI	Pfam	protein_match	5	139	2.1E-39	+	.	date=09-11-2022;Target=amsI 5 139;ID=match$15_5_139;signature_desc=Low molecular weight phosphotyrosine protein phosphatase;Name=PF01451;status=T;Dbxref="InterPro:IPR023485"
+##sequence-region amsK 1 407
+amsK	.	polypeptide	1	407	.	+	.	ID=amsK;md5=860654e455572caa6698ecb74e3769d1
+amsK	Pfam	protein_match	223	372	1.3E-34	+	.	date=09-11-2022;Target=amsK 223 372;ID=match$16_223_372;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region amsB 1 301
+amsB	.	polypeptide	1	301	.	+	.	ID=amsB;md5=378a77f7f38627967f270334b5f8a76f
+amsB	Pfam	protein_match	7	114	2.2E-25	+	.	date=09-11-2022;Target=amsB 7 114;ID=match$17_7_114;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"

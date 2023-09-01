@@ -1,0 +1,52 @@
+##sequence-region bcsB 1 804
+bcsB	.	polypeptide	1	804	.	+	.	ID=bcsB;md5=2f1307a3d5f5da6b16787d1eaaea8f79
+bcsB	Pfam	protein_match	93	700	3.1E-169	+	.	date=12-02-2023;Target=bcsB 93 700;ID=match$1_93_700;signature_desc=Bacterial cellulose synthase subunit;Name=PF03170;status=T;Dbxref="InterPro:IPR018513"
+##sequence-region bcsZ 1 297
+bcsZ	.	polypeptide	1	297	.	+	.	ID=bcsZ;md5=2f82498083f89659955b956e04375cce
+bcsZ	Pfam	protein_match	1	292	7.3E-108	+	.	date=12-02-2023;Target=bcsZ 1 292;ID=match$2_1_292;signature_desc=Glycosyl hydrolases family 8;Name=PF01270;status=T;Dbxref="InterPro:IPR002037"
+##sequence-region bcsF 1 63
+bcsF	.	polypeptide	1	63	.	+	.	ID=bcsF;md5=2e6477a5828faa4bb31e32492e007a94
+bcsF	Pfam	protein_match	2	61	2.8E-31	+	.	date=12-02-2023;Target=bcsF 2 61;ID=match$3_2_61;signature_desc=Cellulose biosynthesis protein BcsF;Name=PF11120;status=T;Dbxref="InterPro:IPR019995"
+##sequence-region algI 1 471
+algI	.	polypeptide	1	471	.	+	.	ID=algI;md5=ed1943278dbe224fb3ad4248b1c6b188
+algI	Pfam	protein_match	149	348	3.5E-24	+	.	date=12-02-2023;Target=algI 149 348;ID=match$4_149_348;signature_desc=MBOAT, membrane-bound O-acyltransferase family;Name=PF03062;status=T;Dbxref="InterPro:IPR004299"
+##sequence-region bcsC 1 1325
+bcsC	.	polypeptide	1	1325	.	+	.	ID=bcsC;md5=892fe4564e3af0cb0226a9d0d2fe4221
+bcsC	Pfam	protein_match	932	1322	5.6E-74	+	.	date=12-02-2023;Target=bcsC 932 1322;ID=match$5_932_1322;signature_desc=Cellulose synthase operon protein C C-terminus (BCSC_C);Name=PF05420;status=T;Dbxref="InterPro:IPR008410"
+bcsC	Pfam	protein_match	427	472	2.8E-7	+	.	date=12-02-2023;Target=bcsC 427 472;ID=match$6_427_472;signature_desc=Tetratricopeptide repeat;Name=PF14559;status=T
+bcsC	Pfam	protein_match	493	538	1.9E-5	+	.	date=12-02-2023;Target=bcsC 493 538;ID=match$6_493_538;signature_desc=Tetratricopeptide repeat;Name=PF14559;status=T
+##sequence-region bcsD 1 156
+bcsD	.	polypeptide	1	156	.	+	.	ID=bcsD;md5=8c44d79b1de03ea519bcd4d820216b77
+bcsD	Pfam	protein_match	10	153	2.9E-93	+	.	date=12-02-2023;Target=bcsD 10 153;ID=match$7_10_153;signature_desc=Cellulose synthase subunit D;Name=PF03500;status=T;Dbxref="InterPro:IPR022798"
+##sequence-region bcsE 1 523
+bcsE	.	polypeptide	1	523	.	+	.	ID=bcsE;md5=e6e290341d850c93d35ca225f5dbd8b2
+bcsE	Pfam	protein_match	6	514	1.6E-217	+	.	date=12-02-2023;Target=bcsE 6 514;ID=match$8_6_514;signature_desc=Cellulose biosynthesis GIL;Name=PF10995;status=T;Dbxref="InterPro:IPR017745"
+##sequence-region bcsQ_I 1 340
+bcsQ_I	.	polypeptide	1	340	.	+	.	ID=bcsQ_I;md5=8938ab149a94a2304875f73a304eeb03
+bcsQ_I	Pfam	protein_match	94	332	3.8E-28	+	.	date=12-02-2023;Target=bcsQ_I 94 332;ID=match$9_94_332;signature_desc=Cellulose biosynthesis protein BcsQ;Name=PF06564;status=T;Dbxref="InterPro:IPR017746"
+##sequence-region bcsG 1 559
+bcsG	.	polypeptide	1	559	.	+	.	ID=bcsG;md5=3d8b03e439b3927ee39c8eee7feb29ea
+bcsG	Pfam	protein_match	24	554	3.8E-235	+	.	date=12-02-2023;Target=bcsG 24 554;ID=match$10_24_554;signature_desc=Cellulose biosynthesis protein BcsG;Name=PF11658;status=T;Dbxref="InterPro:IPR017744"
+##sequence-region bcsQ_II 1 311
+bcsQ_II	.	polypeptide	1	311	.	+	.	ID=bcsQ_II;md5=ecb5f12315b030d84e21f0bf44c2e52d
+bcsQ_II	Pfam	protein_match	63	300	1.3E-33	+	.	date=12-02-2023;Target=bcsQ_II 63 300;ID=match$11_63_300;signature_desc=Cellulose biosynthesis protein BcsQ;Name=PF06564;status=T;Dbxref="InterPro:IPR017746"
+##sequence-region bcsH 1 329
+bcsH	.	polypeptide	1	329	.	+	.	ID=bcsH;md5=aa3a88dbb5afc15ff2e533c42ad61caa
+bcsH	Pfam	protein_match	210	328	4.7E-64	+	.	date=12-02-2023;Target=bcsH 210 328;ID=match$12_210_328;signature_desc=Cellulose-complementing protein A;Name=PF17040;status=T;Dbxref="InterPro:IPR031480"
+##sequence-region bcsA 1 745
+bcsA	.	polypeptide	1	745	.	+	.	ID=bcsA;md5=93f1a368ceda792a0b97102e7fc547f3
+bcsA	Pfam	protein_match	324	462	1.4E-9	+	.	date=12-02-2023;Target=bcsA 324 462;ID=match$13_324_462;signature_desc=Cellulose synthase;Name=PF03552;status=T;Dbxref="InterPro:IPR005150"
+bcsA	Pfam	protein_match	152	323	1.1E-32	+	.	date=12-02-2023;Target=bcsA 152 323;ID=match$14_152_323;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+bcsA	Pfam	protein_match	572	669	1.4E-10	+	.	date=12-02-2023;Target=bcsA 572 669;ID=match$15_572_669;signature_desc=PilZ domain;Name=PF07238;status=T;Dbxref="InterPro:IPR009875"
+##sequence-region bcsR 1 62
+bcsR	.	polypeptide	1	62	.	+	.	ID=bcsR;md5=3182779ec3aa941370f3cd412da99001
+bcsR	Pfam	protein_match	18	59	3.0E-22	+	.	date=12-02-2023;Target=bcsR 18 59;ID=match$16_18_59;signature_desc=Cellulose biosynthesis protein BcsR;Name=PF10945;status=T;Dbxref="InterPro:IPR024487"
+##sequence-region bglX 1 204
+bglX	.	polypeptide	1	204	.	+	.	ID=bglX;md5=a24911c18e7976d04093166a3b8c867f
+bglX	Pfam	protein_match	110	199	4.2E-18	+	.	date=12-02-2023;Target=bglX 110 199;ID=match$17_110_199;signature_desc=Glycosyl hydrolase family 3 N terminal domain;Name=PF00933;status=T;Dbxref="InterPro:IPR001764"
+##sequence-region algX 1 374
+algX	.	polypeptide	1	374	.	+	.	ID=algX;md5=fe3a8fb2ad38bd8aa5861ee46c76c50c
+algX	Pfam	protein_match	98	360	4.7E-79	+	.	date=12-02-2023;Target=algX 98 360;ID=match$18_98_360;signature_desc=SGNH hydrolase-like domain, acetyltransferase AlgX;Name=PF16822;status=T;Dbxref="InterPro:IPR031811"
+##sequence-region algJ 1 200
+algJ	.	polypeptide	1	200	.	+	.	ID=algJ;md5=b093533cafef6ee7812b54ff35362cd0
+algJ	Pfam	protein_match	2	199	1.9E-25	+	.	date=12-02-2023;Target=algJ 2 199;ID=match$19_2_199;signature_desc=MBOAT, membrane-bound O-acyltransferase family;Name=PF03062;status=T;Dbxref="InterPro:IPR004299"

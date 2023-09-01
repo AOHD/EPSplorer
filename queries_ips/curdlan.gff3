@@ -1,0 +1,3 @@
+##sequence-region crdS 1 654
+crdS	.	polypeptide	1	654	.	+	.	ID=crdS;md5=c594657b042c4b489db28dd528ea0d55
+crdS	Pfam	protein_match	204	408	3.0E-24	+	.	date=09-11-2022;Target=crdS 204 408;ID=match$1_204_408;signature_desc=Glycosyl transferase family group 2;Name=PF13632;status=T;Dbxref="InterPro:IPR001173"

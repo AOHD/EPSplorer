@@ -1,0 +1,90 @@
+##sequence-region exoY 1 226
+exoY	.	polypeptide	1	226	.	+	.	ID=exoY;md5=2c4fdc289c8bf590ef5fce31b96559fc
+exoY	Pfam	protein_match	29	219	4.3E-61	+	.	date=06-03-2023;Target=exoY 29 219;ID=match$1_29_219;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+##sequence-region exoT 1 494
+exoT	.	polypeptide	1	494	.	+	.	ID=exoT;md5=254c70b6a9f6c124026fc82714d06db3
+exoT	Pfam	protein_match	11	277	2.1E-65	+	.	date=06-03-2023;Target=exoT 11 277;ID=match$2_11_277;signature_desc=Polysaccharide biosynthesis protein;Name=PF01943;status=T;Dbxref="InterPro:IPR002797"
+##sequence-region exsH 1 465
+exsH	.	polypeptide	1	465	.	+	.	ID=exsH;md5=7792ea727d400a8b5eef71b4112751ff
+exsH	Pfam	protein_match	105	139	3.0E-4	+	.	date=06-03-2023;Target=exsH 105 139;ID=match$3_105_139;signature_desc=RTX calcium-binding nonapeptide repeat (4 copies);Name=PF00353;status=T;Dbxref="InterPro:IPR001343"
+exsH	Pfam	protein_match	31	58	0.27	+	.	date=06-03-2023;Target=exsH 31 58;ID=match$3_31_58;signature_desc=RTX calcium-binding nonapeptide repeat (4 copies);Name=PF00353;status=T;Dbxref="InterPro:IPR001343"
+exsH	Pfam	protein_match	267	455	2.9E-33	+	.	date=06-03-2023;Target=exsH 267 455;ID=match$4_267_455;signature_desc=Glycosyl hydrolases family 16;Name=PF00722;status=T;Dbxref="InterPro:IPR000757"
+##sequence-region exsI 1 83
+exsI	.	polypeptide	1	83	.	+	.	ID=exsI;md5=3af4f7a2223f731b4737b872924feb59
+exsI	Pfam	protein_match	25	76	3.2E-10	+	.	date=06-03-2023;Target=exsI 25 76;ID=match$5_25_76;signature_desc=Helix-turn-helix;Name=PF01381;status=T;Dbxref="InterPro:IPR001387"
+##sequence-region exoF 1 421
+exoF	.	polypeptide	1	421	.	+	.	ID=exoF;md5=bc9e23eb9e93cf160e09ad2ed368f22f
+exoF	Pfam	protein_match	38	123	8.3E-14	+	.	date=06-03-2023;Target=exoF 38 123;ID=match$6_38_123;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region exsA 1 604
+exsA	.	polypeptide	1	604	.	+	.	ID=exsA;md5=d59653b556812922581987636f8b817f
+exsA	Pfam	protein_match	33	307	2.3E-18	+	.	date=06-03-2023;Target=exsA 33 307;ID=match$7_33_307;signature_desc=ABC transporter transmembrane region;Name=PF00664;status=T;Dbxref="InterPro:IPR011527"
+exsA	Pfam	protein_match	373	520	2.0E-31	+	.	date=06-03-2023;Target=exsA 373 520;ID=match$8_373_520;signature_desc=ABC transporter;Name=PF00005;status=T;Dbxref="InterPro:IPR003439"
+##sequence-region exoW 1 319
+exoW	.	polypeptide	1	319	.	+	.	ID=exoW;md5=7498caf9e5899b84030956418b17f31b
+exoW	Pfam	protein_match	5	184	7.5E-27	+	.	date=06-03-2023;Target=exoW 5 184;ID=match$9_5_184;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region exoA 1 330
+exoA	.	polypeptide	1	330	.	+	.	ID=exoA;md5=93cdb66482f1542ea53b6c3752f4cd92
+exoA	Pfam	protein_match	13	180	2.6E-28	+	.	date=06-03-2023;Target=exoA 13 180;ID=match$10_13_180;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region exoK 1 269
+exoK	.	polypeptide	1	269	.	+	.	ID=exoK;md5=c0b7acf9aba086c7802819cea7c92700
+exoK	Pfam	protein_match	61	231	1.9E-41	+	.	date=06-03-2023;Target=exoK 61 231;ID=match$11_61_231;signature_desc=Glycosyl hydrolases family 16;Name=PF00722;status=T;Dbxref="InterPro:IPR000757"
+##sequence-region exoX 1 98
+exoX	.	polypeptide	1	98	.	+	.	ID=exoX;md5=e9f0b28d034fd4a00082d285d678e6ac
+exoX	Pfam	protein_match	18	55	4.3E-17	+	.	date=06-03-2023;Target=exoX 18 55;ID=match$12_18_55;signature_desc=Exopolysaccharide production repressor;Name=PF11089;status=T;Dbxref="InterPro:IPR024239"
+##sequence-region exoU 1 342
+exoU	.	polypeptide	1	342	.	+	.	ID=exoU;md5=3bd65973d399bdabd93a2c3e7a9df6a3
+exoU	Pfam	protein_match	10	109	9.5E-25	+	.	date=06-03-2023;Target=exoU 10 109;ID=match$13_10_109;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region exsB 1 236
+exsB	.	polypeptide	1	236	.	+	.	ID=exsB;md5=f8b9ea2c7069f00186a4dcca06447bc6
+exsB	Pfam	protein_match	2	208	5.9E-55	+	.	date=06-03-2023;Target=exsB 2 208;ID=match$14_2_208;signature_desc=Queuosine biosynthesis protein QueC;Name=PF06508;status=T;Dbxref="InterPro:IPR018317"
+##sequence-region exoO 1 348
+exoO	.	polypeptide	1	348	.	+	.	ID=exoO;md5=8f632df13ca1c8340e025f3acbcbdae1
+exoO	Pfam	protein_match	14	177	1.0E-36	+	.	date=06-03-2023;Target=exoO 14 177;ID=match$15_14_177;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region exoN 1 301
+exoN	.	polypeptide	1	301	.	+	.	ID=exoN;md5=eec1bf95c164c70c458f237c39f24321
+exoN	Pfam	protein_match	9	269	1.7E-21	+	.	date=06-03-2023;Target=exoN 9 269;ID=match$16_9_269;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region exsG 1 907
+exsG	.	polypeptide	1	907	.	+	.	ID=exsG;md5=e4e9ddba0ebe8783583119a799a0c707
+exsG	Pfam	protein_match	150	259	3.0E-21	+	.	date=06-03-2023;Target=exsG 150 259;ID=match$17_150_259;signature_desc=PAS fold;Name=PF00989;status=T;Dbxref="InterPro:IPR013767"
+exsG	Pfam	protein_match	290	426	9.2E-12	+	.	date=06-03-2023;Target=exsG 290 426;ID=match$18_290_426;signature_desc=GAF domain;Name=PF13185;status=T;Dbxref="InterPro:IPR003018"
+exsG	Pfam	protein_match	612	697	7.5E-12	+	.	date=06-03-2023;Target=exsG 612 697;ID=match$19_612_697;signature_desc=PAS fold;Name=PF08447;status=T;Dbxref="InterPro:IPR013655"
+exsG	Pfam	protein_match	460	579	6.4E-11	+	.	date=06-03-2023;Target=exsG 460 579;ID=match$20_460_579;signature_desc=PAS fold;Name=PF08448;status=T;Dbxref="InterPro:IPR013656"
+exsG	Pfam	protein_match	37	138	7.6E-8	+	.	date=06-03-2023;Target=exsG 37 138;ID=match$21_37_138;signature_desc=PAS domain;Name=PF13426;status=T;Dbxref="InterPro:IPR000014"
+exsG	Pfam	protein_match	717	798	2.0E-25	+	.	date=06-03-2023;Target=exsG 717 798;ID=match$22_717_798;signature_desc=HWE histidine kinase;Name=PF07536;status=T;Dbxref="InterPro:IPR011102"
+##sequence-region exoZ 1 317
+exoZ	.	polypeptide	1	317	.	+	.	ID=exoZ;md5=cf1a208a6d835444e6fda4bdf19229d6
+exoZ	Pfam	protein_match	13	286	1.9E-15	+	.	date=06-03-2023;Target=exoZ 13 286;ID=match$23_13_286;signature_desc=Acyltransferase family;Name=PF01757;status=T;Dbxref="InterPro:IPR002656"
+##sequence-region exoP 1 786
+exoP	.	polypeptide	1	786	.	+	.	ID=exoP;md5=97d5b71b49f4b98583827e8337217ec7
+exoP	Pfam	protein_match	578	756	6.5E-9	+	.	date=06-03-2023;Target=exoP 578 756;ID=match$24_578_756;signature_desc=CobQ/CobB/MinD/ParA nucleotide binding domain;Name=PF01656;status=T;Dbxref="InterPro:IPR002586"
+exoP	Pfam	protein_match	409	479	1.1E-8	+	.	date=06-03-2023;Target=exoP 409 479;ID=match$25_409_479;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+exoP	Pfam	protein_match	28	118	1.2E-17	+	.	date=06-03-2023;Target=exoP 28 118;ID=match$26_28_118;signature_desc=Chain length determinant protein;Name=PF02706;status=T;Dbxref="InterPro:IPR003856"
+##sequence-region exoM 1 309
+exoM	.	polypeptide	1	309	.	+	.	ID=exoM;md5=0a0df45308ab1b3d187f3f494374f363
+exoM	Pfam	protein_match	10	169	2.5E-24	+	.	date=06-03-2023;Target=exoM 10 169;ID=match$27_10_169;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region exsC 1 119
+exsC	.	polypeptide	1	119	.	+	.	ID=exsC;md5=26246fd7b53f14a78e2f4690fad0202f
+exsC	Pfam	protein_match	4	118	3.6E-32	+	.	date=06-03-2023;Target=exsC 4 118;ID=match$28_4_118;signature_desc=6-pyruvoyl tetrahydropterin synthase;Name=PF01242;status=T;Dbxref="InterPro:IPR007115"
+##sequence-region exoV 1 316
+exoV	.	polypeptide	1	316	.	+	.	ID=exoV;md5=edc7889045a717428f2b1bc750b1154a
+exoV	Pfam	protein_match	141	191	1.7E-7	+	.	date=06-03-2023;Target=exoV 141 191;ID=match$29_141_191;signature_desc=Polysaccharide pyruvyl transferase;Name=PF04230;status=T;Dbxref="InterPro:IPR007345"
+##sequence-region exsF 1 178
+exsF	.	polypeptide	1	178	.	+	.	ID=exsF;md5=d70f39bc5a76161e11f4f0a669a00190
+exsF	Pfam	protein_match	9	110	3.7E-7	+	.	date=06-03-2023;Target=exsF 9 110;ID=match$30_9_110;signature_desc=Response regulator receiver domain;Name=PF00072;status=T;Dbxref="InterPro:IPR001789"
+##sequence-region exsD 1 245
+exsD	.	polypeptide	1	245	.	+	.	ID=exsD;md5=d2f110ff839a8c58b86cd9279fe97b59
+exsD	Pfam	protein_match	33	124	2.2E-8	+	.	date=06-03-2023;Target=exsD 33 124;ID=match$31_33_124;signature_desc=Radical SAM superfamily;Name=PF04055;status=T;Dbxref="InterPro:IPR007197"
+exsD	Pfam	protein_match	31	117	5.2E-8	+	.	date=06-03-2023;Target=exsD 31 117;ID=match$32_31_117;signature_desc=4Fe-4S single cluster domain;Name=PF13394;status=T
+##sequence-region exoI 1 191
+exoI	.	polypeptide	1	191	.	+	.	ID=exoI;md5=2c0a47213addf5ce1d2c55977dbfdfa6
+exoI	Pfam	protein_match	66	171	2.3E-9	+	.	date=06-03-2023;Target=exoI 66 171;ID=match$33_66_171;signature_desc=Staphylococcal nuclease homologue;Name=PF00565;status=T;Dbxref="InterPro:IPR016071"
+##sequence-region exoB 1 328
+exoB	.	polypeptide	1	328	.	+	.	ID=exoB;md5=5f7bbf775fcad3da52b03b52b6603762
+exoB	Pfam	protein_match	7	314	1.8E-55	+	.	date=06-03-2023;Target=exoB 7 314;ID=match$34_7_314;signature_desc=GDP-mannose 4,6 dehydratase;Name=PF16363;status=T;Dbxref="InterPro:IPR016040"
+##sequence-region exoH 1 370
+exoH	.	polypeptide	1	370	.	+	.	ID=exoH;md5=cb807eefa940caafdced2283c77c278c
+exoH	Pfam	protein_match	8	322	7.6E-21	+	.	date=06-03-2023;Target=exoH 8 322;ID=match$35_8_322;signature_desc=Acyltransferase family;Name=PF01757;status=T;Dbxref="InterPro:IPR002656"
+##sequence-region exsE 1 606
+exsE	.	polypeptide	1	606	.	+	.	ID=exsE;md5=02b611159429d16a3f78dd5633d5e8d1
+exsE	Pfam	protein_match	36	312	1.0E-33	+	.	date=06-03-2023;Target=exsE 36 312;ID=match$36_36_312;signature_desc=ABC transporter transmembrane region 2;Name=PF06472;status=T;Dbxref="InterPro:IPR011527"
+exsE	Pfam	protein_match	405	534	5.8E-8	+	.	date=06-03-2023;Target=exsE 405 534;ID=match$37_405_534;signature_desc=ABC transporter;Name=PF00005;status=T;Dbxref="InterPro:IPR003439"

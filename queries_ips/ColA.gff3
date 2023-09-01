@@ -1,0 +1,66 @@
+##sequence-region wcaH 1 160
+wcaH	.	polypeptide	1	160	.	+	.	ID=wcaH;md5=d83bfeb765309202848194a2083e6632
+wcaH	Pfam	protein_match	23	143	1.9E-18	+	.	date=09-11-2022;Target=wcaH 23 143;ID=match$1_23_143;signature_desc=NUDIX domain;Name=PF00293;status=T;Dbxref="InterPro:IPR000086"
+##sequence-region wzb 1 147
+wzb	.	polypeptide	1	147	.	+	.	ID=wzb;md5=44e6c4215aea61e17ba2111cbe576c39
+wzb	Pfam	protein_match	5	139	3.2E-47	+	.	date=09-11-2022;Target=wzb 5 139;ID=match$2_5_139;signature_desc=Low molecular weight phosphotyrosine protein phosphatase;Name=PF01451;status=T;Dbxref="InterPro:IPR023485"
+##sequence-region wcaC 1 405
+wcaC	.	polypeptide	1	405	.	+	.	ID=wcaC;md5=7a4df4e0bb57ac4c764d6953ef84798b
+wcaC	Pfam	protein_match	13	223	3.3E-10	+	.	date=09-11-2022;Target=wcaC 13 223;ID=match$3_13_223;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+wcaC	Pfam	protein_match	292	348	1.2E-6	+	.	date=09-11-2022;Target=wcaC 292 348;ID=match$4_292_348;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region wcaF 1 182
+wcaF	.	polypeptide	1	182	.	+	.	ID=wcaF;md5=327164c4cfad76bbedcc428c521075aa
+wcaF	Pfam	protein_match	125	157	6.1E-7	+	.	date=09-11-2022;Target=wcaF 125 157;ID=match$5_125_157;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+##sequence-region wcaJ 1 464
+wcaJ	.	polypeptide	1	464	.	+	.	ID=wcaJ;md5=87a483812193142d305fa5bd98797dfc
+wcaJ	Pfam	protein_match	274	456	4.6E-65	+	.	date=09-11-2022;Target=wcaJ 274 456;ID=match$6_274_456;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+wcaJ	Pfam	protein_match	65	238	7.8E-40	+	.	date=09-11-2022;Target=wcaJ 65 238;ID=match$7_65_238;signature_desc=CoA-binding domain;Name=PF13727;status=T
+##sequence-region wcaE 1 248
+wcaE	.	polypeptide	1	248	.	+	.	ID=wcaE;md5=c815d343b6a9233a5612ac430919ea89
+wcaE	Pfam	protein_match	4	98	9.5E-12	+	.	date=09-11-2022;Target=wcaE 4 98;ID=match$8_4_98;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region wcaL 1 406
+wcaL	.	polypeptide	1	406	.	+	.	ID=wcaL;md5=ca40f633ea0baf05b3dd724a86ac38cb
+wcaL	Pfam	protein_match	15	210	3.1E-7	+	.	date=09-11-2022;Target=wcaL 15 210;ID=match$9_15_210;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+wcaL	Pfam	protein_match	217	371	3.3E-39	+	.	date=09-11-2022;Target=wcaL 217 371;ID=match$10_217_371;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region manC 1 478
+manC	.	polypeptide	1	478	.	+	.	ID=manC;md5=1f9517d7a088bd3404f2ee5ec064a857
+manC	Pfam	protein_match	323	473	6.7E-75	+	.	date=09-11-2022;Target=manC 323 473;ID=match$11_323_473;signature_desc=Mannose-6-phosphate isomerase;Name=PF01050;status=T;Dbxref="InterPro:IPR001538"
+manC	Pfam	protein_match	8	295	7.1E-80	+	.	date=09-11-2022;Target=manC 8 295;ID=match$12_8_295;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region wcaB 1 162
+wcaB	.	polypeptide	1	162	.	+	.	ID=wcaB;md5=8ca874c561ea416a208dae5f798cfc0c
+wcaB	Pfam	protein_match	110	141	8.9E-8	+	.	date=09-11-2022;Target=wcaB 110 141;ID=match$13_110_141;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+##sequence-region wzc 1 720
+wzc	.	polypeptide	1	720	.	+	.	ID=wzc;md5=df67e97517ba2f8418d35b8c0e6906a8
+wzc	Pfam	protein_match	367	447	4.5E-30	+	.	date=09-11-2022;Target=wzc 367 447;ID=match$14_367_447;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+wzc	Pfam	protein_match	16	107	4.7E-22	+	.	date=09-11-2022;Target=wzc 16 107;ID=match$15_16_107;signature_desc=Chain length determinant protein;Name=PF02706;status=T;Dbxref="InterPro:IPR003856"
+wzc	Pfam	protein_match	538	653	1.5E-12	+	.	date=09-11-2022;Target=wzc 538 653;ID=match$16_538_653;signature_desc=AAA domain;Name=PF13614;status=T;Dbxref="InterPro:IPR025669"
+##sequence-region gmd 1 373
+gmd	.	polypeptide	1	373	.	+	.	ID=gmd;md5=d6a0ba6bed90c6f7d54a08c3fbbcd213
+gmd	Pfam	protein_match	6	346	3.5E-162	+	.	date=09-11-2022;Target=gmd 6 346;ID=match$17_6_346;signature_desc=GDP-mannose 4,6 dehydratase;Name=PF16363;status=T;Dbxref="InterPro:IPR016040"
+##sequence-region manB 1 456
+manB	.	polypeptide	1	456	.	+	.	ID=manB;md5=c6af55d39b703ee1f45e811904b5b0c8
+manB	Pfam	protein_match	154	258	5.4E-22	+	.	date=09-11-2022;Target=manB 154 258;ID=match$18_154_258;signature_desc=Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain II;Name=PF02879;status=T;Dbxref="InterPro:IPR005845"
+manB	Pfam	protein_match	378	445	5.6E-9	+	.	date=09-11-2022;Target=manB 378 445;ID=match$19_378_445;signature_desc=Phosphoglucomutase/phosphomannomutase, C-terminal domain;Name=PF00408;status=T;Dbxref="InterPro:IPR005843"
+manB	Pfam	protein_match	263	372	1.6E-25	+	.	date=09-11-2022;Target=manB 263 372;ID=match$20_263_372;signature_desc=Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain III;Name=PF02880;status=T;Dbxref="InterPro:IPR005846"
+manB	Pfam	protein_match	7	131	6.9E-32	+	.	date=09-11-2022;Target=manB 7 131;ID=match$21_7_131;signature_desc=Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain I;Name=PF02878;status=T;Dbxref="InterPro:IPR005844"
+##sequence-region wcaG 1 321
+wcaG	.	polypeptide	1	321	.	+	.	ID=wcaG;md5=b7975cfade6dcf1645756bd65514fd5c
+wcaG	Pfam	protein_match	6	228	5.1E-73	+	.	date=09-11-2022;Target=wcaG 6 228;ID=match$22_6_228;signature_desc=NAD dependent epimerase/dehydratase family;Name=PF01370;status=T;Dbxref="InterPro:IPR001509"
+##sequence-region wza 1 289
+wza	.	polypeptide	1	289	.	+	.	ID=wza;md5=c1364787b61abe37630a0bf71d092609
+wza	Pfam	protein_match	83	130	3.1E-7	+	.	date=09-11-2022;Target=wza 83 130;ID=match$23_83_130;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+wza	Pfam	protein_match	257	286	3.0E-16	+	.	date=09-11-2022;Target=wza 257 286;ID=match$24_257_286;signature_desc=Outer-membrane lipoprotein Wza C-terminal domain;Name=PF18412;status=T;Dbxref="InterPro:IPR040716"
+wza	Pfam	protein_match	1	75	1.1E-19	+	.	date=09-11-2022;Target=wza 1 75;ID=match$25_1_75;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region wcaK 1 426
+wcaK	.	polypeptide	1	426	.	+	.	ID=wcaK;md5=295b61d186ac868ef7cdd871cc64b4ba
+wcaK	Pfam	protein_match	13	356	4.7E-40	+	.	date=09-11-2022;Target=wcaK 13 356;ID=match$26_13_356;signature_desc=Polysaccharide pyruvyl transferase;Name=PF04230;status=T;Dbxref="InterPro:IPR007345"
+##sequence-region wcaA 1 279
+wcaA	.	polypeptide	1	279	.	+	.	ID=wcaA;md5=168bb631a463470e53944fa8b3e1b28d
+wcaA	Pfam	protein_match	8	154	9.3E-29	+	.	date=09-11-2022;Target=wcaA 8 154;ID=match$27_8_154;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region wcaI 1 407
+wcaI	.	polypeptide	1	407	.	+	.	ID=wcaI;md5=4eccba8c99c086fd6c9d0f394a967fae
+wcaI	Pfam	protein_match	15	204	2.2E-28	+	.	date=09-11-2022;Target=wcaI 15 204;ID=match$28_15_204;signature_desc=Glycosyl transferase 4-like domain;Name=PF13579;status=T;Dbxref="InterPro:IPR028098"
+wcaI	Pfam	protein_match	219	389	3.5E-22	+	.	date=09-11-2022;Target=wcaI 219 389;ID=match$29_219_389;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region wzx 1 492
+wzx	.	polypeptide	1	492	.	+	.	ID=wzx;md5=ffa31721c3190d3a7b58a748d24ff227
+wzx	Pfam	protein_match	31	325	1.9E-68	+	.	date=09-11-2022;Target=wzx 31 325;ID=match$30_31_325;signature_desc=Polysaccharide biosynthesis protein;Name=PF13440;status=T

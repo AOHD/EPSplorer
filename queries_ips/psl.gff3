@@ -1,0 +1,37 @@
+##sequence-region pslB 1 488
+pslB	.	polypeptide	1	488	.	+	.	ID=pslB;md5=9fe3ebfdbf963babbf695906caa3630d
+pslB	Pfam	protein_match	325	475	1.2E-63	+	.	date=09-11-2022;Target=pslB 325 475;ID=match$1_325_475;signature_desc=Mannose-6-phosphate isomerase;Name=PF01050;status=T;Dbxref="InterPro:IPR001538"
+pslB	Pfam	protein_match	9	296	3.1E-59	+	.	date=09-11-2022;Target=pslB 9 296;ID=match$2_9_296;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region pslH 1 402
+pslH	.	polypeptide	1	402	.	+	.	ID=pslH;md5=5ebd14616e04f9b339238945950214d3
+pslH	Pfam	protein_match	16	206	9.0E-25	+	.	date=09-11-2022;Target=pslH 16 206;ID=match$3_16_206;signature_desc=Glycosyl transferase 4-like domain;Name=PF13579;status=T;Dbxref="InterPro:IPR028098"
+pslH	Pfam	protein_match	222	359	2.7E-20	+	.	date=09-11-2022;Target=pslH 222 359;ID=match$4_222_359;signature_desc=Glycosyl transferases group 1;Name=PF13692;status=T
+##sequence-region pslG 1 442
+pslG	.	polypeptide	1	442	.	+	.	ID=pslG;md5=b733c98c8046adce8dfafe213db4040e
+pslG	Pfam	protein_match	48	285	1.4E-5	+	.	date=09-11-2022;Target=pslG 48 285;ID=match$5_48_285;signature_desc=Cellulase (glycosyl hydrolase family 5);Name=PF00150;status=T;Dbxref="InterPro:IPR001547"
+##sequence-region pslK 1 469
+pslK	.	polypeptide	1	469	.	+	.	ID=pslK;md5=9d66723755a8a54ec89b5dd52db5fdaf
+pslK	Pfam	protein_match	30	442	1.5E-41	+	.	date=09-11-2022;Target=pslK 30 442;ID=match$6_30_442;signature_desc=Lipid II flippase MurJ;Name=PF03023;status=T;Dbxref="InterPro:IPR004268"
+##sequence-region pslF 1 395
+pslF	.	polypeptide	1	395	.	+	.	ID=pslF;md5=acd0a3c7ab7db92717ef6144212c3261
+pslF	Pfam	protein_match	192	365	1.0E-14	+	.	date=09-11-2022;Target=pslF 192 365;ID=match$7_192_365;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region pslD 1 256
+pslD	.	polypeptide	1	256	.	+	.	ID=pslD;md5=c726372d37a93bcedc09de8f421ef076
+pslD	Pfam	protein_match	49	129	6.3E-14	+	.	date=09-11-2022;Target=pslD 49 129;ID=match$8_49_129;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region pslL 1 355
+pslL	.	polypeptide	1	355	.	+	.	ID=pslL;md5=9ed0cbac17f30ca846385dadb252c69f
+pslL	Pfam	protein_match	7	322	4.8E-26	+	.	date=09-11-2022;Target=pslL 7 322;ID=match$9_7_322;signature_desc=Acyltransferase family;Name=PF01757;status=T;Dbxref="InterPro:IPR002656"
+##sequence-region pslE 1 662
+pslE	.	polypeptide	1	662	.	+	.	ID=pslE;md5=b7a2b252abff2783c968bd84b096995f
+pslE	Pfam	protein_match	403	479	1.8E-6	+	.	date=09-11-2022;Target=pslE 403 479;ID=match$10_403_479;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+##sequence-region pslA 1 478
+pslA	.	polypeptide	1	478	.	+	.	ID=pslA;md5=6abafe36a7138d962bdf7a8061468f66
+pslA	Pfam	protein_match	284	472	1.4E-67	+	.	date=09-11-2022;Target=pslA 284 472;ID=match$11_284_472;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+pslA	Pfam	protein_match	70	248	1.1E-27	+	.	date=09-11-2022;Target=pslA 70 248;ID=match$12_70_248;signature_desc=CoA-binding domain;Name=PF13727;status=T
+##sequence-region pslI 1 367
+pslI	.	polypeptide	1	367	.	+	.	ID=pslI;md5=82ae42ac854cfe8ec7f6797e7924fbdf
+pslI	Pfam	protein_match	17	183	1.6E-9	+	.	date=09-11-2022;Target=pslI 17 183;ID=match$13_17_183;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+pslI	Pfam	protein_match	204	308	3.2E-10	+	.	date=09-11-2022;Target=pslI 204 308;ID=match$14_204_308;signature_desc=Glycosyl transferases group 1;Name=PF13692;status=T
+##sequence-region pslC 1 303
+pslC	.	polypeptide	1	303	.	+	.	ID=pslC;md5=8255cf97ab245654890895af6e9eb291
+pslC	Pfam	protein_match	3	220	1.1E-13	+	.	date=09-11-2022;Target=pslC 3 220;ID=match$15_3_220;signature_desc=Glycosyltransferase like family 2;Name=PF13641;status=T

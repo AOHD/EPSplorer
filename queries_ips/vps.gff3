@@ -1,0 +1,51 @@
+##sequence-region vpsC 1 184
+vpsC	.	polypeptide	1	184	.	+	.	ID=vpsC;md5=2a3295160b233b4dc382c50adc0a0521
+vpsC	Pfam	protein_match	115	148	1.8E-7	+	.	date=09-11-2022;Target=vpsC 115 148;ID=match$1_115_148;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+##sequence-region vpsM 1 398
+vpsM	.	polypeptide	1	398	.	+	.	ID=vpsM;md5=a00322f005a167225f3ac618e4ea720b
+vpsM	Pfam	protein_match	42	395	1.3E-29	+	.	date=09-11-2022;Target=vpsM 42 395;ID=match$2_42_395;signature_desc=Putative beta-barrel porin 2;Name=PF10082;status=T;Dbxref="InterPro:IPR018759"
+##sequence-region vpsU 1 166
+vpsU	.	polypeptide	1	166	.	+	.	ID=vpsU;md5=145eed5c8451431db185ef7aaa1dc8c4
+vpsU	Pfam	protein_match	8	148	6.4E-27	+	.	date=09-11-2022;Target=vpsU 8 148;ID=match$3_8_148;signature_desc=Low molecular weight phosphotyrosine protein phosphatase;Name=PF01451;status=T;Dbxref="InterPro:IPR023485"
+##sequence-region vpsL 1 465
+vpsL	.	polypeptide	1	465	.	+	.	ID=vpsL;md5=66578b1311254d181a687c1a479c61ec
+vpsL	Pfam	protein_match	63	239	4.9E-48	+	.	date=09-11-2022;Target=vpsL 63 239;ID=match$4_63_239;signature_desc=CoA-binding domain;Name=PF13727;status=T
+vpsL	Pfam	protein_match	275	457	4.6E-65	+	.	date=09-11-2022;Target=vpsL 275 457;ID=match$5_275_457;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+##sequence-region vpsD 1 382
+vpsD	.	polypeptide	1	382	.	+	.	ID=vpsD;md5=1cf85d23acc73f31de53ec83ff6e159a
+vpsD	Pfam	protein_match	197	348	1.2E-24	+	.	date=09-11-2022;Target=vpsD 197 348;ID=match$6_197_348;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+vpsD	Pfam	protein_match	21	189	3.7E-11	+	.	date=09-11-2022;Target=vpsD 21 189;ID=match$7_21_189;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+##sequence-region vpsQ 1 144
+vpsQ	.	polypeptide	1	144	.	+	.	ID=vpsQ;md5=e9d4ca6b2a9967f7470c11907fd90675
+vpsQ	Pfam	protein_match	62	129	4.9E-7	+	.	date=09-11-2022;Target=vpsQ 62 129;ID=match$8_62_129;signature_desc=VanZ like family;Name=PF04892;status=T;Dbxref="InterPro:IPR006976"
+##sequence-region vpsG 1 143
+vpsG	.	polypeptide	1	143	.	+	.	ID=vpsG;md5=f02e2620400cbd96a77062c146523398
+vpsG	Pfam	protein_match	53	74	2.2E-4	+	.	date=09-11-2022;Target=vpsG 53 74;ID=match$9_53_74;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+vpsG	Pfam	protein_match	83	115	1.1E-7	+	.	date=09-11-2022;Target=vpsG 83 115;ID=match$9_83_115;signature_desc=Bacterial transferase hexapeptide (six repeats);Name=PF00132;status=T;Dbxref="InterPro:IPR001451"
+##sequence-region vpsK 1 250
+vpsK	.	polypeptide	1	250	.	+	.	ID=vpsK;md5=c94f20923be5fe13a85222db7fa46bad
+vpsK	Pfam	protein_match	65	230	2.2E-61	+	.	date=09-11-2022;Target=vpsK 65 230;ID=match$10_65_230;signature_desc=Glycosyl transferase WecB/TagA/CpsF family;Name=PF03808;status=T;Dbxref="InterPro:IPR004629"
+##sequence-region vpsI 1 358
+vpsI	.	polypeptide	1	358	.	+	.	ID=vpsI;md5=0f273015a7c1e514423ff2b8e77f18a2
+vpsI	Pfam	protein_match	181	333	1.2E-36	+	.	date=09-11-2022;Target=vpsI 181 333;ID=match$11_181_333;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region vpsN 1 175
+vpsN	.	polypeptide	1	175	.	+	.	ID=vpsN;md5=709d1e218650f90d34a655d92b364b55
+vpsN	Pfam	protein_match	102	143	1.2E-9	+	.	date=09-11-2022;Target=vpsN 102 143;ID=match$12_102_143;signature_desc=SLBB domain;Name=PF10531;status=T;Dbxref="InterPro:IPR019554"
+vpsN	Pfam	protein_match	22	96	3.2E-21	+	.	date=09-11-2022;Target=vpsN 22 96;ID=match$13_22_96;signature_desc=Polysaccharide biosynthesis/export protein;Name=PF02563;status=T;Dbxref="InterPro:IPR003715"
+##sequence-region vpsE 1 469
+vpsE	.	polypeptide	1	469	.	+	.	ID=vpsE;md5=baad97c59dc53a4523536b9f8f1e51f0
+vpsE	Pfam	protein_match	27	310	8.1E-24	+	.	date=09-11-2022;Target=vpsE 27 310;ID=match$14_27_310;signature_desc=Polysaccharide biosynthesis protein;Name=PF13440;status=T
+vpsE	Pfam	protein_match	317	454	2.2E-8	+	.	date=09-11-2022;Target=vpsE 317 454;ID=match$15_317_454;signature_desc=Polysaccharide biosynthesis C-terminal domain;Name=PF14667;status=T;Dbxref="InterPro:IPR029303"
+##sequence-region vpsO 1 737
+vpsO	.	polypeptide	1	737	.	+	.	ID=vpsO;md5=7497f5cd92dc0cd46eb3aad7e0b02ff9
+vpsO	Pfam	protein_match	548	684	2.9E-12	+	.	date=09-11-2022;Target=vpsO 548 684;ID=match$16_548_684;signature_desc=AAA domain;Name=PF13614;status=T;Dbxref="InterPro:IPR025669"
+vpsO	Pfam	protein_match	397	468	4.3E-10	+	.	date=09-11-2022;Target=vpsO 397 468;ID=match$17_397_468;signature_desc=G-rich domain on putative tyrosine kinase;Name=PF13807;status=T;Dbxref="InterPro:IPR032807"
+vpsO	Pfam	protein_match	12	101	7.7E-11	+	.	date=09-11-2022;Target=vpsO 12 101;ID=match$18_12_101;signature_desc=Chain length determinant protein;Name=PF02706;status=T;Dbxref="InterPro:IPR003856"
+##sequence-region vpsB 1 413
+vpsB	.	polypeptide	1	413	.	+	.	ID=vpsB;md5=1b8d6c8ab9d46fd1754a462542ca7ffd
+vpsB	Pfam	protein_match	316	412	2.0E-21	+	.	date=09-11-2022;Target=vpsB 316 412;ID=match$19_316_412;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain;Name=PF03720;status=T;Dbxref="InterPro:IPR014027"
+vpsB	Pfam	protein_match	4	189	5.5E-59	+	.	date=09-11-2022;Target=vpsB 4 189;ID=match$20_4_189;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain;Name=PF03721;status=T;Dbxref="InterPro:IPR001732"
+vpsB	Pfam	protein_match	206	293	8.7E-27	+	.	date=09-11-2022;Target=vpsB 206 293;ID=match$21_206_293;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, central domain;Name=PF00984;status=T;Dbxref="InterPro:IPR014026"
+##sequence-region vpsA 1 372
+vpsA	.	polypeptide	1	372	.	+	.	ID=vpsA;md5=6b5181075710f7a2a1b1fdfa742da04e
+vpsA	Pfam	protein_match	23	370	8.6E-123	+	.	date=09-11-2022;Target=vpsA 23 370;ID=match$22_23_370;signature_desc=UDP-N-acetylglucosamine 2-epimerase;Name=PF02350;status=T;Dbxref="InterPro:IPR003331"

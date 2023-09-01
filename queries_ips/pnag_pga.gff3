@@ -1,0 +1,10 @@
+##sequence-region pgaB 1 672
+pgaB	.	polypeptide	1	672	.	+	.	ID=pgaB;md5=107030cbb72fb262decf0411880b083f
+pgaB	Pfam	protein_match	102	270	1.6E-30	+	.	date=09-11-2022;Target=pgaB 102 270;ID=match$1_102_270;signature_desc=Polysaccharide deacetylase;Name=PF01522;status=T;Dbxref="InterPro:IPR002509"
+pgaB	Pfam	protein_match	318	645	2.5E-144	+	.	date=09-11-2022;Target=pgaB 318 645;ID=match$2_318_645;signature_desc=Hypothetical glycosyl hydrolase family 13;Name=PF14883;status=T;Dbxref="InterPro:IPR032772"
+##sequence-region pgaC 1 441
+pgaC	.	polypeptide	1	441	.	+	.	ID=pgaC;md5=904b57c2698f1a062f240a0717ad169d
+pgaC	Pfam	protein_match	78	245	2.0E-38	+	.	date=09-11-2022;Target=pgaC 78 245;ID=match$3_78_245;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region pgaD 1 137
+pgaD	.	polypeptide	1	137	.	+	.	ID=pgaD;md5=c3167972b4a42808c1f27d2cad0ddb1d
+pgaD	Pfam	protein_match	4	125	3.0E-16	+	.	date=09-11-2022;Target=pgaD 4 125;ID=match$4_4_125;signature_desc=PgaD-like protein;Name=PF13994;status=T;Dbxref="InterPro:IPR023829"

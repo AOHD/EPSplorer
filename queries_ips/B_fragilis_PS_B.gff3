@@ -1,0 +1,85 @@
+##sequence-region upbY 1 174
+upbY	.	polypeptide	1	174	.	+	.	ID=upbY;md5=a99f99b0453ed70e79c9d63b2aa15410
+upbY	Pfam	protein_match	6	104	1.2E-6	+	.	date=31-03-2023;Target=upbY 6 104;ID=match$1_6_104;signature_desc=Transcription termination factor nusG;Name=PF02357;status=T;Dbxref="InterPro:IPR006645"
+##sequence-region AAG26483.1 1 157
+AAG26483.1	.	polypeptide	1	157	.	+	.	ID=AAG26483.1;md5=3480a118f281c32c7d44578aec792ef2
+AAG26483.1	Pfam	protein_match	1	114	3.5E-16	+	.	date=31-03-2023;Target=AAG26483.1 1 114;ID=match$2_1_114;signature_desc=HU domain fused to wHTH, Ig, or Glycine-rich motif;Name=PF18291;status=T;Dbxref="InterPro:IPR041607"
+##sequence-region aepX 1 433
+aepX	.	polypeptide	1	433	.	+	.	ID=aepX;md5=9bc04614d36a492809ec24045c25d749
+aepX	Pfam	protein_match	149	407	2.2E-64	+	.	date=31-03-2023;Target=aepX 149 407;ID=match$3_149_407;signature_desc=Phosphoenolpyruvate phosphomutase;Name=PF13714;status=T
+aepX	Pfam	protein_match	10	97	4.5E-10	+	.	date=31-03-2023;Target=aepX 10 97;ID=match$4_10_97;signature_desc=Cytidylyltransferase-like;Name=PF01467;status=T;Dbxref="InterPro:IPR004821"
+##sequence-region wcgX 1 316
+wcgX	.	polypeptide	1	316	.	+	.	ID=wcgX;md5=27c73be2e8dc7268ae5fd3747dc5db90
+wcgX	Pfam	protein_match	66	203	6.6E-20	+	.	date=31-03-2023;Target=wcgX 66 203;ID=match$5_66_203;signature_desc=Glycosyl transferase family 4;Name=PF00953;status=T;Dbxref="InterPro:IPR000715"
+##sequence-region aepY 1 378
+aepY	.	polypeptide	1	378	.	+	.	ID=aepY;md5=a9c005960e7e0de49f683aa0581c808c
+aepY	Pfam	protein_match	7	169	1.2E-20	+	.	date=31-03-2023;Target=aepY 7 169;ID=match$6_7_169;signature_desc=Thiamine pyrophosphate enzyme, N-terminal TPP binding domain;Name=PF02776;status=T;Dbxref="InterPro:IPR012001"
+aepY	Pfam	protein_match	208	345	8.9E-18	+	.	date=31-03-2023;Target=aepY 208 345;ID=match$7_208_345;signature_desc=Thiamine pyrophosphate enzyme, C-terminal TPP binding domain;Name=PF02775;status=T;Dbxref="InterPro:IPR011766"
+##sequence-region AAL61894.1 1 115
+AAL61894.1	.	polypeptide	1	115	.	+	.	ID=AAL61894.1;md5=67e9cdec8f9f3a88d950d62c3eb8f986
+AAL61894.1	Pfam	protein_match	41	109	2.1E-26	+	.	date=31-03-2023;Target=AAL61894.1 41 109;ID=match$8_41_109;signature_desc=WYL_2, Sm-like SH3 beta-barrel fold;Name=PF10902;status=T;Dbxref="InterPro:IPR024401"
+##sequence-region AAL61893.1 1 267
+AAL61893.1	.	polypeptide	1	267	.	+	.	ID=AAL61893.1;md5=8286edbe925078c6bc9f6f74dc792bdf
+AAL61893.1	Pfam	protein_match	10	104	3.3E-28	+	.	date=31-03-2023;Target=AAL61893.1 10 104;ID=match$9_10_104;signature_desc=Domain of unknown function (DUF4373);Name=PF14297;status=T;Dbxref="InterPro:IPR025400"
+##sequence-region wzx 1 497
+wzx	.	polypeptide	1	497	.	+	.	ID=wzx;md5=d4a71c89f40cf833f5b90dddb8256779
+wzx	Pfam	protein_match	100	335	2.3E-5	+	.	date=31-03-2023;Target=wzx 100 335;ID=match$10_100_335;signature_desc=Polysaccharide biosynthesis protein;Name=PF13440;status=T
+##sequence-region wcfX 1 350
+wcfX	.	polypeptide	1	350	.	+	.	ID=wcfX;md5=6f1267c832b71bedd18b53cf96616527
+wcfX	Pfam	protein_match	3	277	3.2E-55	+	.	date=31-03-2023;Target=wcfX 3 277;ID=match$11_3_277;signature_desc=NAD dependent epimerase/dehydratase family;Name=PF01370;status=T;Dbxref="InterPro:IPR001509"
+##sequence-region wcgV 1 403
+wcgV	.	polypeptide	1	403	.	+	.	ID=wcgV;md5=f5905cc5225143563d98d895f33c855f
+wcgV	Pfam	protein_match	16	198	1.3E-10	+	.	date=31-03-2023;Target=wcgV 16 198;ID=match$12_16_198;signature_desc=Glycosyl transferase 4-like domain;Name=PF13579;status=T;Dbxref="InterPro:IPR028098"
+wcgV	Pfam	protein_match	210	370	1.2E-17	+	.	date=31-03-2023;Target=wcgV 210 370;ID=match$13_210_370;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+##sequence-region wcfU 1 239
+wcfU	.	polypeptide	1	239	.	+	.	ID=wcfU;md5=7dedf692ef9176af629956cb60a09842
+wcfU	Pfam	protein_match	5	118	2.3E-12	+	.	date=31-03-2023;Target=wcfU 5 118;ID=match$14_5_118;signature_desc=MobA-like NTP transferase domain;Name=PF12804;status=T;Dbxref="InterPro:IPR025877"
+##sequence-region wcfW 1 289
+wcfW	.	polypeptide	1	289	.	+	.	ID=wcfW;md5=b8762a878e5fbd0442633097247bbb78
+wcfW	Pfam	protein_match	111	276	1.4E-20	+	.	date=31-03-2023;Target=wcfW 111 276;ID=match$15_111_276;signature_desc=Glycosyl transferase family 11;Name=PF01531;status=T;Dbxref="InterPro:IPR002516"
+##sequence-region AAL61889.1 1 552
+AAL61889.1	.	polypeptide	1	552	.	+	.	ID=AAL61889.1;md5=0732e59bf26afdfceb5353296374b5bf
+AAL61889.1	Pfam	protein_match	14	447	9.4E-84	+	.	date=31-03-2023;Target=AAL61889.1 14 447;ID=match$16_14_447;signature_desc=AMP-binding enzyme;Name=PF00501;status=T;Dbxref="InterPro:IPR000873"
+##sequence-region AAL61892.1 1 423
+AAL61892.1	.	polypeptide	1	423	.	+	.	ID=AAL61892.1;md5=528cc3a07994a188cab13433bd6c6bfa
+AAL61892.1	Pfam	protein_match	39	173	1.2E-24	+	.	date=31-03-2023;Target=AAL61892.1 39 173;ID=match$17_39_173;signature_desc=AAA domain;Name=PF13173;status=T;Dbxref="InterPro:IPR041682"
+##sequence-region wcgU 1 287
+wcgU	.	polypeptide	1	287	.	+	.	ID=wcgU;md5=b0e3557fddad3798fa48370ea892c318
+wcgU	Pfam	protein_match	5	154	1.3E-19	+	.	date=31-03-2023;Target=wcgU 5 154;ID=match$18_5_154;signature_desc=RmlD substrate binding domain;Name=PF04321;status=T;Dbxref="InterPro:IPR029903"
+##sequence-region wcgQ 1 348
+wcgQ	.	polypeptide	1	348	.	+	.	ID=wcgQ;md5=6277088073cb472e2bb6c3d04222175a
+wcgQ	Pfam	protein_match	17	133	2.5E-26	+	.	date=31-03-2023;Target=wcgQ 17 133;ID=match$19_17_133;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region wcfZ 1 340
+wcfZ	.	polypeptide	1	340	.	+	.	ID=wcfZ;md5=bea903e897127005ae7b66367b0e8c07
+wcfZ	Pfam	protein_match	12	136	6.3E-20	+	.	date=31-03-2023;Target=wcfZ 12 136;ID=match$20_12_136;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region fcl 1 360
+fcl	.	polypeptide	1	360	.	+	.	ID=fcl;md5=5157f83399ee27a1b78e6f0e6bb6d404
+fcl	Pfam	protein_match	11	292	6.9E-87	+	.	date=31-03-2023;Target=fcl 11 292;ID=match$21_11_292;signature_desc=NAD dependent epimerase/dehydratase family;Name=PF01370;status=T;Dbxref="InterPro:IPR001509"
+##sequence-region upbZ 1 161
+upbZ	.	polypeptide	1	161	.	+	.	ID=upbZ;md5=daab8dca36a087b5a5ac09701f33a844
+upbZ	Pfam	protein_match	8	112	1.5E-52	+	.	date=31-03-2023;Target=upbZ 8 112;ID=match$22_8_112;signature_desc=UpxZ family of transcription anti-terminator antagonists;Name=PF06603;status=T;Dbxref="InterPro:IPR010570"
+##sequence-region wcgW 1 335
+wcgW	.	polypeptide	1	335	.	+	.	ID=wcgW;md5=35ce04279255a94cca9316d850e48792
+wcgW	Pfam	protein_match	3	221	5.7E-17	+	.	date=31-03-2023;Target=wcgW 3 221;ID=match$23_3_221;signature_desc=NAD dependent epimerase/dehydratase family;Name=PF01370;status=T;Dbxref="InterPro:IPR001509"
+##sequence-region aepZ 1 366
+aepZ	.	polypeptide	1	366	.	+	.	ID=aepZ;md5=d53740da5f67bdf76c6815847dd1c22e
+aepZ	Pfam	protein_match	29	301	8.1E-33	+	.	date=31-03-2023;Target=aepZ 29 301;ID=match$24_29_301;signature_desc=Aminotransferase class-V;Name=PF00266;status=T;Dbxref="InterPro:IPR000192"
+##sequence-region wcgR 1 371
+wcgR	.	polypeptide	1	371	.	+	.	ID=wcgR;md5=b62939962302d418e460b9c46b415c6f
+wcgR	Pfam	protein_match	17	173	1.0E-9	+	.	date=31-03-2023;Target=wcgR 17 173;ID=match$25_17_173;signature_desc=Glycosyltransferase Family 4;Name=PF13439;status=T;Dbxref="InterPro:IPR028098"
+wcgR	Pfam	protein_match	198	324	3.0E-15	+	.	date=31-03-2023;Target=wcgR 198 324;ID=match$26_198_324;signature_desc=Glycosyl transferases group 1;Name=PF13692;status=T
+##sequence-region wcgT 1 376
+wcgT	.	polypeptide	1	376	.	+	.	ID=wcgT;md5=d48b1a586de397aea87613eee2755c33
+wcgT	Pfam	protein_match	27	360	8.9E-89	+	.	date=31-03-2023;Target=wcgT 27 360;ID=match$27_27_360;signature_desc=UDP-N-acetylglucosamine 2-epimerase;Name=PF02350;status=T;Dbxref="InterPro:IPR003331"
+##sequence-region gmd 1 357
+gmd	.	polypeptide	1	357	.	+	.	ID=gmd;md5=9e50e51eb15faf738a3eaf3126f682f3
+gmd	Pfam	protein_match	5	340	3.5E-154	+	.	date=31-03-2023;Target=gmd 5 340;ID=match$28_5_340;signature_desc=GDP-mannose 4,6 dehydratase;Name=PF16363;status=T;Dbxref="InterPro:IPR016040"
+##sequence-region wcfY 1 440
+wcfY	.	polypeptide	1	440	.	+	.	ID=wcfY;md5=41529621f02775bf5ac32758d40451e4
+wcfY	Pfam	protein_match	1	187	3.3E-64	+	.	date=31-03-2023;Target=wcfY 1 187;ID=match$29_1_187;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain;Name=PF03721;status=T;Dbxref="InterPro:IPR001732"
+wcfY	Pfam	protein_match	205	296	7.1E-40	+	.	date=31-03-2023;Target=wcfY 205 296;ID=match$30_205_296;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, central domain;Name=PF00984;status=T;Dbxref="InterPro:IPR014026"
+wcfY	Pfam	protein_match	320	422	3.9E-27	+	.	date=31-03-2023;Target=wcfY 320 422;ID=match$31_320_422;signature_desc=UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain;Name=PF03720;status=T;Dbxref="InterPro:IPR014027"
+##sequence-region wcgS 1 338
+wcgS	.	polypeptide	1	338	.	+	.	ID=wcgS;md5=ac2e4fb64dba4e146fc727e175823a38
+wcgS	Pfam	protein_match	285	332	2.7E-25	+	.	date=31-03-2023;Target=wcgS 285 332;ID=match$32_285_332;signature_desc=Polysaccharide biosynthesis protein C-terminal;Name=PF08485;status=T;Dbxref="InterPro:IPR013692"
+wcgS	Pfam	protein_match	7	282	1.0E-104	+	.	date=31-03-2023;Target=wcgS 7 282;ID=match$33_7_282;signature_desc=Polysaccharide biosynthesis protein;Name=PF02719;status=T;Dbxref="InterPro:IPR003869"

@@ -1,0 +1,68 @@
+##sequence-region EDN75894.1 1 468
+EDN75894.1	.	polypeptide	1	468	.	+	.	ID=EDN75894.1;md5=aef5fd73c568064ad96db7c5944c8fe1
+EDN75894.1	Pfam	protein_match	281	460	2.5E-71	+	.	date=31-03-2023;Target=EDN75894.1 281 460;ID=match$1_281_460;signature_desc=Bacterial sugar transferase;Name=PF02397;status=T;Dbxref="InterPro:IPR003362"
+EDN75894.1	Pfam	protein_match	67	244	1.6E-32	+	.	date=31-03-2023;Target=EDN75894.1 67 244;ID=match$2_67_244;signature_desc=CoA-binding domain;Name=PF13727;status=T
+##sequence-region EDN75895.1 1 326
+EDN75895.1	.	polypeptide	1	326	.	+	.	ID=EDN75895.1;md5=78833478f63955e66ba062a9e9fbeb50
+EDN75895.1	Pfam	protein_match	4	174	3.0E-27	+	.	date=31-03-2023;Target=EDN75895.1 4 174;ID=match$3_4_174;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region EDN75899.1 1 508
+EDN75899.1	.	polypeptide	1	508	.	+	.	ID=EDN75899.1;md5=f92088db4db7b941fe345d9f7f567f21
+EDN75899.1	Pfam	protein_match	143	288	7.1E-7	+	.	date=31-03-2023;Target=EDN75899.1 143 288;ID=match$4_143_288;signature_desc=Dolichyl-phosphate-mannose-protein mannosyltransferase;Name=PF13231;status=T;Dbxref="InterPro:IPR038731"
+##sequence-region EDN75901.1 1 814
+EDN75901.1	.	polypeptide	1	814	.	+	.	ID=EDN75901.1;md5=55b053118e19b4af1f81feaea4cdba17
+EDN75901.1	Pfam	protein_match	543	721	6.8E-21	+	.	date=31-03-2023;Target=EDN75901.1 543 721;ID=match$5_543_721;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+EDN75901.1	Pfam	protein_match	286	448	3.4E-21	+	.	date=31-03-2023;Target=EDN75901.1 286 448;ID=match$5_286_448;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region rfbA 1 294
+rfbA	.	polypeptide	1	294	.	+	.	ID=rfbA;md5=f1000ec898554e34e99d1e17188dd604
+rfbA	Pfam	protein_match	2	238	1.8E-70	+	.	date=31-03-2023;Target=rfbA 2 238;ID=match$6_2_238;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region EDN75903.1 1 244
+EDN75903.1	.	polypeptide	1	244	.	+	.	ID=EDN75903.1;md5=0579eeb8d064a5f148b500234d0d76c3
+EDN75903.1	Pfam	protein_match	46	177	6.5E-20	+	.	date=31-03-2023;Target=EDN75903.1 46 177;ID=match$7_46_177;signature_desc=ABC transporter;Name=PF00005;status=T;Dbxref="InterPro:IPR003439"
+##sequence-region EDN75911.1 1 317
+EDN75911.1	.	polypeptide	1	317	.	+	.	ID=EDN75911.1;md5=9a1dd37d2a058f0806aca906472dd54d
+EDN75911.1	Pfam	protein_match	21	197	2.0E-7	+	.	date=31-03-2023;Target=EDN75911.1 21 197;ID=match$8_21_197;signature_desc=Nucleotidyl transferase;Name=PF00483;status=T;Dbxref="InterPro:IPR005835"
+##sequence-region EDN75897.1 1 203
+EDN75897.1	.	polypeptide	1	203	.	+	.	ID=EDN75897.1;md5=f3ec8295ddd54c4c16a0218ded8f702b
+EDN75897.1	Pfam	protein_match	97	188	8.8E-8	+	.	date=31-03-2023;Target=EDN75897.1 97 188;ID=match$9_97_188;signature_desc=Sporulation and spore germination;Name=PF10646;status=T;Dbxref="InterPro:IPR019606"
+##sequence-region EDN75904.1 1 258
+EDN75904.1	.	polypeptide	1	258	.	+	.	ID=EDN75904.1;md5=7c6e31cafbd752907b5d3b6f60bdb93f
+EDN75904.1	Pfam	protein_match	17	219	1.5E-24	+	.	date=31-03-2023;Target=EDN75904.1 17 219;ID=match$10_17_219;signature_desc=ABC-2 type transporter;Name=PF01061;status=T;Dbxref="InterPro:IPR013525"
+##sequence-region EDN75893.1 1 360
+EDN75893.1	.	polypeptide	1	360	.	+	.	ID=EDN75893.1;md5=45086fdf2d61c989749ee644a835ae37
+EDN75893.1	Pfam	protein_match	90	249	1.7E-34	+	.	date=31-03-2023;Target=EDN75893.1 90 249;ID=match$11_90_249;signature_desc=Cell envelope-related transcriptional attenuator domain;Name=PF03816;status=T;Dbxref="InterPro:IPR004474"
+##sequence-region EDN75896.1 1 901
+EDN75896.1	.	polypeptide	1	901	.	+	.	ID=EDN75896.1;md5=4d4e258f9857a9f8938c2ba2d365e6f1
+EDN75896.1	Pfam	protein_match	335	498	1.8E-24	+	.	date=31-03-2023;Target=EDN75896.1 335 498;ID=match$12_335_498;signature_desc=Glycosyl transferases group 1;Name=PF00534;status=T;Dbxref="InterPro:IPR001296"
+EDN75896.1	Pfam	protein_match	144	211	5.0E-7	+	.	date=31-03-2023;Target=EDN75896.1 144 211;ID=match$13_144_211;signature_desc=Glycosyl-transferase family 4;Name=PF16994;status=T;Dbxref="InterPro:IPR041693"
+##sequence-region rfbB 1 358
+rfbB	.	polypeptide	1	358	.	+	.	ID=rfbB;md5=eeee16e3abe773259cd9147fe8d2aaff
+rfbB	Pfam	protein_match	5	328	4.4E-98	+	.	date=31-03-2023;Target=rfbB 5 328;ID=match$14_5_328;signature_desc=GDP-mannose 4,6 dehydratase;Name=PF16363;status=T;Dbxref="InterPro:IPR016040"
+##sequence-region EDN75891.1 1 308
+EDN75891.1	.	polypeptide	1	308	.	+	.	ID=EDN75891.1;md5=b7248bf447b267db70a268f2d4322852
+EDN75891.1	Pfam	protein_match	8	175	2.5E-11	+	.	date=31-03-2023;Target=EDN75891.1 8 175;ID=match$15_8_175;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region rfbC 1 183
+rfbC	.	polypeptide	1	183	.	+	.	ID=rfbC;md5=b45d04243c0b333f24d7f06eb4fd0fb3
+rfbC	Pfam	protein_match	9	178	1.7E-75	+	.	date=31-03-2023;Target=rfbC 9 178;ID=match$16_9_178;signature_desc=dTDP-4-dehydrorhamnose 3,5-epimerase;Name=PF00908;status=T;Dbxref="InterPro:IPR000888"
+##sequence-region EDN75890.1 1 529
+EDN75890.1	.	polypeptide	1	529	.	+	.	ID=EDN75890.1;md5=0d292f4e589daef412bbfff5b112a6cb
+EDN75890.1	Pfam	protein_match	172	334	2.7E-37	+	.	date=31-03-2023;Target=EDN75890.1 172 334;ID=match$17_172_334;signature_desc=Cell envelope-related transcriptional attenuator domain;Name=PF03816;status=T;Dbxref="InterPro:IPR004474"
+##sequence-region EDN75909.1 1 311
+EDN75909.1	.	polypeptide	1	311	.	+	.	ID=EDN75909.1;md5=1106394d250aa78bbb3d4e61cb10e8b5
+EDN75909.1	Pfam	protein_match	5	151	4.0E-35	+	.	date=31-03-2023;Target=EDN75909.1 5 151;ID=match$18_5_151;signature_desc=Glycosyl transferase family 2;Name=PF00535;status=T;Dbxref="InterPro:IPR001173"
+##sequence-region rfbD 1 282
+rfbD	.	polypeptide	1	282	.	+	.	ID=rfbD;md5=b0369b7e4823a0576fe2633e34ebe5de
+rfbD	Pfam	protein_match	1	281	1.6E-104	+	.	date=31-03-2023;Target=rfbD 1 281;ID=match$19_1_281;signature_desc=RmlD substrate binding domain;Name=PF04321;status=T;Dbxref="InterPro:IPR029903"
+##sequence-region EDN75908.1 1 1312
+EDN75908.1	.	polypeptide	1	1312	.	+	.	ID=EDN75908.1;md5=07fa514d54180c087e05e3c71d77dac8
+EDN75908.1	Pfam	protein_match	1177	1309	1.5E-14	+	.	date=31-03-2023;Target=EDN75908.1 1177 1309;ID=match$20_1177_1309;signature_desc=Mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase;Name=PF01832;status=T;Dbxref="InterPro:IPR002901"
+EDN75908.1	Pfam	protein_match	740	822	1.6E-16	+	.	date=31-03-2023;Target=EDN75908.1 740 822;ID=match$21_740_822;signature_desc=GBS Bsp-like repeat;Name=PF08481;status=T;Dbxref="InterPro:IPR013688"
+EDN75908.1	Pfam	protein_match	540	627	2.8E-19	+	.	date=31-03-2023;Target=EDN75908.1 540 627;ID=match$21_540_627;signature_desc=GBS Bsp-like repeat;Name=PF08481;status=T;Dbxref="InterPro:IPR013688"
+EDN75908.1	Pfam	protein_match	448	521	4.8E-16	+	.	date=31-03-2023;Target=EDN75908.1 448 521;ID=match$21_448_521;signature_desc=GBS Bsp-like repeat;Name=PF08481;status=T;Dbxref="InterPro:IPR013688"
+EDN75908.1	Pfam	protein_match	834	921	2.9E-27	+	.	date=31-03-2023;Target=EDN75908.1 834 921;ID=match$21_834_921;signature_desc=GBS Bsp-like repeat;Name=PF08481;status=T;Dbxref="InterPro:IPR013688"
+EDN75908.1	Pfam	protein_match	638	727	8.3E-32	+	.	date=31-03-2023;Target=EDN75908.1 638 727;ID=match$21_638_727;signature_desc=GBS Bsp-like repeat;Name=PF08481;status=T;Dbxref="InterPro:IPR013688"
+EDN75908.1	Pfam	protein_match	933	1017	7.0E-23	+	.	date=31-03-2023;Target=EDN75908.1 933 1017;ID=match$21_933_1017;signature_desc=GBS Bsp-like repeat;Name=PF08481;status=T;Dbxref="InterPro:IPR013688"
+EDN75908.1	Pfam	protein_match	1032	1120	4.0E-30	+	.	date=31-03-2023;Target=EDN75908.1 1032 1120;ID=match$21_1032_1120;signature_desc=GBS Bsp-like repeat;Name=PF08481;status=T;Dbxref="InterPro:IPR013688"
+EDN75908.1	Pfam	protein_match	233	430	2.7E-28	+	.	date=31-03-2023;Target=EDN75908.1 233 430;ID=match$22_233_430;signature_desc=N-acetylmuramoyl-L-alanine amidase;Name=PF01520;status=T;Dbxref="InterPro:IPR002508"
+##sequence-region EDN75910.1 1 550
+EDN75910.1	.	polypeptide	1	550	.	+	.	ID=EDN75910.1;md5=8a3572acdb2df7f8ec8a95235dd9ba11
+EDN75910.1	Pfam	protein_match	201	492	1.8E-12	+	.	date=31-03-2023;Target=EDN75910.1 201 492;ID=match$23_201_492;signature_desc=Sulfatase;Name=PF00884;status=T;Dbxref="InterPro:IPR000917"
