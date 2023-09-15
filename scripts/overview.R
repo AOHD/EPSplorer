@@ -150,6 +150,6 @@ writeData(work_book, "list", systems_in_genomes2)
 
 
 saveWorkbook(work_book,
-             file= "./systems_overview.xlsx",
+             file= "./figures/systems_overview.xlsx",
              overwrite = TRUE)
 

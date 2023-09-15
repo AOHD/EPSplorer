@@ -1,38 +1,3 @@
-library("data.table")
-library("readxl")
-library("glue")
-library("gggenes")
-#library("ggtext")
-library("broom")
-library("seqinr")
-library("dplyr")
-library("tidyr")
-#library("tidyverse")
-`%ni%` <- Negate(`%in%`)
-
-##----------------------------------------------------------------
-##  Loading MAG statistic, Prokka annotations and query metadata  
-##----------------------------------------------------------------
-# Statistics on the HQ-MAGs from singleton et.al 2021
-magstats. <- fread("./magstats.tsv", sep = "\t") %>% rename(ID = bin)
-
-# File with metadata on the query genes, e.g. function
-query_metadata. <- excel_sheets("./Query_figur.xlsx") %>%
-  sapply(function(X) read_xlsx("./Query_figur.xlsx", sheet = X, skip = 1), USE.NAMES = T) %>% 
-  lapply(as.data.frame) %>% 
-  `[`(!(names(.) %in% c("Abbreveations", "HA_S_pyogenes"))) %>%
-  rbindlist(fill = TRUE) %>%
-  mutate(Polysaccheride = ifelse(Polysaccheride == "S88","s88",Polysaccheride),
-         Psiblast = ifelse(Psiblast == "S88","s88",Psiblast),
-         Function = ifelse(Function == "NA", "UNKNOWN", Function)) 
-
-# Additional information of the prokka annotations
-gff. <- readRDS("./data/gff.rds") %>%
-  filter(!(ProkkaNO == "units")) %>% filter(!grepl("\\.|-", ProkkaNO)) %>%
-  group_by(ID) %>% distinct(ProkkaNO, .keep_all = T) %>%
-  mutate(Target_label = paste(ID, ProkkaNO, sep = "_"),
-         ProkkaNO = as.numeric(ProkkaNO))
-
 
 ##---------------------------------------------------------------
 ##                         Main function                         
@@ -51,6 +16,7 @@ proximity_filtration <- function(filename_psiblast,
                                  essential_genes = NA,
                                  PEgenes_filter = TRUE
                                  ){
+  
   if (same_database == FALSE) {
   filename_psiblast_col <- paste(filename_psiblast, collapse = "_")
   } else {
@@ -74,7 +40,14 @@ proximity_filtration <- function(filename_psiblast,
         "Query_label", "Target_label", "Percent_identity", "align_length",
         "mismatch", "gap_opens", "start_query", "end_query",
         "start_target", "end_target", "E_value", "Bit score")
-    ) %>%
+    ) %>% bind_rows()
+    
+    if (ncol(test1) == 0) {
+      message(glue("No psiblast results for {filename_psiblast_col}"))
+      return()
+    } 
+
+    test1 <- test1 %>%
     bind_rows() %>%
     filter(!(Query_label %in% exclude_gene)) %>% 
   # Filtering

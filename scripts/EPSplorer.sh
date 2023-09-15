@@ -106,7 +106,6 @@ mkdir $WD/data/psiblast_results/concatenated
 for file in $WD/data/psiblast_results/*/*.faa; do cat $file >> $WD/data/psiblast_results/concatenated/$(basename $file .faa).faa; done
 
 ##Run $WD/scripts/generate_gff.R
-
 module load R/4.2.1-foss-2022a
 Rscript $WD/scripts/generate_gff.R "$WD"
 
