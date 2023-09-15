@@ -17,19 +17,19 @@ mkdir $WD/"figures/operons"
 module load prokka/1.14.5-gompi-2020b
 ##Command which runs prokka --Kingdom on all .fasta files of $WD/prokka/
 echo Annotating genomes with Prokka
-for file in $WD/data/prokka/*.fasta; do prokka --kingdom Bacteria --cpus 20 --outdir $WD/data/prokka/$(basename $file .fasta)/ --prefix $(basename $file .fasta) $file; done
+for file in $WD/genomes/*.fasta; do prokka --kingdom Bacteria --cpus 20 --outdir $WD/data/prokka/$(basename $file .fasta)/ --prefix $(basename $file .fasta) $file; done
 
 ##Command which takes all the .faa files in the prokka output folder and changes the > + 8 letter string before each Prokka ID to the name of the .fasta file
-for file in $WD/data/prokka/*.fasta; do sed -i "s/>.*_/>$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.faa; done
+for file in $WD/genomes/*.fasta; do sed -i "s/>.*_/>$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.faa; done
 
 ##Command which takes all the .gff files in the prokka output folder and changes the ID= + 8 letter string before each Prokka ID to the name of the .fasta file
-for file in $WD/data/prokka/*.fasta; do sed -i "s/ID=.*_/ID=$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.gff; done
+for file in $WD/genomes/*.fasta; do sed -i "s/ID=.*_/ID=$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.gff; done
 
 ##Makeblastdb command which makes a blast database for each .fasta file in $WD/data/prokka/, 
 ##based on the .faa file in the prokka output folder. Each database should be in its own folder in $WD/databases/
 echo Making blast databases
 module load BLAST+/2.12.0-gompi-2020b
-for file in $WD/data/prokka/*.fasta; do makeblastdb -in $WD/data/prokka/$(basename $file .fasta)/*.faa -dbtype prot -out $WD/data/databases/$(basename $file .fasta)/$(basename $file .fasta); done
+for file in $WD/genomes/*.fasta; do makeblastdb -in $WD/data/prokka/$(basename $file .fasta)/*.faa -dbtype prot -out $WD/data/databases/$(basename $file .fasta)/$(basename $file .fasta); done
 
 #Execute psiblast.sh
 echo Running PSI-BLAST
@@ -96,16 +96,17 @@ done
 
 ##Move all .faa files in $WD/data/prokka/*/* to $WD/data/prokka/
 for file in $WD/data/prokka/*/*.faa; do
-mv $file $WD/data/prokka
+cp $file $WD/data/prokka
 echo $file
 done
 
 ##Concatenate all .faa files with the same name in $WD/data/psiblast_results/*/*.faa
+echo Creating concatenated GFF file
 mkdir $WD/data/psiblast_results/concatenated
 for file in $WD/data/psiblast_results/*/*.faa; do cat $file >> $WD/data/psiblast_results/concatenated/$(basename $file .faa).faa; done
 
 ##Run $WD/scripts/generate_gff.R
-echo Creating concatenated GFF file
+
 module load R/4.2.1-foss-2022a
 Rscript $WD/scripts/generate_gff.R "$WD"
 

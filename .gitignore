@@ -47,3 +47,11 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Generated data
+data/
+figures/
+error.log
+systems_overview.xlsx
+genomes/
+magstats.tsv

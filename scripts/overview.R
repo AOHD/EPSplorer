@@ -117,8 +117,6 @@ plot_upset <- function(d, sets) {
 upset_all <- plot_upset(data_upset_all_unique, sets = hit_list) + 
   ggtitle("PSI-BLAST hits shared between EPS queries") 
 
-upset_all
-
 
 ggsave("./figures/upset_ProkkaNO.pdf", upset_all, limitsize = FALSE, width = 18, height = 12, dpi = 300)
 
