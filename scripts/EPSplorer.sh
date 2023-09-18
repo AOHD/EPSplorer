@@ -1,6 +1,7 @@
 #!/usr/bin/env bash 
 start_time=$(date +%s)
 WD="/user_data/ahd/EPS_PIPELINE/EPSplorer"
+threads=20
 ERROR_LOG=$WD/"error.log"
 exec 2>"$ERROR_LOG"
 
@@ -17,7 +18,7 @@ mkdir $WD/"figures/operons"
 module load prokka/1.14.5-gompi-2020b
 ##Command which runs prokka --Kingdom on all .fasta files of $WD/prokka/
 echo Annotating genomes with Prokka
-for file in $WD/genomes/*.fasta; do prokka --kingdom Bacteria --cpus 20 --outdir $WD/data/prokka/$(basename $file .fasta)/ --prefix $(basename $file .fasta) $file; done
+for file in $WD/genomes/*.fasta; do prokka --kingdom Bacteria --cpus $threads --outdir $WD/data/prokka/$(basename $file .fasta)/ --prefix $(basename $file .fasta) $file; done
 
 ##Command which takes all the .faa files in the prokka output folder and changes the > + 8 letter string before each Prokka ID to the name of the .fasta file
 for file in $WD/genomes/*.fasta; do sed -i "s/>.*_/>$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.faa; done
@@ -88,7 +89,7 @@ module load BLAST+/2.12.0-gompi-2020b
 for database in ${data[@]}; do
 mkdir $WD/data/psiblast_results/$(basename $database)
 for operon in ${operon_fasta[@]}; do
-psiblast -query $query/$operon -db $database/$(basename $database) -out $WD/data/psiblast_results/$(basename $database)/$operon -evalue 0.0001 -qcov_hsp_perc 20 -max_hsps 10 -max_target_seqs 100000 -outfmt 6 -num_iterations 20 -comp_based_stats 1 -num_threads 20
+psiblast -query $query/$operon -db $database/$(basename $database) -out $WD/data/psiblast_results/$(basename $database)/$operon -evalue 0.0001 -qcov_hsp_perc 20 -max_hsps 10 -max_target_seqs 100000 -outfmt 6 -num_iterations 20 -comp_based_stats 1 -num_threads $threads
 echo $operon BLASTed
 done
 echo $database completed
@@ -140,7 +141,7 @@ for i in $FASTA/$j/*; do
 	# Running interproscan
 	## Only Pfam and SUPERFAMILY database
 	## Only GFF3 file is written out
-	interproscan.sh -cpu 20 -appl Pfam -f GFF3 -o $RESULTS/$j/$i.gff3 -i $FASTA/$j/$i.faa
+	interproscan.sh -cpu $threads -appl Pfam -f GFF3 -o $RESULTS/$j/$i.gff3 -i $FASTA/$j/$i.faa
 	
 	# Remove trailing fasta sequence in gff3 file and leading three lines
 	F=$RESULTS/$j/$i.gff3
