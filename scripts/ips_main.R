@@ -1,5 +1,19 @@
 .libPaths( c( "/user_data/ahd/r_v.4.0.0", .libPaths() ) )
 
+library("data.table")
+library("dplyr")
+library("tidyr")
+library("stringr")
+library("ggplot2")
+library("gggenes")
+library("ggtext")
+library("glue")
+library("readxl")
+library("ggnewscale")
+library("ggrepel")
+library("here")
+`%ni%` <- Negate(`%in%`)
+
 # Load command line arguments
 args <- commandArgs(trailingOnly = TRUE)
 
@@ -8,8 +22,6 @@ if (length(args) > 0) {
   # Set the working directory to the argument passed
   setwd(args[1])
 }
-
-`%ni%` <- Negate(`%in%`)
 
 ##############################################
 # Plotting of operons from results
