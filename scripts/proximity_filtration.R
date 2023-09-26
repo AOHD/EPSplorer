@@ -58,7 +58,7 @@ proximity_filtration <- function(filename_psiblast,
     filter(!duplicated(Target_label)) %>%
   # Cleaning
     separate(Target_label, c("ID", "ProkkaNO"),
-             sep = "_", remove = FALSE, extra = "merge") %>%
+             sep = "_(?!.*_)", remove = FALSE, extra = "merge") %>%
     # mutate(ProkkaNO =  substr(ProkkaNO,2,6)) %>%
     mutate(
       Target_label = paste(ID, ProkkaNO, sep = "_"),
