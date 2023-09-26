@@ -1,17 +1,3 @@
-library("data.table")
-library("dplyr")
-library("tidyr")
-library("stringr")
-library("ggplot2")
-library("gggenes")
-library("ggtext")
-library("glue")
-library("readxl")
-library("ggnewscale")
-library("ggrepel")
-library("here")
-`%ni%` <- Negate(`%in%`)
-
 plot_operon <-  function(filename_psiblast,
                          same_database = FALSE, #Used for cellulose because we filter the same psiblast results for 4 (5) different types
                          name_addon = "",
