@@ -1,6 +1,4 @@
 
-.libPaths( c( "/user_data/ahd/r_v.4.0.0", .libPaths() ) )
-
 library(tidyr)
 library(dplyr) 
 library(stringr)
@@ -121,7 +119,7 @@ upset_all <- plot_upset(data_upset_all_unique, sets = hit_list) +
 ggsave("./figures/upset_ProkkaNO.pdf", upset_all, limitsize = FALSE, width = 18, height = 12, dpi = 300)
 
 
-## Which systems are found in which systems? 
+# Which systems are found in which systems? 
 systems_in_genomes <- data_upset_all %>% filter(Psiblast != "NulO") %>% group_by(Psiblast) %>% distinct(midas4_tax) %>% ungroup() %>%
   group_by(midas4_tax) %>%
   summarise(systems = list(unique(Psiblast))) 

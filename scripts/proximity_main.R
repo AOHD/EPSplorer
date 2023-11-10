@@ -1,4 +1,3 @@
-.libPaths( c( "/user_data/ahd/r_v.4.0.0", .libPaths() ) )
 
 # Load command line arguments
 args <- commandArgs(trailingOnly = TRUE)

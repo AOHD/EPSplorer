@@ -1,4 +1,3 @@
-.libPaths( c( "/user_data/ahd/r_v.4.0.0", .libPaths() ) )
 
 library("data.table")
 library("dplyr")
@@ -10,7 +9,6 @@ library("ggtext")
 library("glue")
 library("readxl")
 library("ggnewscale")
-library("ggrepel")
 library("here")
 `%ni%` <- Negate(`%in%`)
 

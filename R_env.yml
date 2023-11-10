@@ -1,0 +1,23 @@
+name: R_env
+channels:
+ - conda-forge
+ - bioconda
+dependencies:
+ - r-base=4.3.1
+ - r-ggplot2
+ - r-dplyr
+ - r-tidyr
+ - r-stringr
+ - r-gggenes
+ - r-data.table
+ - r-ggtext
+ - r-glue
+ - r-readxl
+ - r-ggnewscale
+ - r-here
+ - r-purrr
+ - r-ggupset
+ - r-ggbeeswarm
+ - r-seqinr
+ - r-broom
+ - r-openxlsx
