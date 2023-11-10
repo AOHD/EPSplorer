@@ -156,7 +156,6 @@ Rscript $WD/scripts/proximity_main.R "$WD"
 
 ##InterProScan analysis
 echo Running InterProScan
-module load InterProScan/5.38-76.0-foss-2018a
 # Folder with all subsetted fasta files
 FASTA=$WD/data/output_proximity_filtration/fasta_output
 # Results folder
