@@ -4,11 +4,12 @@ Program which takes .fasta files of genomes (nucleotides) and detects exopolysac
 
 ## Installation
 
-This program requires Conda and InterProScan/5.38-76.0-foss-2020b.
+This program requires Conda and InterProScan/5.38-76.0-foss-2018a.
+Both must be loadable using Modules.
 
 Clone the program, then add .fasta files of the genomes you want analysed to ```genomes/```.
 
-Load Conda and InterProScan. 
+Load Conda.
 
 Run the following commands:
 
@@ -23,9 +24,9 @@ Modify the magstats.tsv file. Under "bin" should be the names of your genome fas
 ## Running the Program
 
 ```
-source *path to EPSplorer.sh* -w *path to EPSplorer directory* -t threads
+source *path to EPSplorer.sh* -w *path to EPSplorer directory* -t threads -i InterProScan
 ```
 
 ## Output
 
-This program detects putative EPS gene clusters using PSI-BLAST, displaying them in gene arrow plots. InterProScan's Pfam library is used to highlight domains that are related to polysaccharide production. An Upset plot is also generated, depicting PSI-BLAST hits shared between different EPS queries. An overview of the different kinds of EPS gene clusters detected in the analysed genomes is supplied in an excel file.
+This program detects putative EPS gene clusters using PSI-BLAST, displaying them in gene arrow plots. If the ```-i``` flag is supplied, InterProScan's Pfam library is used to highlight domains that are related to polysaccharide production. An overview of the different kinds of EPS gene clusters detected in the analysed genomes is supplied in an excel file. An Upset plot is also generated, depicting PSI-BLAST hits shared between different EPS queries. 
