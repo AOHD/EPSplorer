@@ -19,6 +19,13 @@ args <- commandArgs(trailingOnly = TRUE)
 if (length(args) > 0) {
   # Set the working directory to the argument passed
   setwd(args[1])
+  if (args[2] == "TRUE") {
+    IPS = TRUE
+  }
+  if (args[2] == "FALSE") {
+    IPS = FALSE
+  }
+
 }
 
 ##############################################
@@ -29,11 +36,11 @@ source("./scripts/plot_operon.R")
 
 for (file in list.dirs("./data/output_proximity_filtration/fasta_output", full.names=FALSE)) {
     if (file %ni% c("", "cellulose", "celluloseI", "celluloseII", "celluloseIII", "cellulose_Ac", "cellulose_NA")) {
-    plot_operon(file)
+    plot_operon(file, article_plot_domain = IPS)
     }
 
     if (file %in% c("cellulose", "celluloseI", "celluloseII", "celluloseIII", "cellulose_Ac", "cellulose_NA")) {
-        plot_operon("cellulose", same_database = file)
+        plot_operon("cellulose", same_database = file, article_plot_domain = IPS)
     }
 }
 

@@ -25,7 +25,7 @@ plot_operon <-  function(filename_psiblast,
     genes <- filter(genes, ID %in%  mags)
   }
   
-  genes <- genes %>% filter(ID2 %ni% exclude_MAGs & Target_label %ni% c("LjRoot296_006471", "LjRoot241_003383"))
+  genes <- genes %>% filter(ID2 %ni% exclude_MAGs)
   
   # File with metadata on the query genes, e.g. function
   query_metadata. <- excel_sheets("./Query_figur.xlsx") %>%
@@ -112,6 +112,7 @@ plot_operon <-  function(filename_psiblast,
       ) 
   }
   ## Loading
+  if (article_plot_domain == TRUE) {
   domains <- filename_psiblast_col %>% 
     lapply(function(query) {
       # Use this function on each polysaccharide name (e.g. "cellulose1)
@@ -142,104 +143,7 @@ plot_operon <-  function(filename_psiblast,
       "ID2", "Function", "strand", "midas4_tax")) %>%
     mutate(Percent_identity = 50)
   }
-  ##----------------------------------------------------------------------
-  ##  Adding taxonomy names and modify appearance to be more neat   
-  ##----------------------------------------------------------------------
-  
-  add_midas_tax <- function(data) {
-    genes %>% 
-      select(ID2, midas4_tax) %>% 
-      separate(midas4_tax, into = c("drop", "midas4_tax"), sep = "=") %>% 
-      select(-drop) %>% 
-      mutate(
-        midas4_tax = str_remove_all(midas4_tax, "[a-z]*[\\:]")
-      ) %>% 
-      separate(midas4_tax, into = c("mi_domain","mi_phylum", "mi_class", "mi_order", "mi_family", "mi_genus", "mi_species"), sep = ",") %>%
-      distinct() %>%
-      right_join(data) %>% 
-      mutate(
-        mi_species = str_remove(mi_species, paste0(mi_genus, "_")),
-        title = paste0(ID2, "<br>",
-                       mi_phylum, "<br>",
-                       mi_class, "<br>",
-                       mi_order, "<br>",
-                       mi_family, "<br>",
-                       "*", mi_genus, "*", "<br>",
-                       "*", mi_species, "*"),
-        # Formating taxa names to be more inline with recommended guidelines
-        title = str_replace_all(title, 
-                                pattern = "\\*Ca_([^*]*)\\*", 
-                                replacement = "*Candidatus* \\1"),
-        title = str_replace_all(title, 
-                                pattern = "\\Ca_(.*) ", 
-                                replacement = "Candidatus \\1"),
-        title = str_replace_all(title, 
-                                pattern = "\\*(.*)\\_marine\\_group\\*", 
-                                replacement = "\\1 marine group"),
-        title = str_replace_all(title, 
-                                pattern = "\\*(.*)\\_marine\\_group\\*", 
-                                replacement = "\\1 marine group"),
-        title = str_replace_all(title, 
-                                pattern = "_Subgroup_(.)", 
-                                replacement = " (Subgroup \\1)")
-      ) %>%
-      mutate(
-        mi_genus = str_replace_all(mi_genus, 
-                                pattern = "Ca_", 
-                                replacement = "Candidatus ") ,
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Ca_*_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Microthrix_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Nitrospira_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Sphingopyxis_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Phreatobacter_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Haliscomenobacter_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Tabrizicola_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Dechloromonas_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Amarolinea_",
-                                  replacement = ""),
-        mi_species = str_replace_all(mi_species,
-                                  pattern = "Methylophosphatis_",
-                                  replacement = ""),
-        mi_species = str_remove_all(mi_species, ";"),
-        mi_genus = ifelse(ID %in% c("AalE_18-Q3-R2-46_BAT3C.188", "AalW_18-Q3-R10-53_BAT3C.524", "Bjer_18-Q3-R1-45_BAT3C.93",
-                                    "Ega_18-Q3-R5-49_MAXAC.001", "EsbW_18-Q3-R4-48_BAT3C.295", "Hirt_18-Q3-R61-65_BAT3C.386",
-                                    "Hjor_18-Q3-R7-51_BAT3C.81_sub", "Hjor_18-Q3-R7-51_MAXAC.088", "Mari_18-Q3-R65-66_BAT3C.41",
-                                    "Ribe_18-Q3-R11-54_MAXAC.001"), "Candidatus Phosphoribacter", mi_genus),
-        mi_species = ifelse(ID %in% c("EsbW_18-Q3-R4-48_BAT3C.295", "AalW_18-Q3-R10-53_BAT3C.524", "Bjer_18-Q3-R1-45_BAT3C.93"), "baldrii", mi_species),
-        mi_species = ifelse(ID %in% c("AalE_18-Q3-R2-46_BAT3C.188", "Ega_18-Q3-R5-49_MAXAC.001", "Ribe_18-Q3-R11-54_MAXAC.001"), "hodrii", mi_species),
-        mi_species = ifelse(ID %in% c("Hirt_18-Q3-R61-65_BAT3C.386"), "Pbr3", mi_species),
-        mi_species = ifelse(ID %in% c("Hjor_18-Q3-R7-51_MAXAC.088"), "Pbr4", mi_species),
-        mi_species = ifelse(ID %in% c("Hjor_18-Q3-R7-51_BAT3C.81_sub"), "Pbr5", mi_species),
-        mi_species = ifelse(ID %in% c("Mari_18-Q3-R65-66_BAT3C.41"), "Pbr6", mi_species),
-        mi_genus = ifelse(mi_species == "midas_s_45", "Lutibacillus", mi_genus),
-        mi_species = ifelse(mi_species == "midas_s_45", "vidarii", mi_species)
-      )
-  }  
-  genes <- add_midas_tax(genes) %>% 
-    mutate(Query_label = replace_na(Query_label, " "))
-  
-  if (article_plot_domain == TRUE) {
-  domains <- add_midas_tax(domains) %>% 
-    filter(!is.na(ID2))
   }
-  
   ##----------------------------------------------------------------
   ##                    Reversing strand direction                    
   ##----------------------------------------------------------------
@@ -385,7 +289,7 @@ plot_operon <-  function(filename_psiblast,
   ##---------------------------------------------------------------
   ##       Filtering relevant domains
   ##---------------------------------------------------------------
-  
+  if (article_plot_domain == TRUE) {
   domains_filtered <- domains %>% filter(
     grepl("GT|[sS]accharide|[sS]ugar|[cC]arbohydrate|[eE][pP][sS]|ABC|[eE]pimerase|[wW]z|[Aa]cetyltransferase|[bB]eta[-| ]barrel|GH[0-9]|
           [sS]ps|[Aa]tr|[rR]hs|[pP]ga|[Ii]ca[A|B|C|D]|[gG]el|[rR]ml|[dD]ps|[hH]as[A|B|C]|pmHAS|[pP]sl|[sS]le|[bB]ep|
@@ -416,6 +320,7 @@ plot_operon <-  function(filename_psiblast,
   
   names(domain_colors) <- domains_filtered$Domain %>% unique()
   }
+  
   ##---------------------------------------------------------------
   ##            Plotting operons with domain annotation            
   ##---------------------------------------------------------------
@@ -423,27 +328,11 @@ plot_operon <-  function(filename_psiblast,
   if (article_plot_domain == TRUE) {
   assign("domains", domains_filtered, pos = 1)
   }
-  
-  
-  ##---------------------------------------------------------------
-  ##            Expression information            
-  ##---------------------------------------------------------------
-
+  }
 
   ##---------------------------------------------------------------
   ##            Operon plotting            
   ##---------------------------------------------------------------
-  update_title = function(x){
-    y <- x %>% 
-      mutate(
-        title = ifelse(
-          ID2 == "Query", 
-          title,
-          glue("**{ID2}, {mi_phylum}, {mi_class}, {mi_order}, {mi_family},
-                <em>{mi_genus}</em>, <em>{mi_species}</em>**")))
-    return(y)
-  }
-  genes <- update_title(genes)
   
   genes <- genes %>% mutate(
     Psiblast = str_replace(Psiblast, "alginate", "Alginate"),
@@ -501,15 +390,13 @@ plot_operon <-  function(filename_psiblast,
   Psiblast <- genes$Psiblast
   Psiblast <- unique(Psiblast[!is.na(Psiblast)])
   
-  if (article_plot_domain == TRUE) {
-  domains_filtered <- update_title(domains_filtered)
-  }
-  
   gene_height <- 5
   n_operon <- length(unique(genes$ID2))
   
+  if (article_plot_domain == TRUE) {
   domains <- domains %>% filter(ID2 %ni% exclude_MAGs)
   domains_filtered <- domains_filtered %>% filter(ID2 %ni% exclude_MAGs) %>% mutate(mi_phylum = ifelse(ID2 == "Query", "a", mi_phylum))
+  }
   genes <- genes %>% mutate(mi_phylum = ifelse(ID2 == "Query", "a", mi_phylum))
   
   operon_plot <- ggplot(
@@ -614,7 +501,7 @@ plot_operon <-  function(filename_psiblast,
         na.value = "transparent") +
       guides(
         fill = guide_legend(
-          title = "Domain annotations",
+          title = "IPS Domain Annotations",
           title.position = "top", 
           title.hjust = 0.5, 
           label.vjust = 0.75,
@@ -645,12 +532,14 @@ plot_operon <-  function(filename_psiblast,
       ) +
       geom_richtext(
         data = genes %>% group_by(operon) %>% slice(1),
-        mapping = aes(x = 0, label = paste(mi_phylum, mi_genus, mi_species)),
+        mapping = aes(x = 0, label = midas4_tax),
         size = 4,
         nudge_y = 0.33,
         hjust = 0,
         fill = NA, label.color = NA
-      )
+      ) +
+      ggtitle(Psiblast)
+
     ggsave(
       plot = operon_plot,
       glue("./figures/operons/operon_", paste(filename_psiblast_col, collapse = "_"), "{name_addon}.pdf"), 

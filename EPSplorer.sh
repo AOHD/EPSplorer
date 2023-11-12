@@ -1,15 +1,16 @@
 #!/usr/bin/env bash 
 start_time=$(date +%s)
-#WD="/user_data/ahd/EPS_PIPELINE/EPSplorer"
-#threads=20
 
-while getopts ":w:t:h" opt; do
+while getopts ":w:t:ih" opt; do
   case ${opt} in
     w)
       WD="$OPTARG"
       ;;
     t)
       threads="$OPTARG"
+      ;;
+    i)
+      ips="TRUE"
       ;;
     h)
       echo "Usage: $(basename $0) -w <working_directory> [-t <threads>] [-h]"
@@ -28,15 +29,20 @@ done
 
 shift $((OPTIND-1))
 
-# Check if required options are provided
+# Check if WD is provided
 if [ -z "$WD" ]; then
   echo "Error: Missing required option -w <working directory>"
   exit 1
 fi
 
-# Default output directory if not provided
+# Default threads if not provided
 if [ -z "$threads" ]; then
-  output_dir=20
+  threads=20
+fi
+
+# Default threads if not provided
+if [ -z "$ips" ]; then
+  ips="FALSE"
 fi
 
 ERROR_LOG=$WD/"error.log"
@@ -58,6 +64,7 @@ echo Annotating genomes with Prokka
 conda activate prokka_env
 for file in $WD/genomes/*.fasta; do prokka --kingdom Bacteria --cpus $threads --outdir $WD/data/prokka/$(basename $file .fasta)/ --prefix $(basename $file .fasta) $file; done
 conda deactivate
+
 ##Command which takes all the .faa files in the prokka output folder and changes the > + 8 letter string before each Prokka ID to the name of the .fasta file
 for file in $WD/genomes/*.fasta; do sed -i "s/>.*_/>$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.faa; done
 
@@ -70,63 +77,19 @@ echo Making blast databases
 conda activate blast_env
 for file in $WD/genomes/*.fasta; do makeblastdb -in $WD/data/prokka/$(basename $file .fasta)/*.faa -dbtype prot -out $WD/data/databases/$(basename $file .fasta)/$(basename $file .fasta); done
 
+
 #Execute psiblast.sh
 echo Running PSI-BLAST
 data="$WD/data/databases/*"
-query="$WD/queries_psiblast"
 
 ##Query path definitions, non-MSA queries
-operon_fasta=(
-acetan.faa
-alginate.faa
-amylovoran.faa
-cellulose.faa
-ColA.faa
-curdlan.faa
-diutan.faa
-gellan1.faa
-gellan2.faa
-HA_Pasteurella.faa
-HA_streptococcus.faa
-NulO_merged.faa
-pel_merged.faa
-B_subtilis_EPS.faa
-pnag_ica.faa
-pnag_pga.faa
-psl.faa
-rhizobium_eps.faa
-s88.faa
-salecan.faa
-stewartan.faa
-succinoglycan.faa
-vps.faa
-xanthan.faa
-burkholderia_eps.faa
-levan.faa
-synechan.faa
-methanolan.faa
-galactoglucan.faa
-B_fragilis_PS_A.faa
-B_fragilis_PS_B.faa
-B_pseudomallei_EPS.faa
-cepacian.faa
-E_faecalis_PS.faa
-emulsan.faa
-EPS273.faa
-GG.faa
-glucorhamnan.faa
-L_johnsonii_ATCC_33200_EPS_A.faa
-L_johnsonii_ATCC_11506_EPS_B.faa
-L_johnsonii_ATCC_2767_EPS_C.faa
-L_lactis_EPS.faa
-L_plantarum_HePS.faa
-phosphonoglycan.faa
-)
+operon_fasta=$WD/queries_psiblast/*.faa
+
 ## PSI-BLAST of all operons against all databases in $WD/queries_psiblast/databases/
 for database in ${data[@]}; do
 mkdir $WD/data/psiblast_results/$(basename $database)
 for operon in ${operon_fasta[@]}; do
-psiblast -query $query/$operon -db $database/$(basename $database) -out $WD/data/psiblast_results/$(basename $database)/$operon -evalue 0.0001 -qcov_hsp_perc 20 -max_hsps 10 -max_target_seqs 100000 -outfmt 6 -num_iterations 20 -comp_based_stats 1 -num_threads $threads
+psiblast -query $operon -db $database/$(basename $database) -out $WD/data/psiblast_results/$(basename $database)/$(basename $operon) -evalue 0.0001 -qcov_hsp_perc 20 -max_hsps 10 -max_target_seqs 100000 -outfmt 6 -num_iterations 20 -comp_based_stats 1 -num_threads $threads
 echo $operon BLASTed
 done
 echo $database completed
@@ -155,13 +118,13 @@ echo Running proximity filtration
 Rscript $WD/scripts/proximity_main.R "$WD"
 
 ##InterProScan analysis
+if [ "$ips" = "TRUE" ]; then
 echo Running InterProScan
+module load InterProScan/5.38-76.0-foss-2018a
 # Folder with all subsetted fasta files
 FASTA=$WD/data/output_proximity_filtration/fasta_output
 # Results folder
 RESULTS=$WD/data/interproscan_results
-
-# Loading interproscan
 
 for j in $FASTA/*; do
 # For each polysaccharide
@@ -186,11 +149,12 @@ for i in $FASTA/$j/*; do
 	fi
 done
 done
-
+module purge
+fi
 
 ##Run $WD/scripts/ips_main.R
 echo Generating gene arrow plots
-Rscript $WD/scripts/ips_main.R "$WD"
+Rscript $WD/scripts/ips_main.R "$WD" "$(printf "%q" "$ips")"
 
 echo Generating overview excel file
 Rscript $WD/scripts/overview.R "$WD"
@@ -201,8 +165,9 @@ exec 2>&1
 end_time=$(date +%s)
 elapsed_time=$((end_time - start_time))
 
-module purge
 conda deactivate
 echo Finished in $elapsed_time seconds! Have a nice day!
-
+unset ips
+unset threads
+unset WD
 
