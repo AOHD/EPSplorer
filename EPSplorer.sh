@@ -13,8 +13,8 @@ while getopts ":w:t:ih" opt; do
       ips="TRUE"
       ;;
     h)
-      echo "Usage: $(basename $0) -w <working_directory> [-t <threads>] [-h]"
-      exit 0
+      echo "Usage: $(basename $0) -w <working_directory> [-t <threads>] [-i <InterProScan>] [-h]"
+      return
       ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
