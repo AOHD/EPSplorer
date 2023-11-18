@@ -59,7 +59,6 @@ proximity_filtration <- function(filename_psiblast,
   # Cleaning
     separate(Target_label, c("ID", "ProkkaNO"),
              sep = "_(?!.*_)", remove = FALSE, extra = "merge") %>%
-    # mutate(ProkkaNO =  substr(ProkkaNO,2,6)) %>%
     mutate(
       Target_label = paste(ID, ProkkaNO, sep = "_"),
       ProkkaNO = as.numeric(ProkkaNO)
@@ -69,7 +68,7 @@ proximity_filtration <- function(filename_psiblast,
     left_join(magstats, by = "ID", keep = FALSE) %>%
     left_join(query_metadata %>% filter(Psiblast %in% filename_psiblast) %>% select(Genename, Function, Psiblast), 
               by = c("Query_label" = "Genename"), keep=FALSE)  %>%
-    arrange(Target_label, ProkkaNO) %>%
+    arrange(ID, ProkkaNO) %>%
   # Operon Grouping
     group_by(seqname, ID) %>%
     # define gene and prokka distance to prior psiblast hit
@@ -171,7 +170,7 @@ proximity_filtration <- function(filename_psiblast,
   for (f in unique(psi_operon_full$ID2)){
     dir.create(glue("./data/output_proximity_filtration/fasta_output/{filename_psiblast_col}"), showWarnings = FALSE, recursive = TRUE)
     g <- unique(filter(psi_operon_full, ID2 == f)$ID)
-    read.fasta(file = glue("./data/prokka/{g}.faa"), 
+    read.fasta(file = glue("./data/prodigal/{g}.faa"), 
                             seqtype="AA", 
                             as.string=TRUE, 
                             set.attributes=FALSE) %>% 

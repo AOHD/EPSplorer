@@ -526,15 +526,15 @@ plot_operon <-  function(filename_psiblast,
         data = genes %>% mutate(start = (start + end)/2),
         mapping = aes(x = start, label = Query_label),
         size = textsize,
-        nudge_y = -0.31, 
-        angle = 0,
-        hjust = 0.5
+       nudge_y = -0.25, 
+        angle = -45,
+        hjust = 0
       ) +
       geom_richtext(
         data = genes %>% group_by(operon) %>% slice(1),
         mapping = aes(x = 0, label = midas4_tax),
         size = 4,
-        nudge_y = 0.33,
+        nudge_y = 0.45,
         hjust = 0,
         fill = NA, label.color = NA
       ) +
@@ -544,7 +544,7 @@ plot_operon <-  function(filename_psiblast,
       plot = operon_plot,
       glue("./figures/operons/operon_", paste(filename_psiblast_col, collapse = "_"), "{name_addon}.pdf"), 
       width = unit(13, "mm"),
-      height = unit(0.9 * n_operon + 1, "mm"),
-      limitsize = TRUE)
+      height = unit(1.4 * n_operon + 1, "mm"),
+      limitsize = FALSE)
   }
 }

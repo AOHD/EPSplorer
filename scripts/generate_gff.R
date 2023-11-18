@@ -25,8 +25,8 @@ gffRead <- function(gffFile){
   gff <- gff %>%
     filter(feature == "CDS") %>%
     separate(attributes, c("prokkaID", "attributes"), sep = ";", extra = "merge") %>%
-    separate(prokkaID, c("ID1", "ProkkaNO"), sep = -5, convert = FALSE)
-  
+    separate(prokkaID, c("ID1", "ProkkaNO"),
+             sep = "_(?!.*_)")
   
   return(gff)}
 
@@ -34,8 +34,8 @@ gffRead <- function(gffFile){
 #          Using the gffRead function to import gff files         
 #-----------------------------------------------------------------
 gff <- tibble(
-  file = list.files("./data/prokka/", recursive = TRUE, pattern = ".gff"),
-  location = list.files("./data/prokka/", full.names = TRUE, recursive = TRUE, pattern = ".gff"),
+  file = list.files("./data/prodigal/", recursive = TRUE, pattern = ".gff"),
+  location = list.files("./data/prodigal/", full.names = TRUE, recursive = TRUE, pattern = ".gff"),
   ID = str_remove(file, ".gff"),
   df = map(location, gffRead)
   ) %>% 
@@ -44,7 +44,7 @@ gff <- tibble(
 #-----------------------------------------------------------------
 #  Removing columns redundant to psiblast data in gff dataframe   
 #-----------------------------------------------------------------
-gff <-  gff %>% mutate(ID = substr(ID1, 4, nchar(ID1) - 1)) %>% 
+gff <-  gff %>% mutate(ID = substr(ID1, 4, nchar(ID1))) %>% 
   select(!c("score", "feature", "file", "location", 
                           "frame", "attributes",  "source", "ID1"))
 
