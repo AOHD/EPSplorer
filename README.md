@@ -4,8 +4,7 @@ Program which takes .fasta files of genomes (nucleotides) and detects exopolysac
 
 ## Installation
 
-This program requires Conda and InterProScan/5.38-76.0-foss-2018a.
-Both must be loadable using Modules.
+This program requires Conda and InterProScan/5.38-76.0-foss-2020b.
 
 Clone the program, then add .fasta files of the genomes you want analysed to ```genomes/```.
 
@@ -15,8 +14,8 @@ Run the following commands:
 
 ```
 conda env create --name R_env --file *path to R_env.yml*
-conda create -n prokka_env prokka=1.14.6
-conda create -n blast_env blast=2.12
+conda create -n prodigal_env -c bioconda prodigal=2.6.3
+conda create -n blast_env -c bioconda blast=2.12
 ```
 
 Modify the magstats.tsv file. Under "bin" should be the names of your genome fasta files (without .fasta), and under "midas4tax" should be the names you want them to have in the figures.
@@ -24,7 +23,7 @@ Modify the magstats.tsv file. Under "bin" should be the names of your genome fas
 ## Running the Program
 
 ```
-source *path to EPSplorer.sh* -w *path to EPSplorer directory* -t threads -i InterProScan
+source *path to EPSplorer.sh* -w <working_director (EPSplorer/)y> [-t <threads>] [-i <InterProScan>] [-h]"
 ```
 
 ## Output
