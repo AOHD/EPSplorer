@@ -6,7 +6,7 @@ Program which takes .fasta files of genomes (nucleotides) and detects exopolysac
 
 This program requires Conda and InterProScan/5.38-76.0-foss-2020b.
 
-Clone the program, then add .fasta files of the genomes you want analysed to ```genomes/```.
+Clone the program, then add .fasta files of the genomes you want analysed to ```genomes/```. Please only submit .fasta files with a single sequence in them.
 
 Load Conda.
 
