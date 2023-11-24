@@ -55,3 +55,6 @@ error.log
 systems_overview.xlsx
 genomes/
 magstats.tsv
+
+# Dev files
+genomes0/
