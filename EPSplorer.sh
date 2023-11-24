@@ -127,7 +127,6 @@ conda deactivate
 ##Move all .faa files in $WD/data/prodigal/*/* to $WD/data/prodigal/
 for file in $WD/data/prodigal/*/*.faa; do
 cp $file $WD/data/prodigal
-echo $file
 done
 
 
@@ -200,8 +199,6 @@ cd $WD
 exec 2>&1
 
 conda deactivate
-unset ips
-unset threads
 
 
 end_time=$(date +%s)
