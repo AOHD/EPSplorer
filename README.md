@@ -18,9 +18,7 @@ conda create -n prodigal_env -c bioconda prodigal=2.6.3
 conda create -n blast_env -c bioconda blast=2.12
 ```
 
-Create the magstats.tsv file, which should have two columns, "bin" and midas4_tax. Under "bin" should be the names of your genome fasta files (without .fasta), and under "midas4tax" should be the names you want them to have in the figures. 
-
-To help create magststs.tsv, you can use the ```scripts/magstats.sh ``` script, which will create a magstats file based on the filenames in the ```genomes/``` folder. Be sure to run it from the ```EPSplorer/``` directory.
+Once the conda environments are created, you do not have to create them on subsequent runs.
 
 ## Running the Program
 
