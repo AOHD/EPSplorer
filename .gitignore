@@ -56,5 +56,10 @@ systems_overview.xlsx
 genomes/
 magstats.tsv
 
+<<<<<<< HEAD
 # Developer
 genomes_unused/
+=======
+# Dev files
+genomes0/
+>>>>>>> b1a084a4e46fab78f8b7379540aed56ee6ef9829

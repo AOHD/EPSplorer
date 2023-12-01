@@ -64,9 +64,6 @@ if [ -e $WD/"data" ]; then
   rm -r $WD/"data"
 fi
 
-if [ -e $WD/"temp" ]; then
-  rm -r $WD/"temp"
-fi
 
 ERROR_LOG=$WD/"error.log"
 mkdir $WD/"temp"
@@ -79,6 +76,11 @@ mkdir $WD/"data/output_proximity_filtration"
 mkdir $WD/"data/psiblast_results"
 mkdir $WD/"figures"
 mkdir $WD/"figures/operons"
+
+##Command which takes all the .faa files in the genomes/ folder and removes all underscores from the file
+for file in $WD/genomes/*.fasta; do sed -i "s/_//g" $file; done
+
+source $WD/scripts/magstats.sh
 
 ##Command which runs prodigal on all .fasta files of $WD/prodigal/
 echo Annotating genomes with prodigal
@@ -122,7 +124,6 @@ conda deactivate
 ##Move all .faa files in $WD/data/prodigal/*/* to $WD/data/prodigal/
 for file in $WD/data/prodigal/*/*.faa; do
 cp $file $WD/data/prodigal
-echo $file
 done
 
 
@@ -141,6 +142,12 @@ echo Running proximity filtration
 Rscript $WD/scripts/proximity_main.R "$WD"
 
 conda deactivate
+
+#If data/output_proximity_filtration/fasta_output is empty, exit with error
+if [ -z "$(ls -A $WD/data/output_proximity_filtration/fasta_output)" ]; then
+  echo "Error: No polysaccharides found in proximity filtration"
+  exit 1
+fi
 
 ##InterProScan analysis
 if [ "$ips" = "TRUE" ]; then
