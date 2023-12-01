@@ -45,11 +45,32 @@ if [ -z "$ips" ]; then
   ips="FALSE"
 fi
 
+
+
+
+
+exec 2>"$ERROR_LOG"
+cd $WD
+
+if [ -e $WD/"temp" ]; then
+  rm -r $WD/"temp"
+fi
+
+if [ -e $WD/"figures" ]; then
+  rm -r $WD/"figures"
+fi
+
+if [ -e $WD/"data" ]; then
+  rm -r $WD/"data"
+fi
+
+if [ -e $WD/"temp" ]; then
+  rm -r $WD/"temp"
+fi
+
 ERROR_LOG=$WD/"error.log"
 mkdir $WD/"temp"
 TMPDIR=$WD/"temp"
-exec 2>"$ERROR_LOG"
-cd $WD
 mkdir $WD/"data"
 mkdir $WD/"data/prodigal"
 mkdir $WD/"data/databases"
@@ -119,10 +140,11 @@ Rscript $WD/scripts/generate_gff.R "$WD"
 echo Running proximity filtration
 Rscript $WD/scripts/proximity_main.R "$WD"
 
+conda deactivate
+
 ##InterProScan analysis
 if [ "$ips" = "TRUE" ]; then
 echo Running InterProScan
-module load InterProScan/5.38-76.0-foss-2018a
 # Folder with all subsetted fasta files
 FASTA=$WD/data/output_proximity_filtration/fasta_output
 # Results folder
@@ -143,7 +165,7 @@ for i in $FASTA/$j/*; do
 	# Running interproscan
 	## Only Pfam database
 	## Only GFF3 file is written out
-	interproscan.sh -dp -cpu $threads -appl Pfam -f GFF3 -o $RESULTS/$j/$i.gff3 -i $FASTA/$j/$i.faa
+	source interproscan.sh -dp -T $TMPDIR -cpu $threads -appl Pfam -f GFF3 -o $RESULTS/$j/$i.gff3 -i $FASTA/$j/$i.faa
 	
 	# Remove trailing fasta sequence in gff3 file and leading three lines
 	F=$RESULTS/$j/$i.gff3
@@ -151,8 +173,9 @@ for i in $FASTA/$j/*; do
 	fi
 done
 done
-module purge
 fi
+
+conda activate R_env
 
 ##Run $WD/scripts/ips_main.R
 echo Generating gene arrow plots
@@ -161,13 +184,13 @@ Rscript $WD/scripts/ips_main.R "$WD" "$(printf "%q" "$ips")"
 echo Generating overview excel file
 Rscript $WD/scripts/overview.R "$WD"
 
+cd $WD
 
 exec 2>&1
 
 conda deactivate
 unset ips
 unset threads
-unset WD
 
 end_time=$(date +%s)
 elapsed_time=$((end_time - start_time))

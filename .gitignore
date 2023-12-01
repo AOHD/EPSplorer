@@ -55,3 +55,6 @@ error.log
 systems_overview.xlsx
 genomes/
 magstats.tsv
+
+# Developer
+genomes_unused/
