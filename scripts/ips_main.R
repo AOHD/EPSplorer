@@ -22,7 +22,7 @@ if (length(args) > 0) {
   if (args[2] == "TRUE") {
     IPS = TRUE
   }
-  if (args[2] == "FALSE") {
+  if (args[2] != "TRUE") {
     IPS = FALSE
   }
 

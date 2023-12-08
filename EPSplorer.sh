@@ -46,10 +46,6 @@ if [ -z "$ips" ]; then
 fi
 
 
-
-
-
-exec 2>"$ERROR_LOG"
 cd $WD
 
 if [ -e $WD/"temp" ]; then
@@ -66,6 +62,7 @@ fi
 
 
 ERROR_LOG=$WD/"error.log"
+exec 2>"$ERROR_LOG"
 mkdir $WD/"temp"
 TMPDIR=$WD/"temp"
 mkdir $WD/"data"
