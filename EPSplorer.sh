@@ -81,9 +81,9 @@ source $WD/scripts/magstats.sh
 
 ##Command which runs prodigal on all .fasta files of $WD/prodigal/
 echo Annotating genomes with prodigal
-conda activate prodigal_env
+mamba activate prodigal_env
 for file in $WD/genomes/*.fasta; do mkdir $WD/data/prodigal/$(basename $file .fasta)/; prodigal -a $WD/data/prodigal/$(basename $file .fasta)/$(basename $file .fasta).faa -c -f gff -o $WD/data/prodigal/$(basename $file .fasta)/$(basename $file .fasta).gff -i $file; done
-conda deactivate
+mamba deactivate
 
 ##Command which takes all the .faa files in the prodigal output folder and changes the > + 8 letter string before each prodigal ID to the name of the .fasta file
 for file in $WD/genomes/*.fasta; do sed -i "s/>[^_]*_/>$(basename $file .fasta)_/g" $WD/data/prodigal/$(basename $file .fasta)/*.faa; done
@@ -97,7 +97,7 @@ for file in $WD/genomes/*.fasta; do sed -i "s/ID=[^_]*_/ID=$(basename $file .fas
 ##Makeblastdb command which makes a blast database for each .fasta file in $WD/data/prodigal/, 
 ##based on the .faa file in the prodigal output folder. Each database should be in its own folder in $WD/databases/
 echo Making blast databases
-conda activate blast_env
+mamba activate blast_env
 for file in $WD/genomes/*.fasta; do makeblastdb -in $WD/data/prodigal/$(basename $file .fasta)/*.faa -dbtype prot -out $WD/data/databases/$(basename $file .fasta)/$(basename $file .fasta); done
 
 
@@ -116,7 +116,7 @@ psiblast -query $operon -db $database/$(basename $database) -out $WD/data/psibla
 done
 echo $database completed
 done
-conda deactivate
+mamba deactivate
 
 ##Move all .faa files in $WD/data/prodigal/*/* to $WD/data/prodigal/
 for file in $WD/data/prodigal/*/*.faa; do
@@ -130,7 +130,7 @@ mkdir $WD/data/psiblast_results/concatenated
 for file in $WD/data/psiblast_results/*/*.faa; do cat $file >> $WD/data/psiblast_results/concatenated/$(basename $file .faa).faa; done
 
 ##Run $WD/scripts/generate_gff.R
-conda activate R_env
+mamba activate R_env
 Rscript $WD/scripts/generate_gff.R "$WD"
 
 
@@ -138,7 +138,7 @@ Rscript $WD/scripts/generate_gff.R "$WD"
 echo Running proximity filtration
 Rscript $WD/scripts/proximity_main.R "$WD"
 
-conda deactivate
+mamba deactivate
 
 #If data/output_proximity_filtration/fasta_output is empty, exit with error
 if [ -z "$(ls -A $WD/data/output_proximity_filtration/fasta_output)" ]; then
@@ -149,6 +149,8 @@ fi
 ##InterProScan analysis
 if [ "$ips" = "TRUE" ]; then
 echo Running InterProScan
+mamba activate ips_v5.59_91
+
 # Folder with all subsetted fasta files
 FASTA=$WD/data/output_proximity_filtration/fasta_output
 # Results folder
@@ -169,7 +171,7 @@ for i in $FASTA/$j/*; do
 	# Running interproscan
 	## Only Pfam database
 	## Only GFF3 file is written out
-	source interproscan.sh -dp -T $TMPDIR -cpu $threads -appl Pfam -f GFF3 -o $RESULTS/$j/$i.gff3 -i $FASTA/$j/$i.faa
+	bash interproscan.sh -dp -T $TMPDIR -cpu $threads -appl Pfam -f GFF3 -o $RESULTS/$j/$i.gff3 -i $FASTA/$j/$i.faa
 	
 	# Remove trailing fasta sequence in gff3 file and leading three lines
 	F=$RESULTS/$j/$i.gff3
@@ -179,7 +181,9 @@ done
 done
 fi
 
-conda activate R_env
+mamba deactivate
+
+mamba activate R_env
 
 ##Run $WD/scripts/ips_main.R
 echo Generating gene arrow plots
@@ -192,7 +196,7 @@ cd $WD
 
 exec 2>&1
 
-conda deactivate
+mamba deactivate
 unset ips
 unset threads
 
