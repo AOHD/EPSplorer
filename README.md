@@ -19,7 +19,7 @@ mamba create -n blast_env -c bioconda blast=2.12
 mamba create -n ips_v5.59_91 -c bioconda interproscan 
 ```
 
-Once the conda environments are created, you do not have to create them on subsequent runs. The InterProScan conda environment does not work out the gate, and requires you to run the script described in this thread to work:
+Once the conda environments are created, you do not have to create them on subsequent runs. The InterProScan conda environment does not work out the gate, and requires you to run the script described by andradejon in this thread to work:
 https://github.com/ebi-pf-team/interproscan/issues/305
 
 
