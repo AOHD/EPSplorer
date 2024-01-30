@@ -170,7 +170,7 @@ proximity_filtration <- function(filename_psiblast,
   for (f in unique(psi_operon_full$ID2)){
     dir.create(glue("./data/output_proximity_filtration/fasta_output/{filename_psiblast_col}"), showWarnings = FALSE, recursive = TRUE)
     g <- unique(filter(psi_operon_full, ID2 == f)$ID)
-    read.fasta(file = glue("./data/prodigal/{g}.faa"), 
+    read.fasta(file = glue("./data/prokka/{g}.faa"), 
                             seqtype="AA", 
                             as.string=TRUE, 
                             set.attributes=FALSE) %>% 

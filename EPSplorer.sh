@@ -66,7 +66,7 @@ exec 2>"$ERROR_LOG"
 mkdir $WD/"temp"
 TMPDIR=$WD/"temp"
 mkdir $WD/"data"
-mkdir $WD/"data/prodigal"
+mkdir $WD/"data/prokka"
 mkdir $WD/"data/databases"
 mkdir $WD/"data/interproscan_results"
 mkdir $WD/"data/output_proximity_filtration"
@@ -79,26 +79,26 @@ for file in $WD/genomes/*.fasta; do sed -i "s/_//g" $file; done
 
 source $WD/scripts/magstats.sh
 
-##Command which runs prodigal on all .fasta files of $WD/prodigal/
-echo Annotating genomes with prodigal
-mamba activate prodigal_env
-for file in $WD/genomes/*.fasta; do mkdir $WD/data/prodigal/$(basename $file .fasta)/; prodigal -a $WD/data/prodigal/$(basename $file .fasta)/$(basename $file .fasta).faa -c -f gff -o $WD/data/prodigal/$(basename $file .fasta)/$(basename $file .fasta).gff -i $file; done
+##Command which runs prokka on all .fasta files of $WD/prokka/
+echo Annotating genomes with prokka
+mamba activate prokka_env
+for file in $WD/genomes/*.fasta; do prokka --kingdom Bacteria --cpus $threads --outdir $WD/data/prokka/$(basename $file .fasta)/ --prefix $(basename $file .fasta) $file; done
 mamba deactivate
 
-##Command which takes all the .faa files in the prodigal output folder and changes the > + 8 letter string before each prodigal ID to the name of the .fasta file
-for file in $WD/genomes/*.fasta; do sed -i "s/>[^_]*_/>$(basename $file .fasta)_/g" $WD/data/prodigal/$(basename $file .fasta)/*.faa; done
+##Command which takes all the .faa files in the prokka output folder and changes the > + 8 letter string before each prokka ID to the name of the .fasta file
+for file in $WD/genomes/*.fasta; do sed -i "s/>[^_]*_/>$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.faa; done
 
-##Command which takes all the .faa files in the prodigal output folder and removes all asterisks from the file
-for file in $WD/genomes/*.fasta; do sed -i "s/\*//g" $WD/data/prodigal/$(basename $file .fasta)/*.faa; done
+##Command which takes all the .faa files in the prokka output folder and removes all asterisks from the file
+for file in $WD/genomes/*.fasta; do sed -i "s/\*//g" $WD/data/prokka/$(basename $file .fasta)/*.faa; done
 
-##Command which takes all the .gff files in the prodigal output folder and changes the ID= + 8 letter string before each prodigal ID to the name of the .fasta file
-for file in $WD/genomes/*.fasta; do sed -i "s/ID=[^_]*_/ID=$(basename $file .fasta)_/g" $WD/data/prodigal/$(basename $file .fasta)/*.gff; done
+##Command which takes all the .gff files in the prokka output folder and changes the ID= + 8 letter string before each prokka ID to the name of the .fasta file
+for file in $WD/genomes/*.fasta; do sed -i "s/ID=[^_]*_/ID=$(basename $file .fasta)_/g" $WD/data/prokka/$(basename $file .fasta)/*.gff; done
 
-##Makeblastdb command which makes a blast database for each .fasta file in $WD/data/prodigal/, 
-##based on the .faa file in the prodigal output folder. Each database should be in its own folder in $WD/databases/
+##Makeblastdb command which makes a blast database for each .fasta file in $WD/data/prokka/, 
+##based on the .faa file in the prokka output folder. Each database should be in its own folder in $WD/databases/
 echo Making blast databases
 mamba activate blast_env
-for file in $WD/genomes/*.fasta; do makeblastdb -in $WD/data/prodigal/$(basename $file .fasta)/*.faa -dbtype prot -out $WD/data/databases/$(basename $file .fasta)/$(basename $file .fasta); done
+for file in $WD/genomes/*.fasta; do makeblastdb -in $WD/data/prokka/$(basename $file .fasta)/*.faa -dbtype prot -out $WD/data/databases/$(basename $file .fasta)/$(basename $file .fasta); done
 
 
 #Execute psiblast.sh
@@ -118,9 +118,9 @@ echo $database completed
 done
 mamba deactivate
 
-##Move all .faa files in $WD/data/prodigal/*/* to $WD/data/prodigal/
-for file in $WD/data/prodigal/*/*.faa; do
-cp $file $WD/data/prodigal
+##Move all .faa files in $WD/data/prokka/*/* to $WD/data/prokka/
+for file in $WD/data/prokka/*/*.faa; do
+cp $file $WD/data/prokka
 done
 
 
@@ -149,7 +149,7 @@ fi
 ##InterProScan analysis
 if [ "$ips" = "TRUE" ]; then
 echo Running InterProScan
-mamba activate ips_v5.59_91
+mamba activate interproscan
 
 # Folder with all subsetted fasta files
 FASTA=$WD/data/output_proximity_filtration/fasta_output

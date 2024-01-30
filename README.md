@@ -27,7 +27,7 @@ In the scripts/ folder there is an .sh file configured for slurm to run the andr
 ## Running the Program
 
 ```
-source *path to EPSplorer.sh* -w <working_director (EPSplorer/)y> [-t <threads>] [-i <InterProScan>] [-h]"
+source *path to EPSplorer.sh* -w <working_directory> [-t <threads>] [-i <InterProScan>] [-h]"
 ```
 
 ## Output

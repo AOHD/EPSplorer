@@ -34,8 +34,8 @@ gffRead <- function(gffFile){
 #          Using the gffRead function to import gff files         
 #-----------------------------------------------------------------
 gff <- tibble(
-  file = list.files("./data/prodigal/", recursive = TRUE, pattern = ".gff"),
-  location = list.files("./data/prodigal/", full.names = TRUE, recursive = TRUE, pattern = ".gff"),
+  file = list.files("./data/prokka/", recursive = TRUE, pattern = ".gff"),
+  location = list.files("./data/prokka/", full.names = TRUE, recursive = TRUE, pattern = ".gff"),
   ID = str_remove(file, ".gff"),
   df = map(location, gffRead)
   ) %>% 
