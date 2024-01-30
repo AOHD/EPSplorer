@@ -13,10 +13,10 @@ Make sure Mamba is installed and loaded.
 Run the following commands:
 
 ```
-mamba env create --name R_env --file *path to R_env.yml*
-mamba create -n prodigal_env -c bioconda prodigal=2.6.3
+mamba env create --name R_env --file R_env.yml
+mamba create -n prokka_env -c bioconda prokka=1.14.6
 mamba create -n blast_env -c bioconda blast=2.12
-mamba create -n ips_v5.59_91 -c bioconda interproscan 
+mamba create -n interproscan -c bioconda interproscan 
 ```
 
 Once the conda environments are created, you do not have to create them on subsequent runs. The InterProScan conda environment does not work out the gate, and requires you to run the script described by andradejon in this thread to work:
@@ -27,7 +27,7 @@ In the scripts/ folder there is an .sh file configured for slurm to run the andr
 ## Running the Program
 
 ```
-source *path to EPSplorer.sh* -w <working_directory> [-t <threads>] [-i <InterProScan>] [-h]"
+source EPSplorer.sh -w . [-t <threads>] [-i <InterProScan>] [-h]"
 ```
 
 ## Output
