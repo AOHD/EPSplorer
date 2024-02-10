@@ -384,7 +384,8 @@ plot_operon <-  function(filename_psiblast,
     Psiblast = str_replace(Psiblast, "L_johnsonii_ATCC_2767_EPS_C", "L. johnsonii PS C"),
     Psiblast = str_replace(Psiblast, "L_lactis_EPS", "L. lactis PS"),
     Psiblast = str_replace(Psiblast, "L_plantarum_HePS", "L. plantarum PS"),
-    Psiblast = str_replace(Psiblast, "phosphonoglycan", "Phosphonoglycan")
+    Psiblast = str_replace(Psiblast, "phosphonoglycan", "Phosphonoglycan"),
+    strand = ifelse(strand == -1, 0, strand)
   )
   
   Psiblast <- genes$Psiblast

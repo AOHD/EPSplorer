@@ -187,7 +187,7 @@ mamba activate R_env
 
 ##Run $WD/scripts/ips_main.R
 echo Generating gene arrow plots
-Rscript $WD/scripts/ips_main.R "$WD" "$(printf "%q" "$ips")"
+Rscript $WD/scripts/plot_operon_main.R "$WD" "$(printf "%q" "$ips")"
 
 echo Generating overview excel file
 Rscript $WD/scripts/overview.R "$WD"
