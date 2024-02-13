@@ -111,6 +111,11 @@ proximity_filtration <- function(filename_psiblast,
            ) %>% 
     select(-letter) %>% unnest(cols = c(cols)) %>% 
     assign(x = "psi_proxi_filt", value = ., pos = 1)
+
+  if (nrow(psi_proxi_filt) == 0) {
+      message(glue("No {filename_psiblast_col} gene clusters"))
+      return()
+    } 
   
   # Write proximity filtered results
   dir.create("./data/output_proximity_filtration/psi_proxi_filt", showWarnings = FALSE)

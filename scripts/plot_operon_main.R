@@ -35,11 +35,11 @@ if (length(args) > 0) {
 source("./scripts/plot_operon.R")
 
 for (file in list.dirs("./data/output_proximity_filtration/fasta_output", full.names=FALSE)) {
-    if (file %ni% c("", "cellulose", "celluloseI", "celluloseII", "celluloseIII", "cellulose_Ac", "cellulose_NA")) {
+    if (file %ni% c("", "cellulose_All")) {
     plot_operon(file, article_plot_domain = IPS)
     }
 
-    if (file %in% c("cellulose", "celluloseI", "celluloseII", "celluloseIII", "cellulose_Ac", "cellulose_NA")) {
+    if (file %in% c("cellulose_All")) {
         plot_operon("cellulose", same_database = file, article_plot_domain = IPS)
     }
 }

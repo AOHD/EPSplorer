@@ -336,12 +336,7 @@ plot_operon <-  function(filename_psiblast,
   
   genes <- genes %>% mutate(
     Psiblast = str_replace(Psiblast, "alginate", "Alginate"),
-    Psiblast = ifelse(Psiblast == "cellulose" & same_database == "celluloseNA", "Unclassified cellulose", Psiblast),
-    Psiblast = ifelse(Psiblast == "cellulose" & same_database == "celluloseII", "Cellulose II", Psiblast),
-    Psiblast = str_replace(Psiblast, "celluloseII", "Cellulose II"),
-    Psiblast = str_replace(Psiblast, "celluloseIII", "Cellulose III"),
-    Psiblast = str_replace(Psiblast, "cellulose_Ac", "Acetylated cellulose"),
-    Psiblast = str_replace(Psiblast, "cellulose_NA", "Unclassified cellulose"),
+    Psiblast = str_replace(Psiblast, "cellulose", "Cellulose"),
     Psiblast = str_replace(Psiblast, "HA_Pasteurella", "HA (pmHAS)"),
     Psiblast = str_replace(Psiblast, "HA_streptococcus", "HA (has)"),
     Psiblast = str_replace(Psiblast, "NulO_merged", "NulO"),

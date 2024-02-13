@@ -40,11 +40,7 @@ data_upset_all <- database_all %>%
   mutate(label = substring(Target_label, 1, nchar(Target_label) - 6)) %>%
   mutate(
     Psiblast = str_replace(Psiblast, "alginate", "Alginate"),
-    Psiblast = str_replace(Psiblast, "celluloseI", "Cellulose I"),
-    Psiblast = str_replace(Psiblast, "celluloseII", "Cellulose II"),
-    Psiblast = str_replace(Psiblast, "celluloseIII", "Cellulose III"),
-    Psiblast = str_replace(Psiblast, "cellulose_Ac", "Acetylated cellulose"),
-    Psiblast = str_replace(Psiblast, "cellulose_NA", "Unclassified cellulose"),
+    Psiblast = str_replace(Psiblast, "cellulose_All", "Cellulose"),
     Psiblast = str_replace(Psiblast, "HA_Pasteurella", "HA (pmHAS)"),
     Psiblast = str_replace(Psiblast, "HA_streptococcus", "HA (has)"),
     Psiblast = str_replace(Psiblast, "NulO_merged", "NulO"),

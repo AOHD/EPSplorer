@@ -56,25 +56,8 @@ proximity_filtration("psl",
 proximity_filtration("pel_merged",
                      min_genes = 6)
 proximity_filtration("cellulose",
-                     same_database = "celluloseI",
-                     min_genes = 2,
-                     essential_genes = "bcsD")
-proximity_filtration("cellulose",
-                     same_database = "celluloseII", 
-                     min_genes = 2,
-                     essential_genes = c("bcsE", "bcsG"))
-proximity_filtration("cellulose", 
-                     same_database = "celluloseIII",
-                     min_genes = 2,
-                     essential_genes = c("bcsK"))
-proximity_filtration("cellulose", 
-                     same_database = "cellulose_Ac",
-                     min_genes = 2,
-                     essential_genes = c("algF", "algI", "algJ", "algX"))
-proximity_filtration("cellulose", 
-                     same_database = "cellulose_NA",
-                     min_genes = 2,
-                     exclude_gene = c("algF", "algI", "algJ", "algX", "bcsK", "bcsE", "bcsG", "bcsD"))
+                     same_database = "cellulose_All",
+                     min_genes = 2)
 proximity_filtration("succinoglycan",
                      min_genes = 10)
 proximity_filtration("xanthan",
