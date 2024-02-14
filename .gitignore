@@ -50,7 +50,8 @@ data/
 figures/
 error.log
 systems_overview.xlsx
-genomes/
+genomes/*.fasta
+!genomes/glomicave_test_genome.fasta
 magstats.tsv
 temp
 
