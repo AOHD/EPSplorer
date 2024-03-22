@@ -229,6 +229,7 @@ plot_operon <-  function(filename_psiblast,
     )
   
   if (article_plot_domain == TRUE) {
+  get_Psiblast <- genes %>% select(Genename, Psiblast)
   # Extraction of relevant annotation information
   domains <- read.table( 
     glue("./queries_ips/{filename_psiblast}.gff3"),
@@ -236,8 +237,9 @@ plot_operon <-  function(filename_psiblast,
   ) %>%
     clean_gff3() %>% 
     mutate(Genename = Target_label) %>% 
+    left_join(get_Psiblast) %>%
     # Adding gene information about query genes
-    left_join(query_metadata.) %>% 
+    left_join(query_metadata., by = c("Psiblast", "Genename")) %>% 
     mutate(
       start2 = Start + as.numeric(start1) * 3,
       end2 = Start + as.numeric(end1) * 3,
