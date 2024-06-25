@@ -57,7 +57,7 @@ proximity_filtration("pel_merged",
                      min_genes = 6)
 proximity_filtration("cellulose",
                      same_database = "cellulose_All",
-                     min_genes = 2)
+                     min_genes = 3)
 proximity_filtration("succinoglycan",
                      min_genes = 10)
 proximity_filtration("xanthan",
