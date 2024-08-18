@@ -37,3 +37,7 @@ This program detects putative EPS gene clusters using PSI-BLAST, displaying them
 An overview of the different kinds of EPS gene clusters detected in the analysed genomes is supplied as an excel file. An Upset plot is also generated, depicting PSI-BLAST hits shared between different EPS queries. 
 
 If one wishes to do downstream analysis of the detected gene clusters, useful information can be found in ```data/output_proximity_filtration```. Here, .faa files for all detected EPS genes can be found (```fasta_output/```), as well as .tsv files containing information about individual gene clusters and their genes  (```psi_operon_full/```)
+
+
+## Citing EPSplorer
+Our paper which introduces EPSplorer will be published soon. Keep an eye on this space for the citation.
